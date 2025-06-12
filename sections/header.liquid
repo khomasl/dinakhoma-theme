@@ -1,5 +1,3 @@
-
-
 {% liquid
   assign order = 'logo,menu,localization,search,mobile_search,actions'
 
@@ -306,7 +304,8 @@
     }
 
     .header__row {
-      transition: color var(--animation-speed) var(--animation-easing),
+      transition:
+        color var(--animation-speed) var(--animation-easing),
         border-color var(--animation-speed) var(--animation-easing),
         background-color var(--animation-speed) var(--animation-easing);
     }
@@ -320,11 +319,11 @@
     )
     .header__row:not(:hover):not(
       :has(
-          .header-menu[aria-expanded='true'],
-          .menu-list__link[data-animating],
-          .account-popover[open],
-          .localization-wrapper:not([hidden])
-        )
+        .header-menu[aria-expanded='true'],
+        .menu-list__link[data-animating],
+        .account-popover[open],
+        .localization-wrapper:not([hidden])
+      )
     ) {
     /* while transparent, header-row ignores its color-scheme settings, pull from the header-component */
     --color-foreground: inherit;
