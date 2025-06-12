@@ -14,7 +14,6 @@
       "blocks": {
         "text_iXYWz6": {
           "type": "text",
-          "name": "t:names.text",
           "settings": {
             "text": "<h1>Доповніть свій стиль унікальними прикрасами ручної роботи</h1>",
             "width": "100%",
@@ -42,7 +41,6 @@
       "block_order": [
         "text_iXYWz6"
       ],
-      "name": "t:names.hero",
       "settings": {
         "link": "",
         "open_in_new_tab": false,
@@ -109,7 +107,6 @@
           "blocks": {
             "product_list_text_qLCTNF": {
               "type": "_product-list-text",
-              "name": "t:names.collection_title",
               "settings": {
                 "text": "<h3>{{ closest.collection.title }}</h3>",
                 "width": "fit-content",
@@ -135,7 +132,6 @@
             },
             "product_list_button_N8pfAg": {
               "type": "_product-list-button",
-              "name": "t:names.product_list_button",
               "settings": {
                 "label": "View all",
                 "collection": "{{ closest.collection }}",
@@ -156,7 +152,6 @@
         },
         "static-product-card": {
           "type": "product-card",
-          "name": "t:names.product_card",
           "static": true,
           "settings": {
             "product": "{{ closest.product }}",
@@ -175,7 +170,6 @@
           "blocks": {
             "product_card_gallery_JgqDGj": {
               "type": "_product-card-gallery",
-              "name": "t:names.product_card_media",
               "settings": {
                 "product": "{{ closest.product }}",
                 "image_ratio": "portrait",
@@ -192,7 +186,6 @@
             },
             "group_7VTJcC": {
               "type": "group",
-              "name": "t:names.group",
               "settings": {
                 "link": "",
                 "open_in_new_tab": false,
@@ -231,7 +224,6 @@
               "blocks": {
                 "product_title_dMgTDL": {
                   "type": "product-title",
-                  "name": "t:names.product_title",
                   "settings": {
                     "product": "{{ closest.product }}",
                     "width": "fit-content",
@@ -257,7 +249,6 @@
                 },
                 "price_h6P4AF": {
                   "type": "price",
-                  "name": "t:names.product_price",
                   "settings": {
                     "product": "{{ closest.product }}",
                     "show_sale_price_first": true,
@@ -281,7 +272,6 @@
                 },
                 "swatches_k9YMgz": {
                   "type": "swatches",
-                  "name": "t:names.swatches",
                   "settings": {
                     "product": "{{ closest.product }}",
                     "product_swatches_alignment": "flex-start",
@@ -308,7 +298,6 @@
           ]
         }
       },
-      "name": "t:names.products_grid",
       "settings": {
         "collection": "all",
         "layout_type": "grid",
@@ -327,10 +316,31 @@
         "padding-block-start": 48,
         "padding-block-end": 96
       }
+    },
+    "feedback_bqmWeG": {
+      "type": "feedback",
+      "blocks": {
+        "feedback_cx9FcB": {
+          "type": "feedback",
+          "settings": {
+            "name": "klj",
+            "quote": "Great service and product quality!"
+          }
+        }
+      },
+      "block_order": [
+        "feedback_cx9FcB"
+      ],
+      "name": "Feedback Section",
+      "settings": {
+        "header": "Customer Feedback",
+        "title": "What our clients say"
+      }
     }
   },
   "order": [
     "hero_jVaWmY",
-    "product_list_qU3bEB"
+    "product_list_qU3bEB",
+    "feedback_bqmWeG"
   ]
 }
