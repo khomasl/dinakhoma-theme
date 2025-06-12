@@ -336,11 +336,23 @@
         "header": "Customer Feedback",
         "title": "What our clients say"
       }
+    },
+    "hero_slider_Nk3pMQ": {
+      "type": "hero-slider",
+      "name": "Hero Section",
+      "settings": {
+        "src": "shopify://shop_images/b7d0c42f42b1c18b8aaa444c3ad15259d89a1dee-copy.png",
+        "title": "Welcome to our store",
+        "description": "Discover our collection of handcrafted products made with love.",
+        "button_link": "",
+        "button_title": "Shop now"
+      }
     }
   },
   "order": [
     "hero_jVaWmY",
     "product_list_qU3bEB",
-    "feedback_bqmWeG"
+    "feedback_bqmWeG",
+    "hero_slider_Nk3pMQ"
   ]
 }
