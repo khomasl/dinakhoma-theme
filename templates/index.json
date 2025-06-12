@@ -16,8 +16,8 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>With a focus on quality and design, we curate products that enhance your everyday.</p>",
-            "width": "fit-content",
+            "text": "<h1>Доповніть свій стиль унікальними прикрасами ручної роботи</h1>",
+            "width": "100%",
             "max_width": "narrow",
             "alignment": "left",
             "type_preset": "rte",
