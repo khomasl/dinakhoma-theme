@@ -1,0 +1,75 @@
+
+<section class="flex items-center justify-center lg:justify-start h-fit w-full relative aspect-[6/5] lg:aspect-auto font-poppins">
+    <div class="absolute w-full h-full -z-10 overflow-hidden">
+        {% if section.settings.src != blank %}
+            <img
+                    src="{{ section.settings.src | image_url }}"
+                    alt="{{ section.settings.title | escape }}"
+                    title="{{ section.settings.title }}. {{ section.settings.description }}"
+                    class="object-cover w-full h-full"
+                    loading="lazy"
+            />
+        {% endif %}
+    </div>
+
+    <div class="flex flex-col lg:items-start items-center justify-center lg:w-1/2 max-w-[650px] px-10 py-10 lg:px-20 lg:py-24 text-white text-center lg:text-left">
+        <h1 class="text-3xl lg:text-5xl font-bold mb-8">{{ section.settings.title }}</h1>
+
+        {% if section.settings.description != blank %}
+            <h2 class="hidden lg:block text-xl mb-8">{{ section.settings.description }}</h2>
+        {% endif %}
+
+        {% if section.settings.button_link != blank and section.settings.button_title != blank %}
+            <a
+                    href="{{ section.settings.button_link }}"
+                    class="mx-auto lg:mx-0 px-6 py-3 bg-white text-black font-semibold rounded hover:bg-gray-100 transition"
+            >
+                {{ section.settings.button_title }}
+            </a>
+        {% endif %}
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "Hero Slider Section",
+  "tag": "section",
+  "class": "hero-section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "src",
+      "label": "Background Image"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Welcome to our store"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "Discover our collection of handcrafted products made with love."
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "text",
+      "id": "button_title",
+      "label": "Button title",
+      "default": "Shop now"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero Section",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
