@@ -38,7 +38,9 @@
           "blocks": {}
         }
       },
-      "block_order": ["text_iXYWz6"],
+      "block_order": [
+        "text_iXYWz6"
+      ],
       "disabled": true,
       "settings": {
         "link": "",
@@ -301,7 +303,10 @@
               ]
             }
           },
-          "block_order": ["product_card_gallery_JgqDGj", "group_7VTJcC"]
+          "block_order": [
+            "product_card_gallery_JgqDGj",
+            "group_7VTJcC"
+          ]
         }
       },
       "settings": {
@@ -538,7 +543,10 @@
           ]
         }
       },
-      "block_order": ["image_EUBkiL", "group_RfVhrU"],
+      "block_order": [
+        "image_EUBkiL",
+        "group_RfVhrU"
+      ],
       "name": "Features Section",
       "settings": {
         "content_direction": "row",
@@ -729,8 +737,10 @@
           "blocks": {}
         }
       },
-      "block_order": ["group_DGeDdq", "image_atfPtY"],
-      "name": "About Section",
+      "block_order": [
+        "group_DGeDdq",
+        "image_atfPtY"
+      ],
       "settings": {
         "content_direction": "row",
         "vertical_on_mobile": true,
