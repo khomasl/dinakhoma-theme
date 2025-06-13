@@ -1,6 +1,6 @@
 <section
   id="features"
-  class="grid grid-cols-1 lg:grid-cols-2 items-center w-full main-container bg-violet-400 text-white"
+  class="features-section main-container bg-violet-400 text-white grid grid-cols-1 lg:grid-cols-2 items-center w-full"
 >
   <div class="lg:px-0 lg:mr-16 pb-10 lg:pb-0">
     <p class="font-bold text-center lg:text-left">
@@ -17,7 +17,10 @@
 
     {% if section.settings.button_text and section.settings.button_link %}
       <div class="mx-auto w-fit lg:mx-0">
-        <a href="{{ section.settings.button_link }}" class="btn">
+        <a
+          href="{{ section.settings.button_link }}"
+          class="bg-gray-400 rounded-lg py-4 px-8 font-bold text-center text-xl text-white hover:opacity-90 transition-all mx-auto w-fit lg:mx-0"
+        >
           {{ section.settings.button_text }}
         </a>
       </div>
@@ -68,6 +71,11 @@
       "type": "image_picker",
       "id": "image",
       "label": "Image"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
     },
     {
       "type": "text",

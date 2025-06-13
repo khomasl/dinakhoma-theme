@@ -38,9 +38,7 @@
           "blocks": {}
         }
       },
-      "block_order": [
-        "text_iXYWz6"
-      ],
+      "block_order": ["text_iXYWz6"],
       "disabled": true,
       "settings": {
         "link": "",
@@ -303,10 +301,7 @@
               ]
             }
           },
-          "block_order": [
-            "product_card_gallery_JgqDGj",
-            "group_7VTJcC"
-          ]
+          "block_order": ["product_card_gallery_JgqDGj", "group_7VTJcC"]
         }
       },
       "settings": {
@@ -382,7 +377,7 @@
         "title": "Що кажуть клієнти"
       }
     },
-    "section_Rc8M4q": {
+    "features_Rc8M4q": {
       "type": "section",
       "blocks": {
         "image_EUBkiL": {
@@ -543,10 +538,7 @@
           ]
         }
       },
-      "block_order": [
-        "image_EUBkiL",
-        "group_RfVhrU"
-      ],
+      "block_order": ["image_EUBkiL", "group_RfVhrU"],
       "name": "Features Section",
       "settings": {
         "content_direction": "row",
@@ -576,7 +568,7 @@
         "padding-block-end": 40
       }
     },
-    "section_FURwBJ": {
+    "about_FURwBJ": {
       "type": "section",
       "blocks": {
         "group_DGeDdq": {
@@ -737,10 +729,7 @@
           "blocks": {}
         }
       },
-      "block_order": [
-        "group_DGeDdq",
-        "image_atfPtY"
-      ],
+      "block_order": ["group_DGeDdq", "image_atfPtY"],
       "name": "About Section",
       "settings": {
         "content_direction": "row",
@@ -776,7 +765,7 @@
     "hero_slider_Nk3pMQ",
     "product_list_qU3bEB",
     "feedback_bqmWeG",
-    "section_Rc8M4q",
-    "section_FURwBJ"
+    "features_Rc8M4q",
+    "about_FURwBJ"
   ]
 }
