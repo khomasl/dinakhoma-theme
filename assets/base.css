@@ -118,7 +118,7 @@ input:hover {
 /** override ios and firefox defaults */
 select {
   background-color: var(--color-background);
-  color: currentcolor;
+  color: currentColor;
 }
 
 .product-card,
@@ -3664,7 +3664,7 @@ slideshow-controls:has(.slideshow-controls__dots) {
   }
 
   .icon-caret {
-    --icon-stroke-width: 1px;
+    --icon-stroke-width: 1.5px;
   }
 
   .svg-wrapper,

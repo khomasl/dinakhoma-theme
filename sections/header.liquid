@@ -430,7 +430,6 @@
     gap: var(--gap-xl);
     justify-content: flex-end;
     grid-area: right;
-
     .overflow-menu::part(list) {
       justify-content: flex-end;
     }
@@ -449,7 +448,7 @@
     --header-template-columns: var(--header-left) var(--header-center) var(--header-right);
 
     /* Mobile layout */
-    --header-mobile-bookend: 44px;
+    --header-mobile-bookend: 44px; /*44*/
 
     /* If menu is in center column */
     &:has(.header__column--center header-menu) {

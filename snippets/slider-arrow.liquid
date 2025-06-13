@@ -1,14 +1,14 @@
 <button
-  class="relative h-[50px] aspect-square rounded-full overflow-hidden"
+  class="relative h-[50px] aspect-square rounded-full"
   onClick="{onClick}"
 >
   <img
     height="100%"
     width="100%"
     class="
-      shrink-0 hover:scale-110 transition-all duration-500
+      shrink-0 hover:scale-105 transition-all duration-500
       {% if direction == 'right' %} rotate-180 {% endif %}
-       {{ navigation }}
+      {{ navigation }}
     "
     alt=">"
     src="{{ 'icon-arrow-left.svg' | asset_url }}"
