@@ -447,7 +447,6 @@
           "blocks": {
             "text_WMk6ad": {
               "type": "text",
-              "name": "t:names.heading",
               "settings": {
                 "text": "<h5><strong>ОСОБЛИВОСТІ</strong></h5>",
                 "width": "fit-content",
@@ -473,7 +472,6 @@
             },
             "text_qHmV9e": {
               "type": "text",
-              "name": "t:names.text",
               "settings": {
                 "text": "<h1><strong>Досвід та якісні матеріали</strong></h1>",
                 "width": "fit-content",
@@ -549,7 +547,7 @@
         "image_EUBkiL",
         "group_RfVhrU"
       ],
-      "name": "Features",
+      "name": "Features Section",
       "settings": {
         "content_direction": "row",
         "vertical_on_mobile": true,
@@ -621,7 +619,6 @@
           "blocks": {
             "text_E8KjKB": {
               "type": "text",
-              "name": "t:names.heading",
               "settings": {
                 "text": "<p>ПРО МЕНЕ</p>",
                 "width": "fit-content",
@@ -647,7 +644,6 @@
             },
             "text_ANgL9n": {
               "type": "text",
-              "name": "t:names.text",
               "settings": {
                 "text": "<h1>Майстерність поєднується з елегантністю</h1>",
                 "width": "fit-content",
@@ -745,7 +741,7 @@
         "group_DGeDdq",
         "image_atfPtY"
       ],
-      "name": "About",
+      "name": "About Section",
       "settings": {
         "content_direction": "row",
         "vertical_on_mobile": true,
