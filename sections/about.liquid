@@ -37,7 +37,7 @@
     </div>
 
     {% if section.settings.button_text and section.settings.button_link %}
-      <div class="w-fit mx-auto lg:mx-0">
+      <div class="w-fit mx-auto lg:mx-0 text-white">
         <a
           href="{{ section.settings.button_link }}"
           class="bg-gray-400 rounded-lg py-4 px-8 font-bold text-center text-xl text-white hover:opacity-90 transition-all mx-auto w-fit lg:mx-0"
@@ -92,20 +92,38 @@
   ],
   "blocks": [
     {
-      "type": "item",
-      "name": "Statistic Item",
+      "type": "client",
+      "name": "Clients",
       "settings": [
         {
           "type": "text",
           "id": "title",
           "label": "Title",
-          "default": "100+"
+          "default": "800+"
         },
         {
           "type": "text",
           "id": "description",
           "label": "Description",
-          "default": "Projects Delivered"
+          "default": "КЛІЄНТІВ"
+        }
+      ]
+    },
+    {
+      "type": "item",
+      "name": "Items",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "1500+"
+        },
+        {
+          "type": "text",
+          "id": "description",
+          "label": "Description",
+          "default": "ВИРОБІВ"
         }
       ]
     }
