@@ -384,6 +384,26 @@
     },
     "about_czQpYN": {
       "type": "about",
+      "blocks": {
+        "client_AqpDiQ": {
+          "type": "client",
+          "settings": {
+            "title": "800+",
+            "description": "КЛІЄНТІВ"
+          }
+        },
+        "item_aqzEHD": {
+          "type": "item",
+          "settings": {
+            "title": "1500+",
+            "description": "ВИРОБІВ"
+          }
+        }
+      },
+      "block_order": [
+        "client_AqpDiQ",
+        "item_aqzEHD"
+      ],
       "name": "About Section",
       "settings": {
         "header": "ПРО МЕНЕ",
