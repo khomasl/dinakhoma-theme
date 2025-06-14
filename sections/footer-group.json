@@ -66,9 +66,9 @@
                 "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "flex-start",
                 "vertical_alignment_flex_direction_column": "center",
-                "gap": 12,
+                "gap": 8,
                 "width": "custom",
-                "custom_width": 60,
+                "custom_width": 40,
                 "width_mobile": "fill",
                 "custom_width_mobile": 100,
                 "height": "fit",
@@ -145,7 +145,10 @@
                   "blocks": {}
                 }
               },
-              "block_order": ["text_rVN4kp", "text_zNadgM"]
+              "block_order": [
+                "text_rVN4kp",
+                "text_zNadgM"
+              ]
             },
             "group_Vq6HXk": {
               "type": "group",
@@ -160,9 +163,9 @@
                 "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "flex-start",
                 "vertical_alignment_flex_direction_column": "center",
-                "gap": 12,
+                "gap": 8,
                 "width": "custom",
-                "custom_width": 60,
+                "custom_width": 40,
                 "width_mobile": "fill",
                 "custom_width_mobile": 100,
                 "height": "fit",
@@ -213,7 +216,9 @@
                   "blocks": {}
                 }
               },
-              "block_order": ["text_an9Hny"]
+              "block_order": [
+                "text_an9Hny"
+              ]
             },
             "group_tpwdRf": {
               "type": "group",
@@ -230,7 +235,7 @@
                 "vertical_alignment_flex_direction_column": "flex-start",
                 "gap": 8,
                 "width": "custom",
-                "custom_width": 60,
+                "custom_width": 40,
                 "width_mobile": "fill",
                 "custom_width_mobile": 100,
                 "height": "fit",
@@ -281,10 +286,16 @@
                   "blocks": {}
                 }
               },
-              "block_order": ["text_NTArbU"]
+              "block_order": [
+                "text_NTArbU"
+              ]
             }
           },
-          "block_order": ["group_nyHpiR", "group_Vq6HXk", "group_tpwdRf"]
+          "block_order": [
+            "group_nyHpiR",
+            "group_Vq6HXk",
+            "group_tpwdRf"
+          ]
         },
         "group_gUctkG": {
           "type": "group",
@@ -294,12 +305,12 @@
             "open_in_new_tab": false,
             "content_direction": "row",
             "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
+            "horizontal_alignment": "space-between",
             "vertical_alignment": "center",
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "flex-start",
             "vertical_alignment_flex_direction_column": "center",
-            "gap": 12,
+            "gap": 36,
             "width": "fit-content",
             "custom_width": 100,
             "width_mobile": "fit-content",
@@ -325,65 +336,9 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "footer_utilities_r8Wiq8": {
-              "type": "footer-utilities",
-              "name": "t:names.footer_utilities",
-              "settings": {
-                "divider_thickness": 0,
-                "padding-block-start": 20,
-                "padding-block-end": 20
-              },
-              "blocks": {
-                "copyright": {
-                  "type": "_footer-copyright",
-                  "disabled": true,
-                  "static": true,
-                  "settings": {
-                    "font_size": "0.75rem",
-                    "case": "none"
-                  },
-                  "blocks": {}
-                },
-                "policy_list": {
-                  "type": "_footer-policy-list",
-                  "disabled": true,
-                  "static": true,
-                  "settings": {
-                    "font_size": "0.75rem",
-                    "case": "none"
-                  },
-                  "blocks": {}
-                },
-                "social_icons": {
-                  "type": "_footer-social-icons",
-                  "static": true,
-                  "settings": {},
-                  "blocks": {
-                    "social_link_LhgPTq": {
-                      "type": "_social-link",
-                      "name": "Facebook",
-                      "settings": {
-                        "link": "https://www.facebook.com/dina.khoma.5"
-                      },
-                      "blocks": {}
-                    },
-                    "social_link_4kQXjp": {
-                      "type": "_social-link",
-                      "name": "Instagram ",
-                      "settings": {
-                        "link": "https://www.instagram.com/dinakhoma/"
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": ["social_link_LhgPTq", "social_link_4kQXjp"]
-                }
-              },
-              "block_order": []
-            },
-            "group_A3jBaN": {
+            "group_kgbi3T": {
               "type": "group",
-              "name": "Promo",
+              "name": "Social",
               "settings": {
                 "link": "",
                 "open_in_new_tab": false,
@@ -394,9 +349,9 @@
                 "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "flex-start",
                 "vertical_alignment_flex_direction_column": "center",
-                "gap": 12,
-                "width": "custom",
-                "custom_width": 60,
+                "gap": 8,
+                "width": "fit-content",
+                "custom_width": 100,
                 "width_mobile": "fill",
                 "custom_width_mobile": 100,
                 "height": "fit",
@@ -417,7 +372,89 @@
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
-                "padding-inline-end": 0
+                "padding-inline-end": 24
+              },
+              "blocks": {
+                "icon_a3gFbz": {
+                  "type": "icon",
+                  "name": "Icon Facebook",
+                  "settings": {
+                    "icon": "facebook",
+                    "image_upload": "shopify://shop_images/facebook.svg",
+                    "width": 36,
+                    "link": "https://www.facebook.com/dina.khoma.5",
+                    "open_in_new_tab": true
+                  },
+                  "blocks": {}
+                },
+                "icon_xQfn3j": {
+                  "type": "icon",
+                  "name": "Icon Instagram",
+                  "settings": {
+                    "icon": "instagram",
+                    "image_upload": "shopify://shop_images/instagram.svg",
+                    "width": 36,
+                    "link": "https://www.instagram.com/dinakhoma/",
+                    "open_in_new_tab": true
+                  },
+                  "blocks": {}
+                },
+                "icon_bqzwL3": {
+                  "type": "icon",
+                  "name": "Icon Telegram",
+                  "settings": {
+                    "icon": "price_tag",
+                    "image_upload": "shopify://shop_images/telegram.svg",
+                    "width": 36,
+                    "link": "https://t.me/dina_khoma",
+                    "open_in_new_tab": true
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "icon_a3gFbz",
+                "icon_xQfn3j",
+                "icon_bqzwL3"
+              ]
+            },
+            "group_A3jBaN": {
+              "type": "group",
+              "name": "Promo",
+              "settings": {
+                "link": "",
+                "open_in_new_tab": false,
+                "content_direction": "row",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 28,
+                "width": "custom",
+                "custom_width": 66,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "solid",
+                "border_width": 2,
+                "border_opacity": 50,
+                "border_radius": 6,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "padding-block-start": 12,
+                "padding-block-end": 12,
+                "padding-inline-start": 20,
+                "padding-inline-end": 20
               },
               "blocks": {
                 "text_xBFzxY": {
@@ -428,8 +465,8 @@
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
+                    "type_preset": "custom",
+                    "font": "var(--font-accent--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
                     "letter_spacing": "normal",
@@ -445,12 +482,71 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {}
+                },
+                "text_TmjtN4": {
+                  "type": "text",
+                  "name": "Description",
+                  "settings": {
+                    "text": "<h2>Відправте промокод в один із месенджерів і отримайте знижку на своє перше замовлення</h2>",
+                    "width": "fit-content",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "custom",
+                    "font": "var(--font-heading--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "text_tRj8Xy": {
+                  "type": "text",
+                  "name": "Code",
+                  "settings": {
+                    "text": "<p>prm-dina-15</p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "custom",
+                    "font": "var(--font-heading--family)",
+                    "font_size": "1.125rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "nowrap",
+                    "color": "var(--color-foreground)",
+                    "background": true,
+                    "background_color": "#00000026",
+                    "corner_radius": 16,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 8,
+                    "padding-inline-end": 8
+                  },
+                  "blocks": {}
                 }
               },
-              "block_order": ["text_xBFzxY"]
+              "block_order": [
+                "text_xBFzxY",
+                "text_TmjtN4",
+                "text_tRj8Xy"
+              ]
             }
           },
-          "block_order": ["footer_utilities_r8Wiq8", "group_A3jBaN"]
+          "block_order": [
+            "group_kgbi3T",
+            "group_A3jBaN"
+          ]
         },
         "footer_utilities_3MCUVD": {
           "type": "footer-utilities",
@@ -504,7 +600,7 @@
         "align_baseline": false,
         "horizontal_alignment_flex_direction_column": "flex-start",
         "vertical_alignment_flex_direction_column": "center",
-        "gap": 60,
+        "gap": 40,
         "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
@@ -761,7 +857,10 @@
               "blocks": {}
             }
           },
-          "block_order": ["group_4aCyy7", "email_signup_NcLwNb"]
+          "block_order": [
+            "group_4aCyy7",
+            "email_signup_NcLwNb"
+          ]
         },
         "footer_utilities_KRaGcH": {
           "type": "footer-utilities",
@@ -879,5 +978,8 @@
       }
     }
   },
-  "order": ["section_LzCxcw", "footer"]
+  "order": [
+    "section_LzCxcw",
+    "footer"
+  ]
 }
