@@ -75,7 +75,7 @@
         "src": "shopify://shop_images/hero-0_5.jpg",
         "title": "Доповніть свій стиль унікальними прикрасами ручної роботи",
         "description": "Відкрийте для себе світ елегантності та стилю з унікальними прикрасами ручної роботи. Доведена до досконалості, кожна прикраса є свідченням майстерності та індивідуальності.",
-        "button_link": "shopify://collections/frontpage",
+        "button_link": "shopify://collections",
         "button_title": "Купити"
       }
     },
@@ -324,8 +324,8 @@
         "horizontal_alignment": "center",
         "gap": 40,
         "color_scheme": "scheme-1",
-        "padding-block-start": 48,
-        "padding-block-end": 96
+        "padding-block-start": 40,
+        "padding-block-end": 60
       }
     },
     "feedback_bqmWeG": {
@@ -572,7 +572,9 @@
       ],
       "name": "t:names.collections_grid",
       "settings": {
-        "collection_list": [],
+        "collection_list": [
+          "other-collections"
+        ],
         "layout_type": "grid",
         "carousel_on_mobile": false,
         "columns": 4,
