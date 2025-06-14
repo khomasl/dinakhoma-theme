@@ -504,8 +504,8 @@
           "name": "t:names.collection_card",
           "static": true,
           "settings": {
-            "collection": "{{ closest.collection }}",
-            "placement": "on_image",
+            "collection": "other-collections",
+            "placement": "below_image",
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "flex-start",
             "collection_card_gap": 8,
@@ -514,7 +514,7 @@
             "border": "none",
             "border_width": 1,
             "border_opacity": 100,
-            "border_radius": 0
+            "border_radius": 12
           },
           "blocks": {
             "collection_title_CGcqLi": {
