@@ -17,3 +17,4 @@ next/
 ## Release files
 release
 *.zip
+assets/tailwind.output.css

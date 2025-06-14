@@ -145,10 +145,7 @@
                   "blocks": {}
                 }
               },
-              "block_order": [
-                "text_rVN4kp",
-                "text_zNadgM"
-              ]
+              "block_order": ["text_rVN4kp", "text_zNadgM"]
             },
             "group_Vq6HXk": {
               "type": "group",
@@ -216,9 +213,7 @@
                   "blocks": {}
                 }
               },
-              "block_order": [
-                "text_an9Hny"
-              ]
+              "block_order": ["text_an9Hny"]
             },
             "group_tpwdRf": {
               "type": "group",
@@ -286,16 +281,10 @@
                   "blocks": {}
                 }
               },
-              "block_order": [
-                "text_NTArbU"
-              ]
+              "block_order": ["text_NTArbU"]
             }
           },
-          "block_order": [
-            "group_nyHpiR",
-            "group_Vq6HXk",
-            "group_tpwdRf"
-          ]
+          "block_order": ["group_nyHpiR", "group_Vq6HXk", "group_tpwdRf"]
         },
         "group_gUctkG": {
           "type": "group",
@@ -387,10 +376,7 @@
                       "blocks": {}
                     }
                   },
-                  "block_order": [
-                    "social_link_LhgPTq",
-                    "social_link_4kQXjp"
-                  ]
+                  "block_order": ["social_link_LhgPTq", "social_link_4kQXjp"]
                 }
               },
               "block_order": []
@@ -461,15 +447,10 @@
                   "blocks": {}
                 }
               },
-              "block_order": [
-                "text_xBFzxY"
-              ]
+              "block_order": ["text_xBFzxY"]
             }
           },
-          "block_order": [
-            "footer_utilities_r8Wiq8",
-            "group_A3jBaN"
-          ]
+          "block_order": ["footer_utilities_r8Wiq8", "group_A3jBaN"]
         },
         "footer_utilities_3MCUVD": {
           "type": "footer-utilities",
@@ -780,10 +761,7 @@
               "blocks": {}
             }
           },
-          "block_order": [
-            "group_4aCyy7",
-            "email_signup_NcLwNb"
-          ]
+          "block_order": ["group_4aCyy7", "email_signup_NcLwNb"]
         },
         "footer_utilities_KRaGcH": {
           "type": "footer-utilities",
@@ -901,8 +879,5 @@
       }
     }
   },
-  "order": [
-    "section_LzCxcw",
-    "footer"
-  ]
+  "order": ["section_LzCxcw", "footer"]
 }
