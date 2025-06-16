@@ -1,13 +1,13 @@
 <section
   id="features"
-  class="lg:grid grid-cols-1 lg:grid-cols-2 items-center justify-center w-full main-container bg-violet-400 text-white"
+  class="lg:grid grid-cols-1 lg:grid-cols-2 main-container items-center justify-center w-full bg-violet-400 text-white"
 >
-  <div class="lg:px-0 lg:mr-16 pb-10 lg:pb-0">
+  <div class="lg:px-0 lg:mr-16 pt-5 lg:pt-0 mb-10 lg:mb-0">
     <p class="font-bold text-center lg:text-left">
       {{ section.settings.header }}
     </p>
 
-    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-8 mt-2 max-w-2/3 lg:px-0 text-center lg:text-left">
+    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-8 mt-2 lg:max-w-2/3 lg:px-0 text-center lg:text-left">
       {{ section.settings.title }}
     </h1>
 
@@ -27,9 +27,9 @@
     {% endif %}
   </div>
 
-  <div class="lg:px-0 pb-10 lg:pb-0">
+  <div class="lg:px-0 pb-5 lg:pb-0">
     {% if section.settings.image %}
-      <div class="relative w-full h-full aspect-square overflow-hidden rounded-3xl px-10 lg:px-0">
+      <div class="relative w-full h-full overflow-hidden rounded-3xl px-10 lg:px-0">
         <img
           src="{{ section.settings.image | image_url }}"
           alt="{{ section.settings.title | escape }}"

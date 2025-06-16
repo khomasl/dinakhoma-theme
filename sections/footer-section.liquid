@@ -1,5 +1,5 @@
-<footer
-  class="grid grid-col-1 md:grid-cols-3 gap-6 justify-items-center md:justify-items-stretch w-full bg-violet-400 main-container text-white"
+<section
+  class="section grid grid-col-1 md:grid-cols-3 gap-6 justify-items-center md:justify-items-stretch w-full bg-violet-400 main-container text-white"
 >
   <div>
     <h2 class="text-2xl font-bold">{{ section.settings.logo_title }}</h2>
@@ -29,11 +29,15 @@
         </div>
     {% endcase %}
   {% endfor %}
-</footer>
+</section>
 
 {% schema %}
 {
-  "name": "Footer Section",
+  "name": "t:names.footer",
+  //"class": "section-wrapper",
+  //"id": "sections.section_LzCxcw",
+  //"tag": "sections.section_LzCxcw",
+  //"tag": "section",
   "settings": [
     {
       "type": "text",
