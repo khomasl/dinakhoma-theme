@@ -87,7 +87,7 @@
                 "overlay_style": "solid",
                 "gradient_direction": "to top",
                 "padding-block-start": 0,
-                "padding-block-end": 0,
+                "padding-block-end": 12,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
@@ -223,7 +223,7 @@
                     "overlay_style": "solid",
                     "gradient_direction": "to top",
                     "padding-block-start": 0,
-                    "padding-block-end": 0,
+                    "padding-block-end": 12,
                     "padding-inline-start": 0,
                     "padding-inline-end": 0
                   },
@@ -267,7 +267,7 @@
                         "inherit_color_scheme": true,
                         "color_scheme": "",
                         "heading_preset": "h1",
-                        "link_preset": "paragraph",
+                        "link_preset": "",
                         "padding-block-start": 0,
                         "padding-block-end": 0,
                         "padding-inline-start": 0,
