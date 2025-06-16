@@ -84,7 +84,6 @@
       "blocks": {
         "static-header": {
           "type": "_product-list-content",
-          "disabled": true,
           "static": true,
           "settings": {
             "content_direction": "row",
@@ -119,7 +118,7 @@
             "product_list_text_qLCTNF": {
               "type": "_product-list-text",
               "settings": {
-                "text": "<h3>{{ closest.collection.title }}</h3>",
+                "text": "<h1><strong>НАЙОСТАННІШІ КОЛЕКЦІЇ</strong></h1>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -168,7 +167,7 @@
             "product": "{{ closest.product }}",
             "product_card_gap": 8,
             "inherit_color_scheme": true,
-            "color_scheme": "",
+            "color_scheme": "scheme-1",
             "border": "none",
             "border_width": 1,
             "border_opacity": 100,
@@ -465,7 +464,7 @@
             "product_list_text_UkkGYB": {
               "type": "_product-list-text",
               "settings": {
-                "text": "<h1><strong>МОЇ ВИРОБИ<br/>Різні вироби</strong></h1>",
+                "text": "<h1><strong>РІЗНІ ВИРОБИ</strong></h1>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
