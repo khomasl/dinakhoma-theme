@@ -820,11 +820,45 @@
                 "group_TdfNri",
                 "group_xh3bbJ"
               ]
+            },
+            "contact_form_Nhexg9": {
+              "type": "contact-form",
+              "name": "t:names.contact_form",
+              "disabled": true,
+              "settings": {
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100,
+                "inherit_color_scheme": false,
+                "color_scheme": "scheme-5",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "submit-button": {
+                  "type": "contact-form-submit-button",
+                  "static": true,
+                  "settings": {
+                    "label": "Надіслати",
+                    "style_class": "button",
+                    "width": "fit-content",
+                    "custom_width": 100,
+                    "width_mobile": "fit-content",
+                    "custom_width_mobile": 100
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": []
             }
           },
           "block_order": [
             "group_nyHpiR",
-            "group_cHrPTh"
+            "group_cHrPTh",
+            "contact_form_Nhexg9"
           ]
         },
         "group_gUctkG": {
