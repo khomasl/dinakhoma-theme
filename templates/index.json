@@ -79,6 +79,68 @@
         "button_title": "Купити"
       }
     },
+    "feedback_wVPXpr": {
+      "type": "feedback",
+      "blocks": {
+        "feedback_JUqDRC": {
+          "type": "feedback",
+          "name": "Image",
+          "settings": {
+            "src": "shopify://shop_images/3_897d447a-7aae-4308-8085-0b3961e5a851.jpg",
+            "name": "",
+            "quote": ""
+          }
+        },
+        "feedback_8mT7Td": {
+          "type": "feedback",
+          "name": "Image",
+          "settings": {
+            "src": "shopify://shop_images/5.jpg",
+            "name": "",
+            "quote": ""
+          }
+        },
+        "feedback_UTJUQX": {
+          "type": "feedback",
+          "name": "Image",
+          "settings": {
+            "src": "shopify://shop_images/7.webp",
+            "name": "",
+            "quote": ""
+          }
+        },
+        "feedback_UbQd7t": {
+          "type": "feedback",
+          "name": "Image",
+          "settings": {
+            "src": "shopify://shop_images/8.webp",
+            "name": "",
+            "quote": ""
+          }
+        },
+        "feedback_9XLRV7": {
+          "type": "feedback",
+          "name": "Image",
+          "settings": {
+            "src": "shopify://shop_images/1.webp",
+            "name": "",
+            "quote": ""
+          }
+        }
+      },
+      "block_order": [
+        "feedback_JUqDRC",
+        "feedback_8mT7Td",
+        "feedback_UTJUQX",
+        "feedback_UbQd7t",
+        "feedback_9XLRV7"
+      ],
+      "name": "Slider Section",
+      "settings": {
+        "header": "",
+        "title": ""
+      }
+    },
     "product_list_qU3bEB": {
       "type": "product-list",
       "blocks": {
@@ -899,6 +961,7 @@
   "order": [
     "hero_jVaWmY",
     "hero_slider_Nk3pMQ",
+    "feedback_wVPXpr",
     "product_list_qU3bEB",
     "feedback_bqmWeG",
     "about_czQpYN",
