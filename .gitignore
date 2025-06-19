@@ -10,6 +10,7 @@ ehthumbs.db
 Thumbs.db
 node_modules/
 next/
+help.txt
 
 # Shopify CLI files
 .shopify/

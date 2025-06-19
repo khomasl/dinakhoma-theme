@@ -1,6 +1,7 @@
 <button
-  class="relative h-[50px] aspect-square rounded-full"
-  onClick="{onClick}"
+  class="relative h-[50px] aspect-square rounded-full {{ navigation }}"
+  on:click="/{{ action }}"
+  ref="{{ action }}"
 >
   <img
     height="100%"
@@ -8,11 +9,9 @@
     class="
       shrink-0 hover:scale-105 transition-all duration-500
       {% if direction == 'right' %} rotate-180 {% endif %}
-      {{ navigation }}
     "
     alt=">"
     src="{{ 'icon-arrow-left.svg' | asset_url }}"
     aria-label="{% if direction == 'left' %} 'Previous' {% else %} 'Next' {% endif %}"
-    fill
   >
 </button>
