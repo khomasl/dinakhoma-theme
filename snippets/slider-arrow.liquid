@@ -1,5 +1,5 @@
 <button
-  class="relative h-[50px] aspect-square rounded-full {{ navigation }}"
+  class="relative h-[50px] aspect-square shrink-0 rounded-full overflow-hidden {{ navigation }} {{ border }}"
   on:click="/{{ action }}"
   ref="{{ action }}"
 >
@@ -7,7 +7,7 @@
     height="100%"
     width="100%"
     class="
-      shrink-0 hover:scale-105 transition-all duration-500
+      hover:scale-105 transition-all duration-500
       {% if direction == 'right' %} rotate-180 {% endif %}
     "
     alt=">"
