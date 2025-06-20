@@ -79,6 +79,20 @@
         "button_title": "Купити"
       }
     },
+    "product_list_carousel_p7aaCq": {
+      "type": "product-list-carousel",
+      "blocks": {
+        "product_card_yW9mcy": {
+          "type": "product-card",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "product_card_yW9mcy"
+      ],
+      "name": "Product List Carousel",
+      "settings": {}
+    },
     "section_9jpQff": {
       "type": "section",
       "blocks": {
@@ -325,6 +339,7 @@
         "product_card_TDbxB3",
         "product_card_ganLDr"
       ],
+      "disabled": true,
       "name": "Product List Carousel",
       "settings": {
         "content_direction": "row",
@@ -980,6 +995,7 @@
   "order": [
     "hero_jVaWmY",
     "hero_slider_Nk3pMQ",
+    "product_list_carousel_p7aaCq",
     "section_9jpQff",
     "product_list_qU3bEB",
     "feedback_bqmWeG",
