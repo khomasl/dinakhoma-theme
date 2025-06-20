@@ -82,21 +82,7 @@
     "product_list_carousel_p7aaCq": {
       "type": "product-list-carousel",
       "blocks": {
-        "product_card_yW9mcy": {
-          "type": "product-card",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "product_card_yW9mcy"
-      ],
-      "name": "Product List Carousel",
-      "settings": {}
-    },
-    "section_9jpQff": {
-      "type": "section",
-      "blocks": {
-        "product_card_iaKYit": {
+        "product_card_UNHYFx": {
           "type": "product-card",
           "name": "t:names.product_card",
           "settings": {
@@ -135,7 +121,7 @@
             "product_card_gallery_3tBz73"
           ]
         },
-        "product_card_BHf7AP": {
+        "product_card_PX6f98": {
           "type": "product-card",
           "name": "t:names.product_card",
           "settings": {
@@ -174,7 +160,7 @@
             "product_card_gallery_TbkpQm"
           ]
         },
-        "product_card_jiYncg": {
+        "product_card_waVajP": {
           "type": "product-card",
           "name": "t:names.product_card",
           "settings": {
@@ -213,7 +199,7 @@
             "product_card_gallery_9Uq63h"
           ]
         },
-        "product_card_EERj7Y": {
+        "product_card_tDnYKr": {
           "type": "product-card",
           "name": "t:names.product_card",
           "settings": {
@@ -252,7 +238,7 @@
             "product_card_gallery_xYYP3Y"
           ]
         },
-        "product_card_TDbxB3": {
+        "product_card_3mFJHc": {
           "type": "product-card",
           "name": "t:names.product_card",
           "settings": {
@@ -291,7 +277,7 @@
             "product_card_gallery_n6Hzye"
           ]
         },
-        "product_card_ganLDr": {
+        "product_card_V978mb": {
           "type": "product-card",
           "name": "t:names.product_card",
           "settings": {
@@ -332,13 +318,20 @@
         }
       },
       "block_order": [
-        "product_card_iaKYit",
-        "product_card_BHf7AP",
-        "product_card_jiYncg",
-        "product_card_EERj7Y",
-        "product_card_TDbxB3",
-        "product_card_ganLDr"
+        "product_card_UNHYFx",
+        "product_card_PX6f98",
+        "product_card_waVajP",
+        "product_card_tDnYKr",
+        "product_card_3mFJHc",
+        "product_card_V978mb"
       ],
+      "name": "Product List Carousel",
+      "settings": {
+        "product": ""
+      }
+    },
+    "section_9jpQff": {
+      "type": "section",
       "disabled": true,
       "name": "Product List Carousel",
       "settings": {
