@@ -82,6 +82,29 @@
     "product_list_carousel_4cprpQ": {
       "type": "product-list-carousel",
       "blocks": {
+        "image_mh77M7": {
+          "type": "image",
+          "name": "t:names.image",
+          "settings": {
+            "image": "shopify://shop_images/3_897d447a-7aae-4308-8085-0b3961e5a851.jpg",
+            "link": "shopify://products/braslet-lastivka",
+            "image_ratio": "square",
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 8,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
         "product_card_ifUj97": {
           "type": "product-card",
           "name": "t:names.product_card",
@@ -882,6 +905,7 @@
         }
       },
       "block_order": [
+        "image_mh77M7",
         "product_card_ifUj97",
         "product_card_xyYrGx",
         "product_card_xrfWGW",
