@@ -46,35 +46,3 @@
     });
   });
 </script>
-{% comment %}
-  "blocks": [ { "type": "product-card", "name": "t:names.product_card", "settings": [ { "type": "product", "id":
-  "product", "label": "t:settings.product" }, { "type": "image_picker", "id": "image", "label": "t:settings.image" }, {
-  "type": "url", "id": "link", "label": "t:settings.link" } ] } ],
-{% endcomment %}
-{% schema %}
-{
-  "name": "Product List Carousel",
-  "blocks": [
-    {
-      "type": "product-card",
-      "name": "t:names.product_card",
-      "settings": [
-        {
-          "type": "product",
-          "id": "product",
-          "label": "t.settings,product"
-          //"product": "{{ closest.product }}"
-        }
-      ]
-    }
-  ],
-  "settings": [],
-  "max_blocks": 12,
-  "presets": [
-    {
-      "name": "Product List Carousel",
-      "category": "Custom"
-    }
-  ]
-}
-{% endschema %}
