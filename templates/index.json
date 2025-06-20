@@ -86,235 +86,43 @@
           "type": "product-card",
           "name": "t:names.product_card",
           "settings": {
-            "product": "braslet-lastivka",
-            "product_card_gap": 16,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 12,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {
-            "product_card_gallery_3tBz73": {
-              "type": "_product-card-gallery",
-              "settings": {
-                "product": "{{ closest.product }}",
-                "image_ratio": "square",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 12,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "product_card_gallery_3tBz73"
-          ]
+            "product": "braslet-lastivka"
+          }
         },
         "product_card_PX6f98": {
           "type": "product-card",
           "name": "t:names.product_card",
           "settings": {
-            "product": "malinoviy-choker",
-            "product_card_gap": 16,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 12,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {
-            "product_card_gallery_TbkpQm": {
-              "type": "_product-card-gallery",
-              "settings": {
-                "product": "{{ closest.product }}",
-                "image_ratio": "square",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 12,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "product_card_gallery_TbkpQm"
-          ]
+            "product": "malinoviy-choker"
+          }
         },
         "product_card_waVajP": {
           "type": "product-card",
           "name": "t:names.product_card",
           "settings": {
-            "product": "підвіска-на-шнурочку",
-            "product_card_gap": 16,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 12,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {
-            "product_card_gallery_9Uq63h": {
-              "type": "_product-card-gallery",
-              "settings": {
-                "product": "{{ closest.product }}",
-                "image_ratio": "square",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 12,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "product_card_gallery_9Uq63h"
-          ]
+            "product": "підвіска-на-шнурочку"
+          }
         },
         "product_card_tDnYKr": {
           "type": "product-card",
           "name": "t:names.product_card",
           "settings": {
-            "product": "serezhki-lastivki",
-            "product_card_gap": 16,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 12,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {
-            "product_card_gallery_xYYP3Y": {
-              "type": "_product-card-gallery",
-              "settings": {
-                "product": "{{ closest.product }}",
-                "image_ratio": "square",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 12,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "product_card_gallery_xYYP3Y"
-          ]
+            "product": "serezhki-lastivki"
+          }
         },
         "product_card_3mFJHc": {
           "type": "product-card",
           "name": "t:names.product_card",
           "settings": {
-            "product": "serezhki-oblipikha",
-            "product_card_gap": 16,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 12,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {
-            "product_card_gallery_n6Hzye": {
-              "type": "_product-card-gallery",
-              "settings": {
-                "product": "{{ closest.product }}",
-                "image_ratio": "square",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 12,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "product_card_gallery_n6Hzye"
-          ]
+            "product": "serezhki-oblipikha"
+          }
         },
         "product_card_V978mb": {
           "type": "product-card",
           "name": "t:names.product_card",
           "settings": {
-            "product": "braslet-lastivka",
-            "product_card_gap": 16,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 12,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {
-            "product_card_gallery_FwVyjA": {
-              "type": "_product-card-gallery",
-              "settings": {
-                "product": "{{ closest.product }}",
-                "image_ratio": "square",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 12,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "product_card_gallery_FwVyjA"
-          ]
+            "product": "braslet-lastivka"
+          }
         }
       },
       "block_order": [
@@ -326,13 +134,254 @@
         "product_card_V978mb"
       ],
       "name": "Product List Carousel",
-      "settings": {
-        "product": ""
-      }
+      "settings": {}
     },
     "section_9jpQff": {
       "type": "section",
-      "disabled": true,
+      "blocks": {
+        "product_card_NaW9Kg": {
+          "type": "product-card",
+          "name": "t:names.product_card",
+          "settings": {
+            "product": "braslet-lastivka",
+            "product_card_gap": 16,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 8,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "product_card_gallery_LFzPxF": {
+              "type": "_product-card-gallery",
+              "settings": {
+                "product": "{{ closest.product }}",
+                "image_ratio": "square",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 8,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "product_card_gallery_LFzPxF"
+          ]
+        },
+        "product_card_PpAmAC": {
+          "type": "product-card",
+          "name": "t:names.product_card",
+          "settings": {
+            "product": "malinoviy-choker",
+            "product_card_gap": 16,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 8,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "product_card_gallery_x8Eb3A": {
+              "type": "_product-card-gallery",
+              "settings": {
+                "product": "{{ closest.product }}",
+                "image_ratio": "square",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 8,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "product_card_gallery_x8Eb3A"
+          ]
+        },
+        "product_card_3RCnJb": {
+          "type": "product-card",
+          "name": "t:names.product_card",
+          "settings": {
+            "product": "підвіска-на-шнурочку",
+            "product_card_gap": 16,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 8,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "product_card_gallery_FXJqfc": {
+              "type": "_product-card-gallery",
+              "settings": {
+                "product": "{{ closest.product }}",
+                "image_ratio": "square",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 8,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "product_card_gallery_FXJqfc"
+          ]
+        },
+        "product_card_aM6cXD": {
+          "type": "product-card",
+          "name": "t:names.product_card",
+          "settings": {
+            "product": "serezhki-lastivki",
+            "product_card_gap": 16,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 8,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "product_card_gallery_EXyWK8": {
+              "type": "_product-card-gallery",
+              "settings": {
+                "product": "{{ closest.product }}",
+                "image_ratio": "square",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 8,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "product_card_gallery_EXyWK8"
+          ]
+        },
+        "product_card_UxMjKp": {
+          "type": "product-card",
+          "name": "t:names.product_card",
+          "settings": {
+            "product": "serezhki-oblipikha",
+            "product_card_gap": 16,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 8,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "product_card_gallery_47zwfL": {
+              "type": "_product-card-gallery",
+              "settings": {
+                "product": "{{ closest.product }}",
+                "image_ratio": "square",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 8,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "product_card_gallery_47zwfL"
+          ]
+        },
+        "product_card_Ta8wMA": {
+          "type": "product-card",
+          "name": "t:names.product_card",
+          "settings": {
+            "product": "braslet-lastivka",
+            "product_card_gap": 16,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 8,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "product_card_gallery_wPTfKD": {
+              "type": "_product-card-gallery",
+              "settings": {
+                "product": "{{ closest.product }}",
+                "image_ratio": "square",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 8,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "product_card_gallery_wPTfKD"
+          ]
+        }
+      },
+      "block_order": [
+        "product_card_NaW9Kg",
+        "product_card_PpAmAC",
+        "product_card_3RCnJb",
+        "product_card_aM6cXD",
+        "product_card_UxMjKp",
+        "product_card_Ta8wMA"
+      ],
       "name": "Product List Carousel",
       "settings": {
         "content_direction": "row",
