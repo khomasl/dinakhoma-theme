@@ -820,45 +820,11 @@
                 "group_TdfNri",
                 "group_xh3bbJ"
               ]
-            },
-            "contact_form_Nhexg9": {
-              "type": "contact-form",
-              "name": "t:names.contact_form",
-              "disabled": true,
-              "settings": {
-                "width": "fit-content",
-                "custom_width": 100,
-                "width_mobile": "fit-content",
-                "custom_width_mobile": 100,
-                "inherit_color_scheme": false,
-                "color_scheme": "scheme-5",
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {
-                "submit-button": {
-                  "type": "contact-form-submit-button",
-                  "static": true,
-                  "settings": {
-                    "label": "Надіслати",
-                    "style_class": "button",
-                    "width": "fit-content",
-                    "custom_width": 100,
-                    "width_mobile": "fit-content",
-                    "custom_width_mobile": 100
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": []
             }
           },
           "block_order": [
             "group_nyHpiR",
-            "group_cHrPTh",
-            "contact_form_Nhexg9"
+            "group_cHrPTh"
           ]
         },
         "group_gUctkG": {
@@ -900,22 +866,22 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "group_kgbi3T": {
+            "group_G9WqUT": {
               "type": "group",
               "name": "Social",
               "settings": {
                 "link": "",
                 "open_in_new_tab": false,
-                "content_direction": "row",
-                "vertical_on_mobile": false,
+                "content_direction": "column",
+                "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
                 "vertical_alignment": "center",
                 "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "flex-start",
                 "vertical_alignment_flex_direction_column": "center",
-                "gap": 8,
-                "width": "custom",
-                "custom_width": 34,
+                "gap": 12,
+                "width": "fill",
+                "custom_width": 100,
                 "width_mobile": "fill",
                 "custom_width_mobile": 100,
                 "height": "fit",
@@ -939,47 +905,118 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "icon_a3gFbz": {
-                  "type": "icon",
-                  "name": "Icon Facebook",
+                "text_YHBdR9": {
+                  "type": "text",
+                  "name": "t:names.heading",
                   "settings": {
-                    "icon": "facebook",
-                    "image_upload": "shopify://shop_images/facebook.svg",
-                    "width": 36,
-                    "link": "https://www.facebook.com/dina.khoma.5",
-                    "open_in_new_tab": true
+                    "text": "<h1><strong>Мої соціальні мережі</strong></h1>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h1",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground-heading)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
                   },
                   "blocks": {}
                 },
-                "icon_xQfn3j": {
-                  "type": "icon",
-                  "name": "Icon Instagram",
+                "group_mKCMt6": {
+                  "type": "group",
+                  "name": "Social Icon",
                   "settings": {
-                    "icon": "instagram",
-                    "image_upload": "shopify://shop_images/instagram.svg",
-                    "width": 36,
-                    "link": "https://www.instagram.com/dinakhoma/",
-                    "open_in_new_tab": true
+                    "link": "",
+                    "open_in_new_tab": false,
+                    "content_direction": "row",
+                    "vertical_on_mobile": false,
+                    "horizontal_alignment": "flex-start",
+                    "vertical_alignment": "center",
+                    "align_baseline": false,
+                    "horizontal_alignment_flex_direction_column": "flex-start",
+                    "vertical_alignment_flex_direction_column": "center",
+                    "gap": 8,
+                    "width": "custom",
+                    "custom_width": 34,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "height": "fit",
+                    "custom_height": 100,
+                    "inherit_color_scheme": true,
+                    "color_scheme": "",
+                    "background_media": "none",
+                    "video_position": "cover",
+                    "background_image_position": "cover",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "toggle_overlay": false,
+                    "overlay_color": "#00000026",
+                    "overlay_style": "solid",
+                    "gradient_direction": "to top",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
                   },
-                  "blocks": {}
-                },
-                "icon_bqzwL3": {
-                  "type": "icon",
-                  "name": "Icon Telegram",
-                  "settings": {
-                    "icon": "price_tag",
-                    "image_upload": "shopify://shop_images/telegram.svg",
-                    "width": 36,
-                    "link": "https://t.me/dina_khoma",
-                    "open_in_new_tab": true
+                  "blocks": {
+                    "icon_a3gFbz": {
+                      "type": "icon",
+                      "name": "Icon Facebook",
+                      "settings": {
+                        "icon": "facebook",
+                        "image_upload": "shopify://shop_images/facebook.svg",
+                        "width": 36,
+                        "link": "https://www.facebook.com/dina.khoma.5",
+                        "open_in_new_tab": true
+                      },
+                      "blocks": {}
+                    },
+                    "icon_xQfn3j": {
+                      "type": "icon",
+                      "name": "Icon Instagram",
+                      "settings": {
+                        "icon": "instagram",
+                        "image_upload": "shopify://shop_images/instagram.svg",
+                        "width": 36,
+                        "link": "https://www.instagram.com/dinakhoma/",
+                        "open_in_new_tab": true
+                      },
+                      "blocks": {}
+                    },
+                    "icon_bqzwL3": {
+                      "type": "icon",
+                      "name": "Icon Telegram",
+                      "settings": {
+                        "icon": "price_tag",
+                        "image_upload": "shopify://shop_images/telegram.svg",
+                        "width": 36,
+                        "link": "https://t.me/dina_khoma",
+                        "open_in_new_tab": true
+                      },
+                      "blocks": {}
+                    }
                   },
-                  "blocks": {}
+                  "block_order": [
+                    "icon_a3gFbz",
+                    "icon_xQfn3j",
+                    "icon_bqzwL3"
+                  ]
                 }
               },
               "block_order": [
-                "icon_a3gFbz",
-                "icon_xQfn3j",
-                "icon_bqzwL3"
+                "text_YHBdR9",
+                "group_mKCMt6"
               ]
             },
             "group_A3jBaN": {
@@ -1108,7 +1145,7 @@
             }
           },
           "block_order": [
-            "group_kgbi3T",
+            "group_G9WqUT",
             "group_A3jBaN"
           ]
         },
