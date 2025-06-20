@@ -9,7 +9,9 @@
     <div class="swiper w-full aspect-[0.8] ss:aspect-[1] sx:aspect-[1.4] sm:aspect-[2.2] md:aspect-[2.5] xl:aspect-[4]">
       <div class="swiper-wrapper">
         {% for card in section.blocks %}
-          {% render 'product-card', product: card, children: card.id %}
+          {% comment %} <div>{{ card.settings.product.id }}</div> {% endcomment %}
+          {% render 'product-card', product: card, children: card.settings.product %}
+          {% comment %} {% render 'image', image: card.settings.image %} {% endcomment %}
         {% endfor %}
       </div>
     </div>
@@ -44,22 +46,29 @@
     });
   });
 </script>
-
+{% comment %}
+  "blocks": [ { "type": "product-card", "name": "t:names.product_card", "settings": [ { "type": "product", "id":
+  "product", "label": "t:settings.product" }, { "type": "image_picker", "id": "image", "label": "t:settings.image" }, {
+  "type": "url", "id": "link", "label": "t:settings.link" } ] } ],
+{% endcomment %}
 {% schema %}
 {
   "name": "Product List Carousel",
   "blocks": [
     {
-      "type": "product-card"
+      "type": "product-card",
+      "name": "t:names.product_card",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "t.settings,product"
+          //"product": "{{ closest.product }}"
+        }
+      ]
     }
   ],
-  "settings": [
-    {
-      "type": "product",
-      "id": "product",
-      "label": "t:settings.product"
-    }
-  ],
+  "settings": [],
   "max_blocks": 12,
   "presets": [
     {
