@@ -79,63 +79,6 @@
         "button_title": "Купити"
       }
     },
-    "product_list_carousel_p7aaCq": {
-      "type": "product-list-carousel",
-      "blocks": {
-        "product_card_UNHYFx": {
-          "type": "product-card",
-          "name": "t:names.product_card",
-          "settings": {
-            "product": "braslet-lastivka"
-          }
-        },
-        "product_card_PX6f98": {
-          "type": "product-card",
-          "name": "t:names.product_card",
-          "settings": {
-            "product": "malinoviy-choker"
-          }
-        },
-        "product_card_waVajP": {
-          "type": "product-card",
-          "name": "t:names.product_card",
-          "settings": {
-            "product": "підвіска-на-шнурочку"
-          }
-        },
-        "product_card_tDnYKr": {
-          "type": "product-card",
-          "name": "t:names.product_card",
-          "settings": {
-            "product": "serezhki-lastivki"
-          }
-        },
-        "product_card_3mFJHc": {
-          "type": "product-card",
-          "name": "t:names.product_card",
-          "settings": {
-            "product": "serezhki-oblipikha"
-          }
-        },
-        "product_card_V978mb": {
-          "type": "product-card",
-          "name": "t:names.product_card",
-          "settings": {
-            "product": "braslet-lastivka"
-          }
-        }
-      },
-      "block_order": [
-        "product_card_UNHYFx",
-        "product_card_PX6f98",
-        "product_card_waVajP",
-        "product_card_tDnYKr",
-        "product_card_3mFJHc",
-        "product_card_V978mb"
-      ],
-      "name": "Product List Carousel",
-      "settings": {}
-    },
     "section_9jpQff": {
       "type": "section",
       "blocks": {
@@ -1037,7 +980,6 @@
   "order": [
     "hero_jVaWmY",
     "hero_slider_Nk3pMQ",
-    "product_list_carousel_p7aaCq",
     "section_9jpQff",
     "product_list_qU3bEB",
     "feedback_bqmWeG",
