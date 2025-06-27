@@ -8,17 +8,27 @@
     %}
     <div class="swiper w-full aspect-[0.8] ss:aspect-[1] sx:aspect-[1.4] sm:aspect-[2.2] md:aspect-[2.5] xl:aspect-[4]">
       <div class="swiper-wrapper">
-        {% comment %} <div>{{ section.blocks.size }}</div> {% endcomment %}
+        <div>{{ section.blocks.size }}</div>
         {% comment %} {% for card in section.blocks['product-card'] %} {% endcomment %}
         {% for card in section.blocks %}
-          {% comment %} <div class="flex flex-col border-2 justify-between bg-amber-500"> {% endcomment %}
-          {% comment %} <div class="border">{{ card.settings.product }}</div> {% endcomment %}
-          {% comment %} <div>{{ card }}</div> {% endcomment %}
-          {% comment %} <div>123</div> {% endcomment %}
-          {% render 'product-card-slider', card: card %}
-          {% comment %} {% render 'feedback-card', feedback: card.settings %} {% endcomment %}
-          {% comment %} {% render 'image', image: card.settings.image %} {% endcomment %}
-          {% comment %} </div> {% endcomment %}
+          <div class="w-60 border-2 mr-2 bg-amber-500">
+            {% comment %} <div class="border">{{ card.settings.product }}</div> {% endcomment %}
+            <div class="break-words border mb-4 bg-green-400">{{ card.id }}</div>
+            <div class="break-words border mb-4 bg-green-400">{{ card.type }}</div>
+            {% comment %} <div class="break-words border mb-4 bg-green-400">{{ card.name }}</div> {% endcomment %}
+
+            <div class="border mb-4 bg-yellow-300 min-h-3">
+              {{ card.settings }}
+            </div>
+            {% comment %} <div>123</div> {% endcomment %}
+            {% comment %} {% render 'product-card-slider', card: card %} {% endcomment %}
+            {% comment %} {% render 'feedback-card', feedback: card.settings %} {% endcomment %}
+            {% comment %} {% render 'image', image: card.settings.image %} {% endcomment %}
+            {% render 'product-card',
+              product: card.settings.product,
+              children: card.blocks['_product-card-gallery'].settings.product
+            %}
+          </div>
         {% endfor %}
       </div>
     </div>
@@ -60,13 +70,10 @@
   "tag": "section",
 
   "blocks": [
-    { "type": "_product-card-gallery" },
-    { "type": "_product-details" },
-    { "type": "image" },
     {
-      "type": "product-card"
+      "type": "product-card",
+      "name": "t:names.product_card"
       //"name": "Product card"
-      //"name": "t:names.product_card",
     }
   ],
   "settings": [
