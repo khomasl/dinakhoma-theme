@@ -102,7 +102,6 @@
         "image_mh77M7": {
           "type": "image",
           "name": "t:names.image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/3_897d447a-7aae-4308-8085-0b3961e5a851.jpg",
             "link": "shopify://products/braslet-lastivka",
