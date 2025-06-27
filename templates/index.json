@@ -82,6 +82,23 @@
     "product_list_carousel_4cprpQ": {
       "type": "product-list-carousel",
       "blocks": {
+        "product_card_gallery_XkiRKq": {
+          "type": "_product-card-gallery",
+          "name": "t:names.product_card_media",
+          "settings": {
+            "product": "підвіска-на-шнурочку",
+            "image_ratio": "square",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
         "image_mh77M7": {
           "type": "image",
           "name": "t:names.image",
@@ -142,6 +159,7 @@
             },
             "group_eH4XHq": {
               "type": "group",
+              "disabled": true,
               "settings": {
                 "link": "",
                 "open_in_new_tab": false,
@@ -259,7 +277,7 @@
             "product_card_gallery_hicJUn": {
               "type": "_product-card-gallery",
               "settings": {
-                "product": "{{ closest.product }}",
+                "product": "malinoviy-choker",
                 "image_ratio": "square",
                 "border": "none",
                 "border_width": 1,
@@ -274,6 +292,7 @@
             },
             "group_FQ64gj": {
               "type": "group",
+              "disabled": true,
               "settings": {
                 "link": "",
                 "open_in_new_tab": false,
@@ -406,6 +425,7 @@
             },
             "group_9aaJzx": {
               "type": "group",
+              "disabled": true,
               "settings": {
                 "link": "",
                 "open_in_new_tab": false,
@@ -903,6 +923,7 @@
         }
       },
       "block_order": [
+        "product_card_gallery_XkiRKq",
         "image_mh77M7",
         "product_card_ifUj97",
         "product_card_xyYrGx",
