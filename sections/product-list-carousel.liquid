@@ -1,4 +1,10 @@
-<section class="main-container shopify-section">
+{% comment %}
+  {% capture children %}
+    {% content_for 'blocks', closest.product: product %}
+  {% endcapture %}
+{% endcomment %}
+
+<section class="hidden md:block main-container shopify-section">
   <div class="section-wrapper w-full flex gap-5 items-center pb-5 lg:pb-0">
     {% render 'slider-arrow',
       direction: 'left',
@@ -8,17 +14,17 @@
     %}
     <div class="swiper w-full aspect-[0.8] ss:aspect-[1] sx:aspect-[1.4] sm:aspect-[2.2] md:aspect-[2.5] xl:aspect-[4]">
       <div class="swiper-wrapper">
-        {% for card in section.blocks['product-card'] %}
-          <div>{{ card }}</div>
-          <div>123</div>
-          {% render 'product-card', product: card, children: card.product %}
+        {% comment %} <div>{{ section.blocks.size }}</div> {% endcomment %}
+        {% comment %} {% for card in section.blocks['product-card'] %} {% endcomment %}
+        {% for card in section.blocks %}
+          {% comment %} <div class="flex flex-col border-2 justify-between bg-amber-500"> {% endcomment %}
+          {% comment %} <div class="border">{{ card.settings.product }}</div> {% endcomment %}
+          {% comment %} <div>{{ card }}</div> {% endcomment %}
+          {% comment %} <div>123</div> {% endcomment %}
+          {% render 'product-card-slider', card: card %}
+          {% comment %} {% render 'feedback-card', feedback: card.settings %} {% endcomment %}
           {% comment %} {% render 'image', image: card.settings.image %} {% endcomment %}
-        {% endfor %}
-        {% for image in section.blocks.image %}
-          <div>{{ image }}</div>
-          <div>123</div>
-          {% render 'image', image: image %}
-          {% comment %} {% render 'image', image: card.settings.image %} {% endcomment %}
+          {% comment %} </div> {% endcomment %}
         {% endfor %}
       </div>
     </div>
@@ -60,13 +66,17 @@
   "tag": "section",
 
   "blocks": [
-    { "type": "_product-card-gallery" },
-    { "type": "_product-details" },
-    { "type": "image" },
-    { "type": "collection-card" },
-    { "type": "_collection-card-image" },
     {
-      "type": "product-card"
+      "type": "product-card",
+      "name": "Product card",
+      //"name": "t:names.product_card",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "t:settings.product"
+        }
+      ]
     }
   ],
   "settings": [

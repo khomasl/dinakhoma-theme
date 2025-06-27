@@ -7,6 +7,7 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-amber-500: oklch(76.9% 0.188 70.08);
     --color-violet-300: oklch(81.1% 0.111 293.571);
     --color-violet-400: oklch(70.2% 0.183 293.541);
     --color-violet-500: oklch(60.6% 0.25 292.717);
@@ -17,6 +18,7 @@
     --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
+    --container-3xl: 48rem;
     --text-sm: 0.875rem;
     --text-sm--line-height: calc(1.25 / 0.875);
     --text-base: 1rem;
@@ -266,6 +268,12 @@
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
   }
+  .mr-5 {
+    margin-right: calc(var(--spacing) * 5);
+  }
+  .mr-20 {
+    margin-right: calc(var(--spacing) * 20);
+  }
   .mb-2 {
     margin-bottom: calc(var(--spacing) * 2);
   }
@@ -332,6 +340,12 @@
   .h-full {
     height: 100%;
   }
+  .w-3xl {
+    width: var(--container-3xl);
+  }
+  .w-10 {
+    width: calc(var(--spacing) * 10);
+  }
   .w-12 {
     width: calc(var(--spacing) * 12);
   }
@@ -367,6 +381,9 @@
   }
   .w-\[80px\] {
     width: 80px;
+  }
+  .w-\[100px\] {
+    width: 100px;
   }
   .w-fit {
     width: fit-content;
@@ -496,6 +513,9 @@
   }
   .border-b-violet-400 {
     border-bottom-color: var(--color-violet-400);
+  }
+  .bg-amber-500 {
+    background-color: var(--color-amber-500);
   }
   .bg-gray-50 {
     background-color: var(--color-gray-50);
