@@ -143,7 +143,7 @@
             "product_card_gallery_XJzmWA": {
               "type": "_product-card-gallery",
               "settings": {
-                "product": "{{ closest.product }}",
+                "product": "braslet-lastivka",
                 "image_ratio": "square",
                 "border": "none",
                 "border_width": 1,
