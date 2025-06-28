@@ -348,6 +348,9 @@
   .min-h-3 {
     min-height: calc(var(--spacing) * 3);
   }
+  .min-h-6 {
+    min-height: calc(var(--spacing) * 6);
+  }
   .w-3xl {
     width: var(--container-3xl);
   }
