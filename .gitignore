@@ -1,5 +1,6 @@
 # OS generated files #
 ######################
+.vscode
 .DS_Store
 .DS_Store?
 ._*
@@ -9,6 +10,7 @@ ehthumbs.db
 Thumbs.db
 node_modules/
 next/
+help.txt
 
 # Shopify CLI files
 .shopify/
@@ -16,3 +18,4 @@ next/
 ## Release files
 release
 *.zip
+assets/tailwind.output.css
