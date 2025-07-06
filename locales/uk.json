@@ -388,6 +388,346 @@
         "address_last_name_contains_mathematical_symbols": "Прізвище не може містити математичних символів",
         "address_address1_blank": "Введіть адресу"
       }
+    },
+    "notices": {
+      "cart": {
+        "gift_card_with_components_not_supported": "Комплектний продукт '%{name}' неможливо додати до кошика.",
+        "gift_card_price_must_be_greater_than_zero": "Комплектний продукт '%{name}' неможливо додати до кошика.",
+        "gift_card_recipient_validation_error": "Вказаний одержувач подарункової картки недійсний",
+        "view_lines_limit_reached": "Рядків має бути менше ніж %{limit}",
+        "cart_too_large": "Кошик занадто великий.",
+        "cart_attributes_error": "Атрибути кошика містять недійсні дані.",
+        "merchandise_line_transformers": {
+          "run_error": "У вашому кошику сталася помилка."
+        }
+      },
+      "storefront": {
+        "invalid_password": "Пароль невірний, спробуйте ще раз."
+      },
+      "tags": {
+        "add_articles": "Звузити пошук до статей, що також містять тег %{tag}",
+        "add_products": "Звузити вибір до продуктів, що відповідають тегу %{tag}",
+        "remove_articles": "Розширити пошук до статей, які не позначені тегом %{tag}",
+        "remove_products": "Видалити тег %{tag}"
+      }
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Дякуємо, що підписалися на нашу розсилку.",
+        "disclaimer": "Ви можете відмовитися від підписки будь-коли.",
+        "unsubscribe": "Скасувати підписку"
+      },
+      "unsubscribed": {
+        "confirmation": "Ви відписалися від нашої розсилки.",
+        "disclaimer": "Ви більше не отримуватимете від нас маркетингових оновлень. Ви можете підписатися знову будь-коли.",
+        "preview": "Ви переглядаєте, що побачать клієнти після скасування підписки."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Ви підписалися на відстеження відкриттів електронною поштою.</b>",
+          "visibility": "Показники відкриття електронних листів будуть повідомлятися анонімно. Ми побачимо, чи відкривали ви електронний лист, лише як частину сукупної кількості показів відкриття електронних листів.",
+          "opt_out_html": "Ви можете <a style=\"text-decoration:underline;\" href=\"%{link}\">відмовитися</a> від відстеження відкритих електронних листів, якщо не хочете ділитися цією інформацією.",
+          "preview_bar": "Ви переглядаєте, що побачать клієнти, коли вони підпишуться на відстеження відкритої розсилки електронною поштою."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Ви відмовилися від відстеження відкриття електронної пошти.</b>",
+          "visibility": "Ми не побачимо, чи відкривали ви наші електронні листи.",
+          "opt_in_html": "<a style=\"text-decoration:underline;\" href=\"%{link}\">Підключіться</a> до відстеження відкриття електронною поштою.",
+          "preview_bar": "Ви переглядаєте, що побачать клієнти, коли відмовляться від відстеження відкриття електронної пошти."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Ми більше не відстежуємо відкриття електронних листів.</b>",
+          "privacy_policy": "Після надсилання цього електронного листа ми оновили нашу політику конфіденційності та більше не відстежуємо відкриття."
+        },
+        "track": {
+          "status_html": "<b>Повідомляється про відстеження відкриття електронних листів.</b>",
+          "visibility": "Ми побачимо лише те, чи відкрили ви електронний лист, як частину загального показника відкриття електронних листів."
+        },
+        "updated_policy": {
+          "status_html": "<b>Повідомляється про відстеження відкриття електронних листів.</b>",
+          "visibility": "Ми оновили нашу політику і тепер відстежуємо відкриття електронних листів. Показники відкриття електронних листів будуть повідомлятися анонімно. Ми бачитимемо, чи відкривали ви електронний лист, лише як частину загального показника відкриття електронних листів.",
+          "opt_out_html": "Якщо ви не хочете ділитися цією інформацією, ви можете <a style=\"text-decoration:underline;\" href=\"%{link}\">скасувати підписку.</a>"
+        }
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "В наявності",
+          "out_of_stock": "Немає в наявності"
+        }
+      },
+      "boolean": {
+        "true_label": "Так",
+        "false_label": "Ні"
+      }
+    },
+    "search": {
+      "error": "Виникла проблема із завантаженням результатів пошуку. Оновіть сторінку або спробуйте пізніше.",
+      "sorting": {
+        "relevance": "Релевантність",
+        "price_ascending": "Ціна, від низької до високої",
+        "price_descending": "Ціна, від високої до низької"
+      }
+    },
+    "page_titles": {
+      "blog_or_article_with_error": "Помилка – %{title}",
+      "products": "Продукти",
+      "shopping_cart": "Ваш кошик для покупок",
+      "account": "Обліковий запис",
+      "create_account": "Створити обліковий запис",
+      "reset_account": "Скинути обліковий запис",
+      "addresses": "Адреси",
+      "order": "Замовлення %{name}",
+      "search_results": {
+        "one": "Пошук: знайдено %{count} результатів для запиту \"%{terms}\"",
+        "other": "Пошук: знайдено %{count} результатів для запиту \"%{terms}\""
+      },
+      "collections": "Колекції",
+      "not_found": "404 Не знайдено",
+      "challenge": "Виклик",
+      "checkpoint": "Контрольно-пропускний пункт"
+    },
+    "cart": {
+      "discounts_with_count": "Застосовано знижок %{count}"
+    },
+    "challenge": {
+      "message": "Щоб продовжити, повідомте нам, що ви не робот.",
+      "error": "Ваша відповідь була неправильною, спробуйте ще раз."
+    },
+    "checkpoint": {
+      "message": "Розв’яжіть капчу, щоб продовжити",
+      "error": "Не вдалося перевірити капчу"
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Зазвичай готовий протягом 1 години",
+        "two_hours": "Зазвичай готовий через 2 години",
+        "four_hours": "Зазвичай готовий через 4 години",
+        "twenty_four_hours": "Зазвичай готовий протягом 24 годин",
+        "two_to_four_days": "Зазвичай готовий протягом 2-4 днів",
+        "five_or_more_days": "Зазвичай готовий протягом 5+ днів",
+        "zero_to_two_hours": "Зазвичай готовий через 2 години",
+        "two_to_four_hours": "Зазвичай готовий через 4 години",
+        "immediately": "Готово до самовивозу зараз",
+        "next_day": "Готовий до самовивозу наступного дня"
+      }
+    },
+    "subscriptions": {
+      "buyer_consent_product": "Цей товар є періодичною або відкладеною покупкою. Продовжуючи, я погоджуюся з %{cancellationPolicyLink} та дозволяю вам стягувати кошти з мого способу оплати за цінами, з періодичністю та датами, зазначеними на цій сторінці, доки моє замовлення не буде виконано або я не скасую його, якщо це дозволено.",
+      "buyer_consent_cart": "Один або декілька товарів у вашому кошику є періодичною або відкладеною покупкою. Продовжуючи, я погоджуюся з %{cancellationPolicyLink} та дозволяю вам стягувати кошти з мого способу оплати за цінами, з періодичністю та в дати, зазначені на цій сторінці, доки моє замовлення не буде виконано або я не скасую його, якщо це дозволено.",
+      "cancellation_policy": "політика скасування"
+    }
+  },
+  "customer_accounts": {
+    "date": {
+      "humanize": {
+        "lessThanOneHourAgo": {
+          "one": "{{count}} хвилину тому",
+          "other": "{{count}} хвилин тому"
+        },
+        "lessThanOneMinuteAgo": "Щойно",
+        "yesterday": "Вчора о {{time}}",
+        "today": "Сьогодні о {{time}}",
+        "tomorrow": "Завтра о {{time}}"
+      }
+    },
+    "enable_javascript": "Щоб переглянути свій обліковий запис, увімкніть JavaScript у налаштуваннях браузера або увійдіть за допомогою іншого браузера.",
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Приховати меню облікового запису",
+        "label": "Обліковий запис",
+        "show_accessibility_label": "Показати меню облікового запису",
+        "nav_accessibility_label": "Навігація по обліковому запису",
+        "open_menu_accessibility_label": "Відкрити навігацію облікового запису",
+        "close_menu_accessibility_label": "Закрити навігацію облікового запису",
+        "loading_message": "Завантаження навігації облікового запису"
+      },
+      "action_menu_accessibility_label": "Більше дій",
+      "close_menu_accessibility_label": "Закрити основну навігацію",
+      "contact_email_subject": "Контакт з інтернет-магазину {{shopName}}",
+      "contact_link": "Контактна інформація",
+      "delete_confirmation": {
+        "cancel": "Скасувати",
+        "delete": "Видалити"
+      },
+      "dismiss_toast": "Відхилити",
+      "document_title": "{{sectionName}} – {{shopName}} – обліковий запис",
+      "go_to_store_link": "Перейти до магазину",
+      "loading_message": "Завантаження",
+      "log_out_link": "Вийти",
+      "logout_overlay_label": "Вихід із системи...",
+      "nav_label_accessibility_label": "Основна навігація"
+    },
+    "B2B": {
+      "draft_order_details": {
+        "order_timeline": {
+          "hide_events_accessibility_label": "Приховати деталі чернетки замовлення"
+        },
+        "subtitle": "Надіслано {{date}}",
+        "title": "Замовлення {{name}}"
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Цей спосіб оплати більше не буде доступний для майбутніх покупок у цьому місці.",
+          "description_with_replacement": "Видалення цього способу оплати вплине на попередньо авторизовані платежі для цього місця. Замініть його альтернативним способом оплати, щоб продовжувати отримувати майбутні замовлення."
+        },
+        "payment_details": {
+          "order_label": "Замовлення {{name}}",
+          "draft_label": "Чернетка замовлення {{name}}"
+        }
+      },
+      "purchase_order_number": {
+        "add_accessibility_label": "Додати номер замовлення на замовлення",
+        "add_modal_title": "Додати номер замовлення на замовлення",
+        "cancel": "Скасувати",
+        "close_modal_accessibility_label": "Закрити модальне вікно номера замовлення на замовлення",
+        "discard": "Відкинути",
+        "discard_changes_modal_title": "Відхилити зміни?",
+        "edit_accessibility_label": "Редагувати номер замовлення на покупку",
+        "edit_modal_title": "Редагувати номер замовлення на покупку",
+        "empty_state": "Без номера замовлення на замовлення",
+        "modal_po_number_input_label": "Номер замовлення на замовлення",
+        "modal_po_number_input_max_length_error": "Номери замовлень на замовлення можуть мати максимальну кількість символів {{maxLength}} .",
+        "save": "Зберегти",
+        "title": "Номер замовлення на замовлення {{poNumber}}"
+      }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "Виникла проблема з видаленням цієї адреси. Спробуйте ще раз або оновіть сторінку."
+      },
+      "addresses_loading_issue": {
+        "description": "Помилка підключення. Перевірте підключення до Інтернету та спробуйте ще раз."
+      },
+      "banner_title": {
+        "one": "Виникла помилка {{count}}",
+        "other": "Є {{count}} помилок"
+      },
+      "failed_address_creation": {
+        "description": "Виникла проблема зі створенням вашої адреси. Спробуйте оновити цю сторінку або перевірте підключення до Інтернету."
+      },
+      "failed_address_update": {
+        "description": "Виникла проблема з оновленням вашої адреси. Спробуйте оновити цю сторінку або перевірте підключення до Інтернету."
+      },
+      "load_orders_error": {
+        "title": "Не вдалося завантажити замовлення",
+        "description": "Спробуйте ще раз або поверніться пізніше.",
+        "retry_button": "Повторити спробу"
+      },
+      "load_paypal_error": {
+        "description": "Виникла проблема із завантаженням PayPal. Спробуйте ще раз."
+      },
+      "logout_everywhere": {
+        "description": "Щось пішло не так під час виходу. Спробуйте ще раз."
+      },
+      "no_access_to_locations": {
+        "description": "У вас немає доступу до жодних локацій"
+      },
+      "not_found": {
+        "description": "Перевірте URL-адресу або спробуйте ще раз через кілька хвилин.",
+        "title": "Виникла проблема із завантаженням цієї сторінки"
+      },
+      "order_not_found": {
+        "description": "Цього замовлення не існує, або у вас немає дозволу на його перегляд.",
+        "title": "Замовлення не знайдено"
+      },
+      "profile_update_error": {
+        "description": "Виникла проблема з оновленням вашого профілю. Спробуйте оновити цю сторінку або перевірте підключення до Інтернету."
+      },
+      "retry_action_label": "Повторити спробу",
+      "resend_link": {
+        "too_many_requests": "Забагато запитів. Спробуйте пізніше.",
+        "generic": "Невдалий запит"
+      },
+      "load_extension_error": {
+        "title": "Помилка",
+        "description": "Оновіть цю сторінку або спробуйте ще раз через кілька хвилин.",
+        "refresh_button": "Оновити сторінку"
+      }
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "message": "Забагато спроб",
+        "description": "Будь ласка, спробуйте ще раз через кілька хвилин"
+      }
+    },
+    "payment_methods": {
+      "title": "Способи оплати",
+      "add_payment_method_button": "Додати спосіб оплати",
+      "add_payment_method_banner": "Додайте спосіб оплати для швидшого оформлення замовлення або попередньо авторизованих послуг",
+      "no_payment_methods_banner": "Не додано жодних способів оплати",
+      "edit_payment_method_button_accessibility_label": "Редагувати {{paymentMethodName}} що закінчується на {{lastDigits}}",
+      "edit_payment_method_brand_button_accessibility_label": "Редагувати {{paymentMethodName}}",
+      "delete_payment_method_button": "Видалити",
+      "delete_payment_method_button_accessibility_label": "Видалити {{paymentMethodName}}",
+      "back_button": "Назад",
+      "back_button_accessibility_label": "Назад до {{paymentMethodStepTitle}}",
+      "default": "За замовчуванням",
+      "generic_card": "Картка",
+      "expiration_warning_button_accessibility_label": "Показати попередження про закінчення терміну дії для {{paymentMethodName}} що закінчується на {{lastDigits}}",
+      "expires_soon": "Термін дії цієї картки скоро закінчується",
+      "expired": "Термін дії цієї картки закінчився",
+      "card_update_consent": "Цей спосіб оплати буде збережено для майбутніх покупок.",
+      "card_update_consent_subscriptions": "Цей спосіб оплати буде збережено для майбутніх покупок і може бути використаний для будь-яких регулярних або відкладених покупок.",
+      "digital_wallet_title": "Цифровий гаманець",
+      "credit_or_debit_card_title": "Кредитна або дебетова картка",
+      "google_pay": {
+        "iframe_title_accessibility_label": "Додати спосіб оплати Google Pay",
+        "loading_accessibility_message": "Завантаження Google Pay",
+        "loading": "Завантаження Google Pay",
+        "errors": {
+          "generic": "Виникла проблема з Google Pay. Спробуйте ще раз або скористайтеся іншим способом оплати.",
+          "missing_billing_address": "Для Google Pay потрібна платіжна адреса. Додайте її до свого облікового запису."
+        }
+      },
+      "pay_pal": {
+        "iframe_title_accessibility_label": "Додати спосіб оплати PayPal",
+        "loading_accessibility_message": "Завантаження PayPal"
+      },
+      "apple_pay": {
+        "loading": "Завантаження Apple Pay",
+        "errors": {
+          "generic": "Виникла проблема з Apple Pay. Спробуйте ще раз або скористайтеся іншим способом оплати.",
+          "not_available": "Apple Pay недоступний на цьому пристрої.",
+          "missing_billing_address": "Apple Pay вимагає платіжної адреси. Додайте її до свого облікового запису."
+        }
+      },
+      "store_credit": {
+        "label": "Кредит магазину",
+        "accesibility_label": "Кредит магазину - {{formattedBalance}}",
+        "expirable_amounts_button": "Переглянути термін дії",
+        "expirable_amounts_label": "Термін дії",
+        "details_modal": {
+          "title": "Термін дії магазинного кредиту закінчується",
+          "balance_label": "Баланс",
+          "expiration_date_label": "Термін дії",
+          "amount_label": "Сума",
+          "date_label": "Дата",
+          "event_label": "Подія",
+          "events": {
+            "adjustment": "Коригування",
+            "order_payment": "Оплата замовлення",
+            "order_refund": "Повернення коштів за замовлення",
+            "payment_failure": "Помилка оплати",
+            "payment_returned": "Платіж повернуто",
+            "order_cancellation": "Скасування замовлення",
+            "tax_finalization": "Фіналізація податку"
+          },
+          "expirable_balance_info": "Термін дії частини вашого балансу закінчиться в майбутньому",
+          "expirable_amount_label": "Загальна сума, що закінчується",
+          "expirable_amounts_info": "Суми, термін дії яких закінчується раніше, застосовуються першими під час оформлення замовлення",
+          "expirable_amounts_button": "Переглянути",
+          "expired_amounts_button": "Переглянути прострочені суми",
+          "pagination": {
+            "load_more_label": "Завантажити більше",
+            "load_more_accessibility_label": "Завантажити більше термінів дії"
+          }
+        }
+      },
+      "payment_details": {
+        "title": "Деталі способу оплати"
+      }
     }
   }
 }
