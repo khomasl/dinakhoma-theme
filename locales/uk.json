@@ -1659,7 +1659,28 @@
           }
         },
         "unshippable_product": {
-          "title": "Доставка недоступна"
+          "title": "Доставка недоступна",
+          "header": {
+            "one": "Доставка для %{count} товару недоступна",
+            "other": "Доставка недоступна для %{count} товарів"
+          },
+          "message": {
+            "one": "Цей товар буде видалено з вашого кошика, оскільки для вашої адреси немає доступних способів доставки.",
+            "other": "Ці товари будуть видалені з вашого кошика, оскільки для вашої адреси немає доступних способів доставки."
+          },
+          "status_column_header": "Без доставки"
+        },
+        "price_update": {
+          "title": "Оновлення ціни",
+          "description": "Ціни на ці товари змінилися та оновлені у вашому кошику."
+        },
+        "price_and_quantity_update": {
+          "title": "Оновлення ціни та кількості",
+          "description": "Ціни та доступна кількість цих товарів змінилися та оновлюються у вашому кошику."
+        },
+        "out_of_stock": {
+          "description": "Ці товари більше не доступні та були видалені з вашого кошика.",
+          "items_unavailable": "Деякі товари більше недоступні та були видалені з вашого кошика."
         }
       },
       "order_summary": {
@@ -1772,6 +1793,133 @@
         "expand_component_information": {
           "one": "Показати %{count} елемент",
           "other": "Показати %{count} елементів"
+        },
+        "title": "Зведення замовлення",
+        "group_title_label": "Частина \"%{group_title}\"",
+        "number_items": {
+          "one": "%{count} елемент",
+          "other": "%{count} елементів"
+        },
+        "view_all_items": {
+          "one": "Переглянути %{count} елемент",
+          "other": "Переглянути всі %{count} елементи"
+        },
+        "more_items_modal": {
+          "search_item": "Пошук",
+          "clear_search": "Очистити пошук",
+          "empty_results": "Не знайдено результатів для запиту \"%{searchText}\". Перевірте орфографію або використайте інше слово чи фразу.",
+          "number_items_shown": "%{shownNumber} з %{totalNumber} елементів"
+        },
+        "order_name_label": "Замовлення %{name}",
+        "shopping_cart_label": "Кошик для покупок",
+        "discount_title": "Знижка",
+        "discount_title_stacking": {
+          "one": "Знижка",
+          "other": "Знижки"
+        },
+        "discount_order_stacking": {
+          "one": "Знижка на замовлення",
+          "other": "Знижки на замовлення"
+        },
+        "discount_label": "Код знижки",
+        "discount_not_found": "Не вдалося знайти дійсну знижку, що відповідає введеному коду",
+        "discount_placeholder": "Код знижки",
+        "discount_code_applied": "Код знижки застосовано",
+        "discount_code_allocations_mismatch": "Ваш код знижки <strong style=\"text-transform:uppercase\">%{code}</strong> змінився. Перегляньте свій кошик і спробуйте ще раз.",
+        "gift_card_applied": "Подарункова карта застосована",
+        "enter_shipping_address": "Введіть адресу доставки",
+        "gift_card_title": "Подарункова карта",
+        "gift_card_label": "Подарункова карта",
+        "gift_card_placeholder": "Подарункова карта",
+        "gift_card_and_discount_title": "Код знижки або подарункова карта",
+        "gift_card_and_discount_label": "Код знижки або подарункова карта",
+        "gift_card_and_discount_placeholder": "Код знижки або подарункова карта",
+        "remove_gift_card_label": "Прозора подарункова карта",
+        "remove_discount_label": "Видалити знижку",
+        "return_restocking_fee_label": "Плата за поповнення запасів",
+        "return_shipping_fee_label": "Зворотна доставка",
+        "free_shipping_discount_label": "Безкоштовна доставка",
+        "applied_free_shipping_discount_label": "Застосовано",
+        "apply_discount_button_label": "Застосувати",
+        "applied_discount_message": "%{amount} знижки від загальної вартості замовлення",
+        "discount_has_been_applied": "Знижку застосовано",
+        "discount_has_been_removed": "Знижку видалено",
+        "gift_card_has_been_applied": "Подарункову карту застосовано",
+        "gift_card_has_been_removed": "Подарункову картку видалено",
+        "gift_card_subscriptions_notice": "Подарункові картки будуть застосовані лише до вашого першого платежу",
+        "discount_already_applied": "До цього замовлення застосовано знижку. Ви не можете додати ще одну знижку.",
+        "cart_does_not_meet_discount_requirements_notice": "Код знижки <strong style=\"text-transform:uppercase\">%{code}</strong> недійсний для товарів у вашому кошику",
+        "discount_requires_customer_notice": "Введіть інформацію про доставку, щоб застосувати код знижки <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "customer_does_not_meet_discount_requirements_notice": "Код знижки <strong style=\"text-transform:uppercase\">%{code}</strong> зараз недоступний для вас",
+        "eligible_customer_missing_notice": "Код знижки <strong style=\"text-transform:uppercase\">%{code}</strong> вимагає наявності відповідного клієнта",
+        "shipping_information_does_not_meet_discount_requirements_notice": "Код знижки <strong style=\"text-transform:uppercase\">%{code}</strong> недоступний для вашої адреси доставки",
+        "customer_already_used_once_per_customer_discount_notice": "Код знижки <strong style=\"text-transform:uppercase\">%{code}</strong> вже використано",
+        "subtotal_label": "Проміжний підсумок",
+        "subtotal_label_with_quantity": {
+          "one": "Проміжний підсумок · %{count} елемент",
+          "other": "Проміжний підсумок · %{count} елементів"
+        },
+        "shipping_label": "Доставка",
+        "pickup_label": "Самовивіз у магазині",
+        "no_pickup_location": "Немає доступних місць для видачі.",
+        "pickup_unavailable_banner_title": {
+          "one": "Немає магазинів, де можна придбати ваш товар",
+          "other": "Немає магазинів, де можна придбати ваші товари"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "Доставка на адресу",
+          "ship_to_address_instead_html": "%{посилання} замість цього"
+        },
+        "tip_label": "Чайові",
+        "calculating_shipping": "Обчислення…",
+        "calculating": "Обчислення…",
+        "shipping_default_value": "Розраховано на наступному кроці"
+      },
+      "contextual_availability": {
+        "title": {
+          "one": "Недоступний товар",
+          "other": "Недоступні товари"
+        },
+        "products_not_available": {
+          "one": "Цей товар буде видалено з вашого кошика, оскільки він недоступний у вашій країні/регіоні.",
+          "other": "Ці товари будуть видалені з вашого кошика, оскільки вони недоступні у вашій країні/регіоні."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "Цей продукт недоступний у вашій країні/регіоні.",
+          "other": "Ці продукти недоступні у вашій країні/регіоні."
+        },
+        "unavailable_label": "Недоступно"
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Цей товар недоступний для доставки до %{location_name}.",
+          "some_products_other": "Ці товари недоступні для доставки до %{location_name}.",
+          "all_products_one": "Товар у вашому кошику недоступний для доставки до %{location_name}.",
+          "all_products_other": "Товари у вашому кошику недоступні для доставки до %{location_name}."
+        },
+        "missing_country_fallback": "твоя країна",
+        "indeterminate_location_fallback": "ваше місцезнаходження",
+        "cart_updated": "Ваш кошик оновлено.",
+        "change_address_only": "Змініть адресу доставки, щоб продовжити.",
+        "change_address_or_remove": "Змініть адресу доставки або %{remove_action}.",
+        "remove_items_action": {
+          "one": "видалити недоступний товар",
+          "other": "видалити недоступні елементи"
+        },
+        "empty_cart_action": "спорожніть кошик та поверніть його до магазину",
+        "unavailable_line_item": "%{назва_продукту} / %{лабеля_варіанту}"
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "Доставка для %{count} товару недоступна",
+            "other": "Доставка недоступна для %{count} товарів"
+          },
+          "message": {
+            "one": "Цей товар буде видалено з вашого кошика, оскільки для вашої адреси немає доступних способів доставки.",
+            "other": "Ці товари будуть видалені з вашого кошика, оскільки для вашої адреси немає доступних способів доставки."
+          },
+          "label": "Без доставки"
         }
       }
     },
