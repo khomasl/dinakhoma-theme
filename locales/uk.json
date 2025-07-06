@@ -2873,6 +2873,133 @@
         }
       },
       "add_button": "Додати"
+    },
+    "payment_method_brands": {
+      "bogus": "Фальшивий"
+    },
+    "privacy_banner": {
+      "cookie_preferences_link": "Налаштування файлів cookie"
+    },
+    "shop_policies": {
+      "legal_notice": "Юридичне повідомлення",
+      "privacy_policy": "Політика конфіденційності",
+      "refund_policy": "Політика повернення коштів",
+      "shipping_policy": "Політика доставки",
+      "subscription_policy": "Політика скасування",
+      "terms_of_sale": "Умови продажу",
+      "terms_of_service": "Умови надання послуг"
+    },
+    "ui_components": {
+      "clear": "Очистити",
+      "clipboardCopied": "Скопійовано",
+      "clipboardFailedToCopy": "Не вдалося скопіювати",
+      "closeNotification": "Закрити",
+      "expandNotification": "Переглянути більше",
+      "closeModal": "Закрити",
+      "processing": "Обробка…",
+      "increase": "Збільшити {{type}}",
+      "decrease": "Зменшити {{type}}",
+      "minimumReached": "Досягнуто мінімальної суми {{value}}",
+      "maximumReached": "Досягнуто максимуму {{value}}",
+      "january": "Січень",
+      "february": "Лютий",
+      "march": "Березень",
+      "april": "Квітень",
+      "may": "Травень",
+      "june": "Червень",
+      "july": "Липень",
+      "august": "Серпень",
+      "september": "Вересень",
+      "october": "Жовтень",
+      "november": "Листопад",
+      "december": "Грудень",
+      "monday": "Понеділок",
+      "tuesday": "Вівторок",
+      "wednesday": "Середа",
+      "thursday": "Четвер",
+      "friday": "П'ятниця",
+      "saturday": "Субота",
+      "sunday": "Неділя",
+      "mondayAbbreviation": "Мо",
+      "tuesdayAbbreviation": "Вт",
+      "wednesdayAbbreviation": "Ми",
+      "thursdayAbbreviation": "Чт",
+      "fridayAbbreviation": "Пт",
+      "saturdayAbbreviation": "Сб",
+      "sundayAbbreviation": "Су",
+      "showNextMonth": "Показати наступного місяця, {{month}} {{year}}",
+      "showPreviousMonth": "Показати попередній місяць, {{month}} {{year}}",
+      "rangeStart": "Початок діапазону",
+      "inRange": "У межах досяжності",
+      "rangeEnd": "Кінець діапазону",
+      "autocompleteOptionsAvailable": {
+        "one": "Доступно {{count}} товар",
+        "other": "Доступно {{count}} товарів"
+      },
+      "removeItem": "Видалити {{label}}",
+      "removeTag": "Видалити тег",
+      "month": {
+        "one": "місяць",
+        "other": "місяці"
+      },
+      "mapClusterTitle": {
+        "one": "Кластер маркера {{number}}",
+        "other": "Кластер маркерів {{number}}"
+      },
+      "expandSheet": "Розгорнути",
+      "qrCode": "QR-код",
+      "addFile": "Додати файл",
+      "dropzoneInvalidFileType": "Тип файлу не підтримується",
+      "dropzoneDraggedOver": "Перетягніть файл для завантаження"
+    },
+    "profile_preview_bar": {
+      "customize_button": "Налаштувати",
+      "hide_bar": "Приховати панель",
+      "navigate_to_admin": "Перейти до адміністратора",
+      "close_preview": "Закрити попередній перегляд",
+      "previewing": "Ви переглядаєте:",
+      "saved_at": "Збережено {{date}} о {{time}}",
+      "viewing": "Ви переглядаєте:",
+      "not_available": "Дані профілю недоступні",
+      "actions_button": "Дії"
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "Виберіть розширення з назвою {{extensionName}}",
+        "unselect": "Зніміть вибір розширення з назвою {{extensionName}}",
+        "move_down": "Перемістити розширення на наступну позицію",
+        "move_up": "Перемістити розширення на попереднє місце",
+        "remove": "Видалити розширення",
+        "move_down_tooltip": "Перейти до наступної позиції",
+        "move_up_tooltip": "Перейти до попередньої позиції",
+        "remove_tooltip": "Видалити"
+      }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "Це посилання не можна відкрити в редакторі. Воно відкриється в новому вікні ( {{resolved_to_link}} ). Натисніть кнопку «ОК», щоб продовжити."
+    },
+    "settings": {
+      "title": "Налаштування",
+      "loading_accessibility_message": "Завантаження сторінки налаштувань",
+      "log_out_everywhere": {
+        "title": "Вийти з системи всюди",
+        "description": "Якщо ви втратили пристрій або маєте проблеми з безпекою, вийдіть із системи всюди, щоб забезпечити безпеку свого облікового запису.",
+        "button": "Вийти з системи всюди",
+        "warning_message": "Ви також вийдете з системи на цьому пристрої."
+      }
+    },
+    "shop_ads": {
+      "title": "Ексклюзивні пропозиції від магазину",
+      "subtitle": "Доступно протягом обмеженого часу",
+      "button": "Ознайомитися з магазином",
+      "previous_button": "Попередній",
+      "next_button": "Далі"
+    },
+    "knowledge_base": {
+      "self_serve_returns": {
+        "enabled": "Клієнти можуть самостійно запитувати та керувати поверненнями.",
+        "disabled": "Щоб подати запит на повернення товару, клієнти повинні зв'язатися з продавцем."
+      }
     }
   },
   "fields": {
@@ -3061,7 +3188,12 @@
     "slideshow_play": "Відтворити слайд-шоу",
     "slideshow_previous": "Попередній слайд",
     "unit_price": "Ціна за одиницю",
-    "find_country": "Знайти країну"
+    "find_country": "Знайти країну",
+    "account": "Відкрити випадаюче меню облікового запису",
+    "cart_count": "Всього товарів у кошику",
+    "close_dialog": "Закрити діалогове вікно",
+    "country_region": "Країна/регіон",
+    "country_results_count": "{{ count }} результатів"
   },
   "actions": {
     "add": "Додати",
