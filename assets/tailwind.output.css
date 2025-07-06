@@ -263,9 +263,6 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
-  .bg-amber-950 {
-    background-color: var(--color-amber-950);
-  }
   .text-left {
     text-align: left;
   }
