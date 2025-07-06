@@ -1799,7 +1799,15 @@
       "name": "Ім'я",
       "post": "Опублікувати коментар",
       "success_moderated": "Коментар опубліковано, очікує на модерацію",
-      "success": "Коментар опубліковано"
+      "success": "Коментар опубліковано",
+      "email": "Електронна пошта",
+      "error": "Не вдалося опублікувати коментар. Будь ласка, вирішіть наступне:"
+    },
+    "article": {
+      "comments_heading": {
+        "one": "{{ count }} коментар",
+        "other": "{{ count }} коментарів"
+      }
     }
   },
   "content": {
@@ -1904,5 +1912,120 @@
     "product_count": "Кількість товарів",
     "errors": "Помилки",
     "wrong_password": "Неправильний пароль"
+  },
+  "accessibility": {
+    "discount": "Застосувати код знижки",
+    "discount_applied": "Застосований код знижки: {{ code }}",
+    "filters": "Фільтри",
+    "filter_count": {
+      "one": "Застосовано фільтр {{ count }}",
+      "other": "Застосовано фільтрів: {{ count }}"
+    },
+    "inventory_status": "Стан інвентарю",
+    "localization_region_and_language": "Відкрити вибір регіону та мови",
+    "menu": "Меню",
+    "new_window": "Відкривається в новому вікні.",
+    "open_cart_drawer": "Відкрити шухляду кошика",
+    "open_search_modal": "Відкрити модальне вікно пошуку",
+    "pause_video": "Призупинити відео",
+    "play_model": "Відтворити 3D-модель",
+    "play_video": "Відтворити відео",
+    "loading_product_recommendations": "Завантаження рекомендацій щодо товарів",
+    "remove_item": "Видалити {{ title}}",
+    "reset_search": "Скинути пошук",
+    "scroll_to": "Прокрутіть до {{ title }}",
+    "search_results_count": "Знайдено {{ count }} результатів пошуку для запиту \" {{ query }} \"",
+    "search_results_no_results": "Не знайдено результатів для запиту \" {{ query }} \"",
+    "skip_to_product_info": "Перейти до інформації про продукт",
+    "skip_to_results_list": "Перейти до списку результатів",
+    "skip_to_text": "Перейти до змісту",
+    "slide_status": "Слайд {{ index }} розміром {{ length }}",
+    "slideshow_next": "Наступний слайд",
+    "slideshow_pause": "Призупинити слайд-шоу",
+    "slideshow_play": "Відтворити слайд-шоу",
+    "slideshow_previous": "Попередній слайд",
+    "unit_price": "Ціна за одиницю",
+    "find_country": "Знайти країну"
+  },
+  "actions": {
+    "add": "Додати",
+    "add_to_cart": "Додати до кошика",
+    "added": "Додано",
+    "apply": "Застосувати",
+    "back": "Назад",
+    "choose": "Виберіть",
+    "clear": "Очистити",
+    "clear_all": "Очистити все",
+    "close": "Закрити",
+    "continue_shopping": "Продовжити покупки",
+    "enter_password": "Введіть пароль",
+    "log_in_html": "Маєте обліковий запис? <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">Увійдіть</a> , щоб швидше оформити замовлення.",
+    "log_in": "Увійти",
+    "log_out": "Вийти",
+    "open_image_in_full_screen": "Відкрити зображення на весь екран",
+    "remove": "Видалити",
+    "remove_discount": "Видалити знижку {{ code }}",
+    "see_items": {
+      "one": "Див. {{ count }} товар",
+      "other": "Див. {{ count }} товарів"
+    },
+    "show_filters": "Фільтр",
+    "show_less": "Показати менше",
+    "show_more": "Показати більше",
+    "sign_in_options": "Інші варіанти входу",
+    "view_in_your_space": "Перегляд у вашому просторі",
+    "more": "Більше",
+    "zoom": "Збільшити",
+    "close_dialog": "Закрити діалогове вікно",
+    "reset": "Скинути",
+    "enter_using_password": "Вхід за допомогою пароля",
+    "view_store_information": "Переглянути інформацію про магазин",
+    "sort": "Сортувати"
+  },
+  "blocks": {
+    "contact_form": {
+      "name": "Ім'я",
+      "email": "Електронна пошта",
+      "phone": "Телефон",
+      "comment": "Коментар",
+      "post_success": "Дякуємо, що звернулися до нас. Ми зв'яжемося з вами якомога швидше.",
+      "error_heading": "Будь ласка, відрегулюйте наступне:"
+    },
+    "email_signup": {
+      "label": "Електронна пошта",
+      "placeholder": "Адреса електронної пошти",
+      "success": "Дякуємо за підписку!"
+    },
+    "filter": "Фільтр",
+    "load_video": "Завантажити відео: {{ description }}",
+    "sold_out": "Розпродано",
+    "unit_price": {
+      "per_item": {
+        "single": "{{price}} за штуку",
+        "one": "{{price}} за {{count}} товар",
+        "other": "{{price}} за {{count}} товарів"
+      },
+      "unit": {
+        "mg": "мг",
+        "kg": "кг",
+        "ml": "мл",
+        "cl": "кл",
+        "m3": "м³",
+        "mm": "мм",
+        "cm": "см",
+        "m2": "м²",
+        "oz": "унція",
+        "lb": "фунт",
+        "floz": "рідких унцій",
+        "pt": "пт",
+        "gal": "дівчина",
+        "in": "в",
+        "ft": "футів",
+        "yd": "ярдів",
+        "ft2": "фут²",
+        "item": "елемент"
+      }
+    },
+    "payment_methods": "Способи оплати"
   }
 }
