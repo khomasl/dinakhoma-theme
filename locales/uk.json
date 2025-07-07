@@ -476,7 +476,7 @@
         "split_shipping_option_custom": "Користувацька",
         "shipping_method_title": "Спосіб доставки",
         "title": "Доставка",
-        "delivery_title": "Адреса доставки",
+        "delivery_title": "Дані для доставки",
         "free_rate_label": "Безкоштовно"
       },
       "localized_fields": {
