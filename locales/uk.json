@@ -1802,8 +1802,8 @@
           "other": "%{count} товарів"
         },
         "view_all_items": {
-          "one": "Переглянути %{count} елемент",
-          "other": "Переглянути всі %{count} елементи"
+          "one": "Переглянути %{count} товар",
+          "other": "Переглянути всі %{count} товари"
         },
         "more_items_modal": {
           "search_item": "Пошук",
