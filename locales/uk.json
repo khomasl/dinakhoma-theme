@@ -2797,7 +2797,7 @@
         "show_order_actions_accessibility_label": "Показати дії замовлення {{name}}",
         "column_headers": {
           "order": "Замовлення",
-          "items": "Елементи",
+          "items": "Товари",
           "total": "Всього",
           "actions_accessibility_label": "Дії",
           "products_accessibility_label": "Продукти"
