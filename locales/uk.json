@@ -3585,7 +3585,9 @@
         "m": "м"
       },
       "per_unit_accessibility": {
-        "other": "{{price}} за {{count}}{{unit}}"
+        "other": "{{price}} за {{count}}{{unit}}",
+        "single": "{{price}} за {{unit}}",
+        "one": "{{price}} за {{count}}{{unit}}"
       }
     },
     "payment_methods": "Способи оплати"
