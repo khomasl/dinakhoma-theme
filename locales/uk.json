@@ -473,7 +473,8 @@
         "split_shipping_option_lowest_price": "Найнижча ціна",
         "split_shipping_option_fastest": "Найшвидший",
         "split_shipping_option_recommended": "Рекомендовано",
-        "split_shipping_option_custom": "Користувацька"
+        "split_shipping_option_custom": "Користувацька",
+        "shipping_method_title": "Спосіб доставки"
       },
       "localized_fields": {
         "additional_information": {
