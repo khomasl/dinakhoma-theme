@@ -3061,7 +3061,7 @@
         "pickup_location": "Місце отримання",
         "pickup_point": "Пункт видачі"
       },
-      "show_items": "Показати елементи",
+      "show_items": "Показати товари",
       "show_order_summary": "Показати зведення замовлення",
       "hide_order_summary": "Приховати зведення замовлення",
       "subtitle": "Підтверджено {{date}}",
