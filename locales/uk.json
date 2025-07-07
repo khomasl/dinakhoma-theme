@@ -1792,8 +1792,8 @@
         "full_price": "Повна ціна: %{price}",
         "custom_discount": "Спеціальна знижка",
         "expand_component_information": {
-          "one": "Показати %{count} елемент",
-          "other": "Показати %{count} елементів"
+          "one": "Показати %{count} товар",
+          "other": "Показати %{count} товарів"
         },
         "title": "Зведення замовлення",
         "group_title_label": "Частина \"%{group_title}\"",
