@@ -2316,7 +2316,11 @@
         "lessThanOneMinuteAgo": "Щойно",
         "yesterday": "Вчора о {{time}}",
         "today": "Сьогодні о {{time}}",
-        "tomorrow": "Завтра о {{time}}"
+        "tomorrow": "Завтра о {{time}}",
+        "lessThanOneYearAgo": "{{date}} о {{time}}",
+        "lessThanOneWeekAgo": "{{weekday}} о {{time}}",
+        "lessThanOneWeekAway": "{{weekday}} о {{time}}",
+        "lessThanOneYearAway": "{{date}} о {{time}}"
       }
     },
     "enable_javascript": "Щоб переглянути свій обліковий запис, увімкніть JavaScript у налаштуваннях браузера або увійдіть за допомогою іншого браузера.",
