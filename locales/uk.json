@@ -3501,7 +3501,8 @@
     "cart_count": "Всього товарів у кошику",
     "close_dialog": "Закрити діалогове вікно",
     "country_region": "Країна/регіон",
-    "country_results_count": "{{ count }} результатів"
+    "country_results_count": "{{ count }} результатів",
+    "cart": "Кошик"
   },
   "actions": {
     "add": "Додати",
