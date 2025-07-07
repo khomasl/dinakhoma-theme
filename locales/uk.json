@@ -474,7 +474,10 @@
         "split_shipping_option_fastest": "Найшвидший",
         "split_shipping_option_recommended": "Рекомендовано",
         "split_shipping_option_custom": "Користувацька",
-        "shipping_method_title": "Спосіб доставки"
+        "shipping_method_title": "Спосіб доставки",
+        "title": "Доставка",
+        "delivery_title": "Адреса доставки",
+        "free_rate_label": "Безкоштовно"
       },
       "localized_fields": {
         "additional_information": {
