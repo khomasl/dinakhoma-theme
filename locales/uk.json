@@ -1798,8 +1798,8 @@
         "title": "Зведення замовлення",
         "group_title_label": "Частина \"%{group_title}\"",
         "number_items": {
-          "one": "%{count} елемент",
-          "other": "%{count} елементів"
+          "one": "%{count} товар",
+          "other": "%{count} товарів"
         },
         "view_all_items": {
           "one": "Переглянути %{count} елемент",
