@@ -3475,7 +3475,9 @@
     "errors": "Помилки",
     "wrong_password": "Неправильний пароль",
     "account_orders": "Замовлення",
-    "cart_title": "Кошик"
+    "cart_title": "Кошик",
+    "search_results_view_all": "Показати все",
+    "search_results_view_all_button": "Показати все"
   },
   "accessibility": {
     "discount": "Застосувати код знижки",
