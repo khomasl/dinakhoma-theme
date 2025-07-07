@@ -3536,7 +3536,9 @@
     "reset": "Скинути",
     "enter_using_password": "Вхід за допомогою пароля",
     "view_store_information": "Переглянути інформацію про магазин",
-    "sort": "Сортувати"
+    "sort": "Сортувати",
+    "view_all": "Показати все",
+    "sign_up": "Зареєструватись"
   },
   "blocks": {
     "contact_form": {
