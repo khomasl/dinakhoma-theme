@@ -2934,7 +2934,8 @@
       "list_title_confirmed_orders_accessibility_label": "Замовлення: підтверджено",
       "list_title_pending_orders_accessibility_label": "Замовлення: очікують на розгляд",
       "switch_order_type_pending_orders_accessibility_label": "Змінити тип ордера, наразі переглядаються очікувані ордери",
-      "switch_order_type_confirmed_orders_accessibility_label": "Змінити тип замовлення, наразі перегляд підтверджених замовлень"
+      "switch_order_type_confirmed_orders_accessibility_label": "Змінити тип замовлення, наразі перегляд підтверджених замовлень",
+      "list_title": "Замовлення"
     },
     "order_details": {
       "tip": "Чайові",
