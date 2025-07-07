@@ -3579,7 +3579,13 @@
         "ft": "футів",
         "yd": "ярдів",
         "ft2": "фут²",
-        "item": "елемент"
+        "item": "елемент",
+        "g": "г",
+        "l": "л",
+        "m": "м"
+      },
+      "per_unit_accessibility": {
+        "other": "{{price}} за {{count}}{{unit}}"
       }
     },
     "payment_methods": "Способи оплати"
