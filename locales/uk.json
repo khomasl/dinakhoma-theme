@@ -1940,7 +1940,8 @@
           "due_after_order_reviewed_html": "Оплата після перевірки замовлення",
           "review_title_free_order": "Перегляньте та завершіть своє замовлення",
           "payment_method_saved_company_location": "Зберегти картку для цього місця",
-          "company_location": "Розташування компанії"
+          "company_location": "Розташування компанії",
+          "shipping_method_title": "Спосіб доставки"
         },
         "block_title": "Перегляньте свою інформацію",
         "item_header": {
