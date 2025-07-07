@@ -2362,7 +2362,8 @@
       "no_locations_found": "Місцезнаходження не знайдено",
       "try_new_search": "Спробуйте новий пошук",
       "view_details": "Переглянути деталі",
-      "company_location": "Розташування компанії"
+      "company_location": "Розташування компанії",
+      "orders_link_label": "Замовлення"
     },
     "B2B": {
       "draft_order_details": {
