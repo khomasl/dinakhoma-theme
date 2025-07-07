@@ -3473,7 +3473,9 @@
     "your_cart_is_empty": "Ваш кошик порожній",
     "product_count": "Кількість товарів",
     "errors": "Помилки",
-    "wrong_password": "Неправильний пароль"
+    "wrong_password": "Неправильний пароль",
+    "account_orders": "Замовлення",
+    "cart_title": "Кошик"
   },
   "accessibility": {
     "discount": "Застосувати код знижки",
