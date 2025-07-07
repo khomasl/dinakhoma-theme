@@ -2927,7 +2927,11 @@
         },
         "status_timestamp": "Оновлено {{date}}",
         "estimated_delivery": "Очікується {{date}}",
-        "delivered": "Прибув {{date}}"
+        "delivered": "Прибув {{date}}",
+        "tracking_number": {
+          "one": "Номер для відстеження",
+          "other": "Номери для відстеження"
+        }
       },
       "list_layout_accessibility_label": "Варіанти макета",
       "list_title_with_pending_orders": "Замовлення:",
