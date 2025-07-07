@@ -1857,7 +1857,7 @@
         "customer_already_used_once_per_customer_discount_notice": "Код знижки <strong style=\"text-transform:uppercase\">%{code}</strong> вже використано",
         "subtotal_label": "Проміжний підсумок",
         "subtotal_label_with_quantity": {
-          "one": "Проміжний підсумок · %{count} елемент",
+          "one": "Проміжний підсумок · %{count} товар",
           "other": "Проміжний підсумок · %{count} елементів"
         },
         "shipping_label": "Доставка",
