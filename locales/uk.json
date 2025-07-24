@@ -327,7 +327,8 @@
         },
         "tooltip_accessibility_label": "Більше інформації",
         "qr_code": "QR-код",
-        "autocomplete_selection": "{{number}} з {{total}}"
+        "autocomplete_selection": "{{number}} з {{total}}",
+        "display_name": "{{firstName}} {{lastName}}"
       },
       "contact": {
         "title": "Інформація",
