@@ -3483,7 +3483,8 @@
     "account_orders": "Замовлення",
     "cart_title": "Кошик",
     "search_results_view_all": "Показати все",
-    "search_results_view_all_button": "Показати все"
+    "search_results_view_all_button": "Показати все",
+    "blog_details_separator": "|"
   },
   "accessibility": {
     "discount": "Застосувати код знижки",
