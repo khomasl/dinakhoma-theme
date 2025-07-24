@@ -987,7 +987,8 @@
             "permission_not_allowed": "Дозволити обмін вашим місцезнаходженням.",
             "permission_denied": "Не вдалося визначити ваше місцезнаходження. Спробуйте ще раз."
           }
-        }
+        },
+        "search_button": "Пошук"
       },
       "error_page": {
         "terminal": {
