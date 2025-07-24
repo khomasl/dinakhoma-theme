@@ -326,7 +326,8 @@
           "step_one": "%{shop_name} - Оформити замовлення"
         },
         "tooltip_accessibility_label": "Більше інформації",
-        "qr_code": "QR-код"
+        "qr_code": "QR-код",
+        "autocomplete_selection": "{{number}} з {{total}}"
       },
       "contact": {
         "title": "Інформація",
