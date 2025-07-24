@@ -3484,7 +3484,10 @@
     "cart_title": "Кошик",
     "search_results_view_all": "Показати все",
     "search_results_view_all_button": "Показати все",
-    "blog_details_separator": "|"
+    "blog_details_separator": "|",
+    "search_input_label": "Пошук",
+    "search_input_placeholder": "Пошук",
+    "search": "Пошук"
   },
   "accessibility": {
     "discount": "Застосувати код знижки",
