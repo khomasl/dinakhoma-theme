@@ -82,7 +82,7 @@
       class="facets facets--horizontal facets-controls-wrapper spacing-style"
       style="{% render 'spacing-style', settings: block.settings %}{% if block.settings.text_label_case == 'uppercase' %} --facet-label-transform: uppercase;{% endif %}"
     >
-      <div class="flex w-[310px] items-center justify-between ">
+      <div class="facets-filtering flex items-center justify-between">
         {% if block.settings.enable_filtering %}
           <h4 class="facets--filters-title text-2xl">{{ 'content.filters' | t }}</h4>
         {% endif %}
@@ -561,6 +561,10 @@
       width: auto;
       overflow: visible;
     }
+  }
+
+  .facets-filtering {
+    max-width: 310px;
   }
 
   .collection-wrapper:has(.collection-wrapper--full-width) .facets--vertical:not(.facets--drawer) {
