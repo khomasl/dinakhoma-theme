@@ -3346,7 +3346,8 @@
   "placeholders": {
     "password": "Пароль",
     "product_title": "Назва продукту",
-    "collection_title": "Назва колекції"
+    "collection_title": "Назва колекції",
+    "search": "Пошук"
   },
   "products": {
     "product": {
