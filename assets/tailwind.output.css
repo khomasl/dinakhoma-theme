@@ -10,14 +10,18 @@
     --color-amber-500: oklch(76.9% 0.188 70.08);
     --color-yellow-300: oklch(90.5% 0.182 98.111);
     --color-green-400: oklch(79.2% 0.209 151.711);
+    --color-green-500: oklch(72.3% 0.219 149.579);
     --color-violet-400: oklch(70.2% 0.183 293.541);
     --color-violet-500: oklch(60.6% 0.25 292.717);
+    --color-gray-200: oklch(92.8% 0.006 264.531);
     --color-gray-400: oklch(70.7% 0.022 261.325);
+    --color-gray-600: oklch(44.6% 0.03 256.802);
     --color-gray-800: oklch(27.8% 0.033 256.848);
     --color-gray-900: oklch(21% 0.034 264.665);
     --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
+    --container-3xl: 48rem;
     --text-sm: 0.875rem;
     --text-sm--line-height: calc(1.25 / 0.875);
     --text-base: 1rem;
@@ -282,6 +286,9 @@
   .mb-10 {
     margin-bottom: calc(var(--spacing) * 10);
   }
+  .ml-auto {
+    margin-left: auto;
+  }
   .line-clamp-12 {
     overflow: hidden;
     display: -webkit-box;
@@ -342,6 +349,21 @@
   .w-60 {
     width: calc(var(--spacing) * 60);
   }
+  .w-\[100px\] {
+    width: 100px;
+  }
+  .w-\[300px\] {
+    width: 300px;
+  }
+  .w-\[310px\] {
+    width: 310px;
+  }
+  .w-\[320px\] {
+    width: 320px;
+  }
+  .w-\[350px\] {
+    width: 350px;
+  }
   .w-fit {
     width: fit-content;
   }
@@ -353,6 +375,9 @@
   }
   .max-w-\[650px\] {
     max-width: 650px;
+  }
+  .min-w-3xl {
+    min-width: var(--container-3xl);
   }
   .flex-shrink {
     flex-shrink: 1;
@@ -410,6 +435,9 @@
   .justify-center {
     justify-content: center;
   }
+  .justify-start {
+    justify-content: flex-start;
+  }
   .justify-items-center {
     justify-items: center;
   }
@@ -458,6 +486,25 @@
   .border-2 {
     border-style: var(--tw-border-style);
     border-width: 2px;
+  }
+  .border-b {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 1px;
+  }
+  .border-amber-500 {
+    border-color: var(--color-amber-500);
+  }
+  .border-gray-200 {
+    border-color: var(--color-gray-200);
+  }
+  .border-gray-400 {
+    border-color: var(--color-gray-400);
+  }
+  .border-gray-600 {
+    border-color: var(--color-gray-600);
+  }
+  .border-green-500 {
+    border-color: var(--color-green-500);
   }
   .border-b-violet-400 {
     border-bottom-color: var(--color-violet-400);
@@ -529,6 +576,10 @@
   .text-3xl {
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-3xl--line-height));
+  }
+  .text-5xl {
+    font-size: var(--text-5xl);
+    line-height: var(--tw-leading, var(--text-5xl--line-height));
   }
   .text-lg {
     font-size: var(--text-lg);
