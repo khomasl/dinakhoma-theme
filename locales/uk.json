@@ -3490,7 +3490,9 @@
     "blog_details_separator": "|",
     "search_input_label": "Пошук",
     "search_input_placeholder": "Пошук",
-    "search": "Пошук"
+    "search": "Пошук",
+    "pickup_ready_in": "{{ pickup_time }}",
+    "price": "Ціна"
   },
   "accessibility": {
     "discount": "Застосувати код знижки",
