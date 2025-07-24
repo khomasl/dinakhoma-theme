@@ -1,4 +1,3 @@
-
 {% doc %}
   Renders the facet filtering component
 
@@ -83,14 +82,16 @@
       class="facets facets--horizontal facets-controls-wrapper spacing-style"
       style="{% render 'spacing-style', settings: block.settings %}{% if block.settings.text_label_case == 'uppercase' %} --facet-label-transform: uppercase;{% endif %}"
     >
-      {% if block.settings.enable_filtering %}
-        <h4 class="facets--filters-title">{{ 'content.filters' | t }}</h4>
-      {% endif %}
+      <div class="facets-filtering flex items-center justify-between">
+        {% if block.settings.enable_filtering %}
+          <h4 class="facets--filters-title text-2xl">{{ 'content.filters' | t }}</h4>
+        {% endif %}
 
-      <div class="products-count-wrapper">
-        <span title="{{ 'content.product_count' | t }}">
-          {{- 'content.item_count' | t: count: products_count -}}
-        </span>
+        <div class="products-count-wrapper font-bold">
+          <span title="{{ 'content.product_count' | t }}">
+            {{- 'content.item_count' | t: count: products_count -}}
+          </span>
+        </div>
       </div>
 
       {% if block.settings.enable_sorting %}
@@ -109,6 +110,7 @@
       {% endif %}
     </div>
   {% endif %}
+
   {% if should_show_pane %}
     <div
       class="
@@ -246,6 +248,7 @@
       </div>
     </div>
   {% endif %}
+
   <div
     class="facets-toggle{% if block.settings.enable_filtering == false %} facets-toggle--no-filters{% endif %}{% if block.settings.filter_style == 'horizontal' and block.settings.inherit_color_scheme == false %} color-{{ block.settings.color_scheme }}{% endif %}"
     style="
@@ -558,6 +561,10 @@
       width: auto;
       overflow: visible;
     }
+  }
+
+  .facets-filtering {
+    max-width: 310px;
   }
 
   .collection-wrapper:has(.collection-wrapper--full-width) .facets--vertical:not(.facets--drawer) {

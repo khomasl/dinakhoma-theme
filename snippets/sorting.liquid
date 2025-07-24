@@ -10,7 +10,7 @@
 {% enddoc %}
 
 <sorting-filter-component
-  class="sorting-filter{% if filter_style == 'horizontal' %} sorting-filter__horizontal{% endif %}"
+  class="sorting-filter {% if filter_style == 'horizontal' %} sorting-filter__horizontal {% endif %}"
   on:change="/updateFilterAndSorting"
   data-sort-position="{{ suffix }}"
   data-should-use-select-on-mobile="{{ should_use_select_on_mobile }}"
@@ -179,6 +179,9 @@
   .sorting-filter {
     @media screen and (width >= 750px) {
       z-index: var(--facets-upper-z-index);
+      display: flex;
+      align-items: center;
+      margin-left: auto;
     }
   }
 
@@ -306,7 +309,8 @@
     overflow-y: clip;
     opacity: 0;
     interpolate-size: allow-keywords;
-    transition: content-visibility var(--animation-speed-slow) allow-discrete,
+    transition:
+      content-visibility var(--animation-speed-slow) allow-discrete,
       padding-block var(--animation-speed-slow) var(--animation-easing),
       opacity var(--animation-speed-slow) var(--animation-easing),
       block-size var(--animation-speed-slow) var(--animation-easing);
