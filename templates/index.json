@@ -1000,6 +1000,7 @@
             },
             "product_list_button_N8pfAg": {
               "type": "_product-list-button",
+              "disabled": true,
               "settings": {
                 "label": "View all",
                 "collection": "{{ closest.collection }}",
