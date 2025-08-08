@@ -976,7 +976,7 @@
             "product_list_text_qLCTNF": {
               "type": "_product-list-text",
               "settings": {
-                "text": "<h1><strong>НАЙОСТАННІШІ КОЛЕКЦІЇ</strong></h1>",
+                "text": "<h1><strong>НАЙОСТАННІШІ ВИРОБИ</strong></h1>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1000,6 +1000,7 @@
             },
             "product_list_button_N8pfAg": {
               "type": "_product-list-button",
+              "disabled": true,
               "settings": {
                 "label": "View all",
                 "collection": "{{ closest.collection }}",
@@ -1466,6 +1467,7 @@
                 "text_brbMk7": {
                   "type": "text",
                   "name": "Description",
+                  "disabled": true,
                   "settings": {
                     "text": "{{ closest.product.description }}",
                     "width": "100%",
