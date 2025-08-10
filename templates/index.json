@@ -1268,6 +1268,7 @@
         "header": "ПРО МЕНЕ",
         "title": "Майстерність поєднується з елегантністю",
         "description": "Кожен виріб виготовлено вручну, поєднуючи традиції та сучасність. Відчуйте розкіш моїх ексклюзивних колекцій.",
+        "image": "shopify://shop_images/about.jpg",
         "button_link": "shopify://collections",
         "button_text": "Дивитись колекцію"
       }
@@ -1279,6 +1280,7 @@
         "header": "ОСОБЛИВОСТІ",
         "title": "Досвід та якісні матеріали",
         "description": "Більше 10 років досвіду. Використовую тільки якісні матеріали.",
+        "image": "shopify://shop_images/features.jpg",
         "button_link": "shopify://policies/privacy-policy",
         "button_text": "Дізнатись більше"
       }
