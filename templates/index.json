@@ -72,7 +72,7 @@
     "hero_slider_Nk3pMQ": {
       "type": "hero-slider",
       "settings": {
-        "src": "shopify://shop_images/hero-0_5.jpg",
+        "src": "shopify://shop_images/hero.jpg",
         "title": "Доповніть свій стиль унікальними прикрасами ручної роботи",
         "description": "Відкрийте для себе світ елегантності та стилю з унікальними прикрасами ручної роботи. Доведена до досконалості, кожна прикраса є свідченням майстерності та індивідуальності.",
         "button_link": "shopify://collections",
@@ -1268,7 +1268,7 @@
         "header": "ПРО МЕНЕ",
         "title": "Майстерність поєднується з елегантністю",
         "description": "Кожен виріб виготовлено вручну, поєднуючи традиції та сучасність. Відчуйте розкіш моїх ексклюзивних колекцій.",
-        "image": "shopify://shop_images/about_251853d5-feeb-49fb-a8b5-0db8c2afe840.jpg",
+        "image": "shopify://shop_images/about.jpg",
         "button_link": "shopify://collections",
         "button_text": "Дивитись колекцію"
       }
@@ -1280,7 +1280,7 @@
         "header": "ОСОБЛИВОСТІ",
         "title": "Досвід та якісні матеріали",
         "description": "Більше 10 років досвіду. Використовую тільки якісні матеріали.",
-        "image": "shopify://shop_images/features_de51f887-eac9-4d3f-acad-4b07a32bb0c8.jpg",
+        "image": "shopify://shop_images/features.jpg",
         "button_link": "shopify://policies/privacy-policy",
         "button_text": "Дізнатись більше"
       }

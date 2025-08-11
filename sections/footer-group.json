@@ -429,7 +429,7 @@
                               "name": "t:names.icon",
                               "settings": {
                                 "icon": "instagram",
-                                "image_upload": "shopify://shop_images/instaram-line.svg",
+                                "image_upload": "shopify://shop_images/instagram-line.svg",
                                 "width": 16,
                                 "link": "",
                                 "open_in_new_tab": true
