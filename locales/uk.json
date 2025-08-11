@@ -4315,7 +4315,7 @@
     "product_total": "Загальна сума за продукт",
     "product_badge_sold_out": "Розпродано",
     "product_badge_sale": "Розпродаж",
-    "product_card_placeholder": "Назва продукту",
+    "product_card_placeholder": "Назва виробу",
     "placeholder_image": "Зображення-заповнювач",
     "quantity": "Кількість",
     "recently_viewed_products": "Нещодавно переглянуті",
@@ -4328,7 +4328,7 @@
     "search_results_resource_articles": "Дописи в блозі",
     "search_results_resource_collections": "Колекції",
     "search_results_resource_pages": "Сторінки",
-    "search_results_resource_products": "Продукти",
+    "search_results_resource_products": "Вироби",
     "search_results_resource_products_count": {
       "one": "{{ count }} товар",
       "other": "{{ count }} товарів"
