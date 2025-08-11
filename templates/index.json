@@ -1281,7 +1281,7 @@
         "title": "Досвід та якісні матеріали",
         "description": "Більше 10 років досвіду. Використовую тільки якісні матеріали.",
         "image": "shopify://shop_images/features.jpg",
-        "button_link": "shopify://policies/privacy-policy",
+        "button_link": "shopify://pages/досвід-та-матеріали",
         "button_text": "Дізнатись більше"
       }
     },
