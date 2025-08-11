@@ -2764,7 +2764,9 @@
         "selection_continue_button": "Продовжити",
         "title": "Для якого місця ви купуєте?",
         "clear_search": "Очистити пошук",
-        "try_new_search": "Спробуйте новий пошук"
+        "try_new_search": "Спробуйте новий пошук",
+        "description_switch_later": "Ви завжди можете переключитися пізніше",
+        "title_choose_location": "Виберіть місцезнаходження"
       },
       "addresses": {
         "add_billing_address_button": "Додати платіжну адресу",
@@ -2802,7 +2804,8 @@
         },
         "order_list_column_headers_location": "Розташування",
         "order_list_column_headers_status": "Статус",
-        "removed_company_contact_tooltip": "Вилучено з компанії"
+        "removed_company_contact_tooltip": "Вилучено з компанії",
+        "order_list_column_headers_contact": "Контакти"
       }
     },
     "errors": {
@@ -2938,7 +2941,30 @@
         }
       },
       "payment_details": {
-        "title": "Деталі способу оплати"
+        "title": "Деталі способу оплати",
+        "credit_card_details_accessibility_label": "закінчується на {{lastDigits}}",
+        "billing_title": "Платіжна адреса",
+        "card_info_title": "Інформація про картку",
+        "payment_method_expiring_on": "Термін дії закінчується {{expiryDate}}",
+        "payment_method_expired_on": "Термін дії закінчився {{expiryDate}}",
+        "preauthorized_payments": "Попередньо авторизовані платежі",
+        "close_payment_modal": "Закрити",
+        "close_payment_modal_accessibility_label": "Закрити модальне вікно з інформацією про спосіб оплати",
+        "payment_method_not_found_error": "Не вдалося знайти спосіб оплати",
+        "payment_details_loading": "Завантаження даних способу оплати",
+        "pre_authorized_payments": "Попередньо авторизовані платежі",
+        "total_amount_of_subscription_line_items_left": "та ще {{total}}",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "Всього товарів: {{totalItems}} , відображається {{totalItemsToDisplay}} товарів.",
+        "next_payment_due": "Наступний платіж сплачено {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button": "Редагувати",
+        "edit_payment_method_button_accessibility_label": "Редагувати спосіб оплати, номер якого закінчується на {{lastDigits}}",
+        "loading_shop_pay": "Завантаження оплати магазину",
+        "invalid_payment_method": "Недійсний спосіб оплати",
+        "invalid_payment_method_message": "Використайте нову кредитну картку, щоб продовжувати отримувати майбутні замовлення.",
+        "replace_payment_method": "Замінити спосіб оплати",
+        "checkout_card_banner": "Цей спосіб оплати можна використовувати лише для попередньо авторизованих платежів. Він не відображатиметься під час оформлення замовлення, якщо ви ввійшли в цей магазин.",
+        "default_checkbox": "Встановити за замовчуванням",
+        "default_checkbox_accessibility_label": "Встановити цей спосіб оплати як спосіб за замовчуванням"
       },
       "edit_payment_method": {
         "title": "Редагувати спосіб оплати",
@@ -3243,6 +3269,53 @@
         "tracking_number": {
           "one": "Номер для відстеження",
           "other": "Номери для відстеження"
+        },
+        "delivery_promise_v2": {
+          "details_modal": {
+            "active_delivery_guarantee_label": "Доставка до {{date}}",
+            "expired_delivery_guarantee_description": "Термін дії 30-денної гарантії Shop Promise для цього замовлення закінчився.",
+            "expired_badge_label": "Термін дії минув",
+            "order_includes_guarantees_label": "Ваше замовлення включає {{deliveryAgreementsCount}} гарантій",
+            "order_includes_guarantees_description": "Shop Promise гарантує швидку та надійну доставку. Отримайте готівку від Shop Cash, якщо ваше замовлення надійде після {{date}} .",
+            "delivered_after_label": "Доставлено після {{date}}",
+            "delivered_after_description": "Оскільки ваше замовлення надійшло із запізненням, ви маєте право отримати готівку в розмірі {{amount}} .",
+            "claimed_shop_cash_description": "Оскільки це замовлення надійшло із запізненням, ви отримали готівку в розмірі {{amount}} .",
+            "eligible_to_claim_shop_cash_description": "Оскільки ваше замовлення надійшло із запізненням, ви маєте право отримати готівку в розмірі {{amount}} .",
+            "learn_more_button_label": "Дізнатися більше",
+            "claim_shop_cash_button_label": "Претендувати на готівку в магазині",
+            "view_balance_in_shop_button_label": "Переглянути баланс у магазині",
+            "scan_to_claim_shop_cash_label": "Відскануйте, щоб отримати готівку в магазині {{amount}}"
+          }
+        },
+        "delivery_promise": {
+          "promise_line": {
+            "single_brand_label": "Доставка за підтримки",
+            "mixed_brands_label": "Гарантована доставка",
+            "not_delivered_by_label": "Не доставлено до {{date}}",
+            "modal_accessibility_button_label": "Деталі обіцянки доставки"
+          },
+          "claim_shop_cash_cta": {
+            "has_shop_app_label": "Отримайте готівку з магазину",
+            "no_shop_app_label": "{{appDownloadLink}} , щоб отримати готівку в магазині",
+            "download_shop_app_label": "Завантажити магазин"
+          },
+          "details_modal": {
+            "title": "Доставка за підтримки",
+            "modal_accessiblity_label": "Деталі обіцянки доставки",
+            "delivery_guarantee_label": "Гарантія доставки",
+            "delivery_by_label": "Доставка до {{date}}",
+            "delivery_guaranteed_by_label": "Гарантована доставка до {{date}}",
+            "shop_cash_claim": {
+              "may_be_eligible_label": "Shop Promise гарантує швидку та надійну доставку. Отримайте готівку від Shop Cash, якщо ваше замовлення прибуде із запізненням.",
+              "may_be_eligible_not_authorized_label": "Ви можете мати право на отримання готівки з магазину, оскільки це замовлення надійшло із запізненням. Увійдіть, щоб переглянути деталі.",
+              "redeemed_label": "Ви вже отримали готівку з магазину, оскільки це замовлення надійшло із запізненням.",
+              "expired_label": "Це замовлення не підлягає претензії щодо затримки доставки, оскільки 30-денна гарантія закінчилася.",
+              "no_shop_cash_label": "Це замовлення не підлягає претензії щодо затримки доставки, оскільки його не було оплачено через Shop Pay.",
+              "no_longer_guaranteed_label": "Гарантія доставки на ці товари більше не поширюється.",
+              "claim_shop_cash_title": "Відскануйте, щоб отримати {{amount}} у магазині Cash",
+              "claim_shop_cash_description": "Ви можете використовувати свої гроші з Shop Cash для майбутніх покупок у додатку Shop."
+            }
+          }
         }
       },
       "list_layout_accessibility_label": "Варіанти макета",
@@ -3251,7 +3324,15 @@
       "list_title_pending_orders_accessibility_label": "Замовлення: очікують на розгляд",
       "switch_order_type_pending_orders_accessibility_label": "Змінити тип ордера, наразі переглядаються очікувані ордери",
       "switch_order_type_confirmed_orders_accessibility_label": "Змінити тип замовлення, наразі перегляд підтверджених замовлень",
-      "list_title": "Замовлення"
+      "list_title": "Замовлення",
+      "status_mark_as_delivered": "Позначити як доставлено",
+      "fulfillment_status_title": "Статус виконання: {{status}}",
+      "buy_again": "Купуйте знову",
+      "buy_again_accessibility_label": "Купити ще раз для замовлення {{orderId}}",
+      "manage": "Керувати",
+      "manage_accessiblity_label": "Керувати замовленням {{orderId}}",
+      "group_title_label": "Частина: {{groupTitle}}",
+      "group_title_label_with_parent": "Для: {{groupTitle}}"
     },
     "order_details": {
       "tip": "Чайові",
@@ -3409,7 +3490,50 @@
       "duties": "Обов'язки",
       "ok_duties_tooltip": "Це замовлення відправляється з іншої країни, тому до загальної суми вашого замовлення додано мито.",
       "error_duties_tooltip": "Це замовлення відправляється з іншої країни, тому під час доставки можуть стягуватися мита та податки.",
-      "zero_duties_tooltip": "Це замовлення відправляється з іншої країни. Мито на замовлення такої вартості не стягується."
+      "zero_duties_tooltip": "Це замовлення відправляється з іншої країни. Мито на замовлення такої вартості не стягується.",
+      "shipment_timeline": {
+        "expand_events_label": "Показати деталі",
+        "expand_events_accessibility_label": "Показати деталі доставки замовлення",
+        "hide_events_label": "Приховати деталі",
+        "hide_events_accessibility_label": "Приховати деталі доставки замовлення"
+      },
+      "addresses_section_title": "Виставлення рахунків та доставка",
+      "order_details": "Деталі замовлення",
+      "order_details_skeleton_accessibility_label": "Увійдіть, щоб переглянути всі деталі замовлення.",
+      "billing_address": "Платіжна адреса",
+      "card_ending_with": "закінчується на {{lastDigits}}",
+      "contact": "Контакти",
+      "contact_information": "Контактна інформація",
+      "company": "Компанія",
+      "company_and_location": "Компанія та місцезнаходження",
+      "fully_refunded_label": "ПОВЕРТАННЯ",
+      "group_title_label": "Частина: {{groupTitle}}",
+      "group_title_label_with_parent": "Для: {{groupTitle}}",
+      "view_controls": {
+        "gallery": "Галерея",
+        "list": "Список"
+      },
+      "grouped_view_components": {
+        "expand_line_items": "Показати {{count}} елементів",
+        "collapse_line_items": "Приховати {{count}} елементів",
+        "line_item_summary_list_accessibility_label": "Елементи в комплекті {{productTitle}}"
+      },
+      "discount": "Знижка",
+      "hide_items": "Приховати елементи",
+      "loading": "Завантаження деталей замовлення",
+      "loading_finished_accessibility_message": "Деталі замовлення завантажено",
+      "location": "Розташування",
+      "image_gallery": {
+        "next": "Показати наступні елементи",
+        "previous": "Показати попередні елементи",
+        "load_more_items": {
+          "one": "Завантажити ще {{count}} елементів",
+          "other": "Завантажити ще {{count}} елементів"
+        }
+      },
+      "due_on_date": "Термін виконання: {{date}}",
+      "due_on_fulfillment": "Підлягає виконанню",
+      "due_on_receipt": "Оплата при отриманні"
     },
     "addresses": {
       "add_button": "Додати адресу",
