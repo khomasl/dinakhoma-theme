@@ -2531,7 +2531,37 @@
         "cart_attributes_error": "Атрибути кошика містять недійсні дані.",
         "merchandise_line_transformers": {
           "run_error": "У вашому кошику сталася помилка."
-        }
+        },
+        "only_n_items_available": "Ви можете додати до кошика лише %{count} %{name}.",
+        "too_many_items_in_cart": "Ви не можете додати більше %{name} до кошика.",
+        "only_one_added_to_cart": "Через наявність до вашого кошика додано лише 1 товар.",
+        "only_n_added_to_cart": "Через наявність товарів до вашого кошика додано лише %{quantity} товарів.",
+        "maximum_available_quantity_reached": "Максимальна кількість цього товару вже є у вашому кошику.",
+        "less_than_minimum": "Цей елемент має мінімум %{min}.",
+        "more_than_maximum": "Цей елемент має максимум %{max}.",
+        "not_respect_step": "Ви можете додавати цей елемент лише з кроком %{step}.",
+        "all_items_in_cart": "Усі %{count} %{name} є у вашому кошику.",
+        "empty_update": "неможливо оновити порожній кошик",
+        "missing_parameters": "немає дійсного ідентифікатора або параметра рядка",
+        "generic_error": "Помилка кошика",
+        "invalid_input": "Параметр %{parameter} недійсний.",
+        "product_not_available": "Товар недоступний",
+        "too_many_line_items_error": "Ваш кошик не може містити більше %{max} товарів.",
+        "link_expired": "Термін дії посилання закінчився.",
+        "link_no_longer_exists": "Посилання більше не існує.",
+        "stock_problems_html": "Один або декілька товарів більше недоступні. Ми <a href=\"%{link}\">оновили кошик</a> .",
+        "changed": "Кошик змінено",
+        "items_changed": "Один або декілька елементів змінилися.",
+        "product_sold_out": "Товар '%{name}' вже розпроданий.",
+        "variant_not_found": "Не вдається знайти варіант",
+        "variant_requires_selling_plan": "Варіант можна придбати лише за допомогою плану продажу.",
+        "selling_plan_not_available_for_company_locations": "Для замовлень B2B доступна лише одноразова покупка",
+        "digital_product_not_available_for_company_locations": "Цей товар не можна додати до замовлення B2B",
+        "buyer_cannot_purchase_for_company_locations": "Ви не можете придбати товар у цьому місці",
+        "selling_plan_not_applicable": "Неможливо застосувати план продажу до варіанта",
+        "shipping_address_not_required": "Цей кошик не потребує доставки",
+        "shipping_address_invalid": "Виникла проблема з розрахунком вартості доставки. Продовжуйте оформлення замовлення, щоб вибрати вартість доставки, перш ніж завершити замовлення.",
+        "bundle_requires_components": "Комплектний продукт '%{name}' неможливо додати до кошика."
       },
       "storefront": {
         "invalid_password": "Пароль невірний, спробуйте ще раз."
@@ -2575,8 +2605,34 @@
           "pending": "Очікує на розгляд",
           "paid": "Платно",
           "unpaid": "Неоплачено",
-          "voided": "Анульовано"
-        }
+          "voided": "Анульовано",
+          "partially_paid": "Частково оплачено",
+          "partially_refunded": "Частково відшкодовано",
+          "refunded": "Повернено кошти",
+          "expired": "Термін дії минув"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Виконано",
+          "complete": "Завершено",
+          "partial": "Часткове",
+          "unfulfilled": "Невиконані",
+          "restocked": "Поповнено"
+        },
+        "transaction_status": {
+          "success": "Успіх",
+          "pending": "Очікує на розгляд",
+          "failure": "Невдача",
+          "error": "Помилка"
+        },
+        "cancel_reason": {
+          "declined": "Платіж відхилено",
+          "inventory": "Товари недоступні",
+          "fraud": "Шахрайське замовлення",
+          "customer": "Клієнт змінив/скасував замовлення",
+          "staff": "Помилка персоналу",
+          "other": "Інше"
+        },
+        "cash_on_delivery": "Готівка при отриманні (POD)"
       }
     },
     "email_marketing": {
@@ -2654,18 +2710,21 @@
       "collections": "Колекції",
       "not_found": "404 Не знайдено",
       "challenge": "Виклик",
-      "checkpoint": "Контрольно-пропускний пункт"
+      "checkpoint": "Контрольно-пропускний пункт",
+      "search": "Пошук"
     },
     "cart": {
       "discounts_with_count": "Застосовано знижок %{count}"
     },
     "challenge": {
       "message": "Щоб продовжити, повідомте нам, що ви не робот.",
-      "error": "Ваша відповідь була неправильною, спробуйте ще раз."
+      "error": "Ваша відповідь була неправильною, спробуйте ще раз.",
+      "submit_button_text": "Надіслати"
     },
     "checkpoint": {
       "message": "Розв’яжіть капчу, щоб продовжити",
-      "error": "Не вдалося перевірити капчу"
+      "error": "Не вдалося перевірити капчу",
+      "submit_button_text": "Надіслати"
     },
     "store_availability": {
       "pick_up_time": {
@@ -2882,7 +2941,8 @@
       "view_details": "Переглянути деталі",
       "company_location": "Розташування компанії",
       "orders_link_label": "Замовлення",
-      "search": "Пошук"
+      "search": "Пошук",
+      "skip_to_content": "Перейти до змісту"
     },
     "B2B": {
       "draft_order_details": {
@@ -3347,7 +3407,8 @@
             "due_without_date": "Платіж заборгований",
             "due_on_fulfillment": "Оплата після виконання",
             "pay_to_confirm": "Оплатіть для підтвердження",
-            "payment_not_due": "Платіж ще не надійшов"
+            "payment_not_due": "Платіж ще не надійшов",
+            "paid": "Платно"
           },
           "table_view": {
             "overdue": "Прострочено",
@@ -3567,7 +3628,18 @@
             "learn_more_button_label": "Дізнатися більше",
             "claim_shop_cash_button_label": "Претендувати на готівку в магазині",
             "view_balance_in_shop_button_label": "Переглянути баланс у магазині",
-            "scan_to_claim_shop_cash_label": "Відскануйте, щоб отримати готівку в магазині {{amount}}"
+            "scan_to_claim_shop_cash_label": "Відскануйте, щоб отримати готівку в магазині {{amount}}",
+            "title": "Гарантія доставки"
+          },
+          "promise_line": {
+            "shop_promise_brand_label": "Гарантія доставки",
+            "external_promise_brand_label": "Доставка до",
+            "not_delivered_by_label": "Доставлено після {{date}}",
+            "delivery_guarantee_expired_label": "Гарантія доставки закінчилася",
+            "modal_accessibility_button_label": "Деталі обіцянки доставки",
+            "download_shop_app_button_label": "Завантажити магазин для відстеження",
+            "track_with_shop_button_label": "Відстежуйте з магазином",
+            "claim_shop_cash_button_label": "Претендувати на готівку в магазині"
           }
         },
         "delivery_promise": {
@@ -3598,6 +3670,36 @@
               "claim_shop_cash_title": "Відскануйте, щоб отримати {{amount}} у магазині Cash",
               "claim_shop_cash_description": "Ви можете використовувати свої гроші з Shop Cash для майбутніх покупок у додатку Shop."
             }
+          }
+        },
+        "expected_by": "Очікується до {{date}}",
+        "was_expected_by": "Очікувалося до {{date}}",
+        "buy_with_prime_logo_accessibility_label": "Купити на Amazon з логотипом Prime",
+        "in_review_description": "Ми повідомимо вас, якщо нам знадобиться додаткова інформація або коли ваше замовлення буде підтверджено.",
+        "in_review_label": "У процесі огляду",
+        "in_review_title": "Ваше замовлення розглядається",
+        "last_updated": "Останнє оновлення: {{date}}",
+        "multiple_shipments_label": "Кілька відправлень",
+        "multiple_statuses_label": "Кілька статусів замовлення",
+        "no_tracking_number": "Для цієї відправки немає номера відстеження.",
+        "on_its_way_label": "У дорозі",
+        "on_its_way_title": "Ваша відправка вже в дорозі",
+        "out_for_delivery_label": "Доставка відправлена",
+        "out_for_delivery_title": "Ваше відправлення відправлено для доставки",
+        "resume_tracking": "Відновлення відстеження",
+        "submitted_label": "Надіслано",
+        "submitted_description": "Перегляньте деталі замовлення та оплати.",
+        "there_was_a_problem_label": "Виникла проблема",
+        "track_shipment": "Відстеження відправлення",
+        "request_return": "Запит на повернення",
+        "view_order_for_details": "Перегляньте замовлення для отримання детальної інформації",
+        "external_promise_manage_button_label": {
+          "buy_with_prime": "Керування на Amazon"
+        },
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "Керування за допомогою Amazon",
+            "new_window_disclaimer": "(відкриється нове вікно)"
           }
         }
       },
@@ -3899,7 +4001,8 @@
         "phone_number_help_text": "Номер телефону, який використовується для входу, не можна змінити",
         "save": "Зберегти",
         "save_accessibility_label": "Зберегти профіль",
-        "title": "Профіль"
+        "title": "Профіль",
+        "email": "Електронна пошта"
       },
       "profile_update_confirmation_message": "Профіль оновлено",
       "title": "Профіль",
@@ -3910,7 +4013,22 @@
           "loading_accessibility_label": "Завантаження людей"
         }
       },
-      "add_button": "Додати"
+      "add_button": "Додати",
+      "verify_new_email_modal": {
+        "title": "Підтвердити електронну пошту",
+        "description": "Введіть код, надісланий на адресу {{email}}",
+        "one_time_password_label": "6-значний код",
+        "email_resend_button": "Надіслати код повторно",
+        "email_resend_button_accessibility_label": "Повторно надіслати код підтвердження",
+        "verify_button": "Перевірити",
+        "verify_button_accessibility_label": "Підтвердьте одноразовий пароль",
+        "cancel_button": "Скасувати",
+        "cancel_button_accessibility_label": "Скасувати редагування електронної пошти"
+      },
+      "email_update_success_modal": {
+        "title": "Підтвердити електронну пошту",
+        "description": "Електронну адресу успішно оновлено. Перенаправлення для входу."
+      }
     },
     "payment_method_brands": {
       "bogus": "Фальшивий",
