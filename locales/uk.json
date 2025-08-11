@@ -4487,7 +4487,7 @@
         "g": "г",
         "l": "л",
         "m": "м",
-        "gal": "дівчина"
+        "gal": "галон"
       },
       "per_unit_accessibility": {
         "other": "{{price}} за {{count}}{{unit}}",
