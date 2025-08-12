@@ -348,6 +348,7 @@
                 "group_7xLQDW": {
                   "type": "group",
                   "name": "Return policy",
+                  "disabled": true,
                   "settings": {
                     "link": "",
                     "open_in_new_tab": false,
