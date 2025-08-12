@@ -94,7 +94,7 @@
           "button_icon": "chat_bubble",
           "button_text": "chat_with_us",
           "button_horizontal_position": "bottom_right",
-          "button_vertical_position": "highest",
+          "button_vertical_position": "higher",
           "greeting_message": "Вітаємо!\nБудь ласка звертайтесь.\nЗ радістю допоможемо з вибором."
         }
       }
@@ -118,7 +118,7 @@
           "secondary_button_background": "#0000000f",
           "secondary_button_text": "#000000",
           "secondary_button_border": "#0000000f",
-          "secondary_button_hover_background": "#333333",
+          "secondary_button_hover_background": "#74538e",
           "secondary_button_hover_text": "#ffffff",
           "secondary_button_hover_border": "#333333",
           "input_background": "#ffffffc7",
