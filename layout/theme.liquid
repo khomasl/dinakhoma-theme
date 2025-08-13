@@ -12,6 +12,7 @@
         rel="icon"
         type="image/png"
         href="{{ settings.favicon | image_url: width: 32, height: 32 }}"
+        aria-label="Setting"
       >
     {%- endif -%}
 
@@ -19,6 +20,7 @@
     <link
       rel="expect"
       href="#MainContent"
+      aria-label="Main content"
       blocking="render"
       id="view-transition-render-blocker"
     >
