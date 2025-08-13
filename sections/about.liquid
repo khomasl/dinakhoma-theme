@@ -1,6 +1,6 @@
 <section id="about" class="lg:grid grid-cols-1 lg:grid-cols-2 w-full main-container justify-center items-center">
   <div class="lg:px-0 pt-5 lg:pt-0 mb-10 lg:mb-0">
-    <div class="relative w-full h-full overflow-hidden rounded-3xl px-10 lg:px-0">
+    <div class="relative w-full h-full overflow-hidden rounded-3xl">
       {% if section.settings.image %}
         <img
           src="{{ section.settings.image | image_url }}"
@@ -9,6 +9,7 @@
           width="100%"
           height="100%"
           class="w-full h-full object-cover rounded-3xl aspect-square"
+          loading="lazy"
         >
       {% endif %}
     </div>
