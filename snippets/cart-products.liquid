@@ -20,6 +20,7 @@
     <a
       class="button cart-items__empty-button"
       href="{{ routes.all_products_collection_url }}"
+      aria-label="collections url"
     >
       {{ 'actions.continue_shopping' | t }}
     </a>
@@ -115,6 +116,7 @@
                     %}
                     <a
                       href="{{ item.url }}"
+                      aria-label="item url"
                       class="cart-items__media-container"
                       style="--ratio:{{ ratio }};"
                     >
@@ -132,6 +134,7 @@
                   <p>
                     <a
                       href="{{ item.url }}"
+                      aria-label="item url"
                       class="cart-items__title"
                     >
                       {{- item.product.title -}}

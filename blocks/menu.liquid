@@ -1,5 +1,3 @@
-
-
 {% liquid
   assign menu = block.settings.menu
   assign heading = block.settings.heading
@@ -54,7 +52,7 @@
           <ul class="list-unstyled">
             {% for link in menu.links %}
               <li class="menu__item {{ block.settings.link_preset }}">
-                <a href="{{ link.url }}">
+                <a href="{{ link.url }}" aria-label="menu item url">
                   {{ link.title }}
                 </a>
               </li>
