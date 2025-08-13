@@ -1,5 +1,3 @@
-
-
 <script
   src="{{ 'component-cart-items.js' | asset_url }}"
   type="module"
@@ -271,7 +269,7 @@
                     role="alert"
                   >
                     <span class="svg-wrapper">
-                      {{- 'icon-error.svg' | inline_asset_content -}}
+                      {% comment %} {{- 'icon-error.svg' | inline_asset_content -}} {% endcomment %}
                     </span>
                     <small
                       class="cart-item__error-text cart-primary-typography"
@@ -490,7 +488,8 @@
     opacity: 1;
     overflow: hidden;
     transform: translateY(0);
-    transition: opacity var(--drawer-animation-speed) var(--animation-easing),
+    transition:
+      opacity var(--drawer-animation-speed) var(--animation-easing),
       transform var(--drawer-animation-speed) var(--animation-easing);
 
     @starting-style {
