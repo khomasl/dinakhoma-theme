@@ -36,6 +36,8 @@
     {%- render 'theme-styles-variables' -%}
     {%- render 'color-schemes' -%}
 
+    <script type="module" src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
     {% if request.design_mode %}
       {%- render 'theme-editor' -%}
     {% endif %}
@@ -44,9 +46,8 @@
   </head>
 
   <body class="page-width-{{ settings.page_width }} card-hover-effect-{{ settings.card_hover_effect }}">
-    <script async src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
     {% render 'skip-to-content-link', href: '#MainContent', text: 'accessibility.skip_to_text' %}
+
     <div id="header-group">
       {% sections 'header-group' %}
     </div>
@@ -69,7 +70,7 @@
     {% render 'top-button' %}
 
     {% # theme-check-disable ParserBlockingScript %}
-    <script src="{{ 'critical.js' | asset_url }}"></script>
+    <script type="module" src="{{ 'critical.js' | asset_url }}"></script>
     {% # theme-check-enable ParserBlockingScript %}
 
     {% if settings.quick_add or settings.mobile_quick_add %}
