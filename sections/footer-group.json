@@ -440,7 +440,7 @@
                               "type": "text",
                               "name": "t:names.text",
                               "settings": {
-                                "text": "<p><a href=\"https://www.instagram.com/dinakhoma/\">@dinakhoma</a></p>",
+                                "text": "<p><a href=\"https://www.instagram.com/dinakhoma/\" target=\"_blank\" title=\"Instagram @dinakhoma\">@dinakhoma</a></p>",
                                 "width": "fit-content",
                                 "max_width": "normal",
                                 "alignment": "left",
@@ -523,7 +523,7 @@
                               "type": "text",
                               "name": "t:names.text",
                               "settings": {
-                                "text": "<p>Dina Khoma</p>",
+                                "text": "<p><a href=\"https://www.facebook.com/dina.khoma.5\" target=\"_blank\" title=\"https://www.facebook.com/dina.khoma.5\">Dina Khoma</a></p>",
                                 "width": "fit-content",
                                 "max_width": "normal",
                                 "alignment": "left",
@@ -606,7 +606,7 @@
                               "type": "text",
                               "name": "t:names.text",
                               "settings": {
-                                "text": "<p><a href=\"https://t.me/dina_khoma\" title=\"https://t.me/dina_khoma\">@dina_khoma</a></p>",
+                                "text": "<p><a href=\"https://t.me/dina_khoma\" target=\"_blank\" title=\"telegram https://t.me/dina_khoma \">@dina_khoma</a></p>",
                                 "width": "fit-content",
                                 "max_width": "normal",
                                 "alignment": "left",
@@ -689,7 +689,7 @@
                               "type": "text",
                               "name": "t:names.text",
                               "settings": {
-                                "text": "<p>0931070851</p>",
+                                "text": "<p><a href=\"tel:+380931070851\" target=\"_blank\" title=\"tel:+380931070851\">0931070851</a></p>",
                                 "width": "fit-content",
                                 "max_width": "normal",
                                 "alignment": "left",
@@ -704,8 +704,8 @@
                                 "background": false,
                                 "background_color": "#00000026",
                                 "corner_radius": 0,
-                                "padding-block-start": 0,
-                                "padding-block-end": 0,
+                                "padding-block-start": 2,
+                                "padding-block-end": 2,
                                 "padding-inline-start": 0,
                                 "padding-inline-end": 0
                               },
@@ -772,7 +772,7 @@
                               "type": "text",
                               "name": "t:names.text",
                               "settings": {
-                                "text": "<p>KhomaDina@gmail.com</p>",
+                                "text": "<p><a href=\"mailto:KhomaDina@gmail.com\" target=\"_blank\" title=\"email KhomaDina@gmail.com\">KhomaDina@gmail.com</a></p>",
                                 "width": "fit-content",
                                 "max_width": "normal",
                                 "alignment": "left",
