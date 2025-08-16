@@ -3,12 +3,11 @@
     <div class="relative w-14 aspect-square overflow-hidden rounded-full shrink-0">
       {% if card.settings.product.image != blank %}
         <img
-          src="{{ 'hero.jpg' | asset_url }}"
+          src="{{ card.settings.product.image | image_url }}"
           alt="{{ card.settings.product | escape }}"
           height="100%"
           width="100%"
           class="object-cover w-full h-full rounded-full"
-          loading="lazy"
         >
       {% else %}
         <img
@@ -28,4 +27,3 @@
     {{ card.type }}
   </div>
 </div>
-{% comment %} src="{{ card.settings.product.image | image_url }}" {% endcomment %}
