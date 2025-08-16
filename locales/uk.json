@@ -1673,7 +1673,9 @@
         "verify_shop_account_cta": "Підтвердьте свій обліковий запис",
         "verify_shop_account_confirmation": "Дані оформлення замовлення збережено",
         "announcement": {
-          "close": "Закрити"
+          "close": "Закрити",
+          "expand": "Розгорнути",
+          "collapse": "Згорнути"
         }
       },
       "address_management": {
