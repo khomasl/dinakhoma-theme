@@ -157,11 +157,13 @@
       "settings": {
         "collection_list": [
           "all",
-          "bracelets",
-          "chokers",
-          "earrings",
           "necklaces",
-          "pendants"
+          "pendants",
+          "cats",
+          "painting",
+          "petrikivka-painting",
+          "souvenirs",
+          "birds"
         ],
         "layout_type": "grid",
         "carousel_on_mobile": false,
