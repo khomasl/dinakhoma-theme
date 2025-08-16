@@ -1673,7 +1673,9 @@
         "verify_shop_account_cta": "Підтвердьте свій обліковий запис",
         "verify_shop_account_confirmation": "Дані оформлення замовлення збережено",
         "announcement": {
-          "close": "Закрити"
+          "close": "Закрити",
+          "expand": "Розгорнути",
+          "collapse": "Згорнути"
         }
       },
       "address_management": {
@@ -2783,7 +2785,7 @@
     "collections": {
       "sorting": {
         "manual": "Рекомендовані",
-        "best_selling": "Бестселер",
+        "best_selling": "Топ продаж",
         "az": "В алфавітному порядку, А-Я",
         "za": "В алфавітному порядку, Я-А",
         "price_ascending": "Ціна, від низької до високої",
