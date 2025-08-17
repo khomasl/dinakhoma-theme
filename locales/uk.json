@@ -4272,7 +4272,7 @@
     "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Податки включено. Знижки та <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">вартість доставки</a> розраховуються під час оформлення замовлення.",
     "duties_and_taxes_included_shipping_at_checkout_with_policy_without_discounts_html": "Податки включено. Вартість доставки розраховується під час оформлення замовлення.",
     "duties_and_taxes_included_shipping_at_checkout_without_policy": "Податки включено. Знижки та вартість доставки розраховуються під час оформлення замовлення.",
-    "duties_and_taxes_included_shipping_at_checkout_without_policy_without_discounts": "Мито та податки включено. Вартість доставки розраховується під час оформлення замовлення.",
+    "duties_and_taxes_included_shipping_at_checkout_without_policy_without_discounts": "Податки включено. Вартість доставки розраховується під час оформлення замовлення.",
     "duties_included": "Обов'язки включені.",
     "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Мито включено. Податки, знижки та <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">вартість доставки</a> розраховуються під час оформлення замовлення.",
     "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_without_discounts_html": "Мито включено. Вартість доставки розраховується при оформленні замовлення.",
