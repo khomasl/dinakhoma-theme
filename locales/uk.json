@@ -550,15 +550,15 @@
         "split_shipping_more_shipping_options": "Більше варіантів доставки",
         "split_shipping_shipment_number": "Відвантаження %{number}",
         "split_shipping_merchandise_quantity_label_inline_primary": "Кількість: %{quantity}",
-        "split_shipping_option_free": "Безкоштовна доставка",
+        "split_shipping_option_free": "Оплата за доставку у відділенні",
         "split_shipping_option_lowest_price": "Найнижча ціна",
         "split_shipping_option_fastest": "Найшвидший",
         "split_shipping_option_recommended": "Рекомендовано",
         "split_shipping_option_custom": "Користувацька",
         "shipping_method_title": "Спосіб доставки",
         "title": "Доставка",
-        "delivery_title": "Дані для доставки",
-        "free_rate_label": "Безкоштовно",
+        "delivery_title": "Дані для доставки (вкажіть відділення Нової пошти або Укпрошти)",
+        "free_rate_label": "Оплата за доставку у відділенні",
         "shipping_method_one_time_purchase_group_title": "Одноразова покупка",
         "shipping_method_first_shipment_group_title": {
           "one": "Перша відправка",
@@ -1940,11 +1940,12 @@
           "continue_purchase_in_window": "Продовжте покупку у вікні {{walletName}}",
           "and_return_to_checkout": "і повернутися до оформлення замовлення",
           "cancel": "Скасувати"
-        }
+        },
+        "connect_shipping_methods": "{{method1}} і {{method2}}"
       },
       "delivery_options": {
-        "free_total_label": "Безкоштовно",
-        "ship": "Корабель",
+        "free_total_label": "Оплата за доставку у відділенні",
+        "ship": "Доставка",
         "ship_to_address": "Доставка на адресу",
         "shipping_address": "Адреса доставки",
         "pick_up": "Забрати",
@@ -2079,7 +2080,7 @@
         "total_due_later_label": "Загальна сума до сплати пізніше",
         "partial_total_label": "Всього",
         "free_total_label": "Безкоштовно",
-        "free_shipping_total_label": "Безкоштовно",
+        "free_shipping_total_label": "Оплата за доставку у відділенні",
         "paid_label": "Платно",
         "payment_due_label": "Платіж заборгований",
         "vat_label_html": "Включаючи податки у розмірі %{amount}",
@@ -2214,7 +2215,7 @@
         "remove_discount_label": "Видалити знижку",
         "return_restocking_fee_label": "Плата за поповнення запасів",
         "return_shipping_fee_label": "Зворотна доставка",
-        "free_shipping_discount_label": "Безкоштовна доставка",
+        "free_shipping_discount_label": "Оплата за доставку у відділенні",
         "applied_free_shipping_discount_label": "Застосовано",
         "apply_discount_button_label": "Застосувати",
         "applied_discount_message": "%{amount} знижки від загальної вартості замовлення",
@@ -2233,7 +2234,7 @@
         "subtotal_label": "Проміжний підсумок",
         "subtotal_label_with_quantity": {
           "one": "Проміжний підсумок · %{count} товар",
-          "other": "Проміжний підсумок · %{count} елементів"
+          "other": "Проміжний підсумок · %{count} товарів"
         },
         "shipping_label": "Доставка",
         "pickup_label": "Самовивіз у магазині",
@@ -2261,8 +2262,8 @@
         "discount_discovery": {
           "add_code": "Додати знижку",
           "merchandise_quantity_label": {
-            "one": "%{count} елемент",
-            "other": "%{count} елементів"
+            "one": "%{count} товар",
+            "other": "%{count} товарів"
           }
         },
         "alternative_payment_currency_total": "Стягнуто як %{amount_due}"
@@ -2296,7 +2297,7 @@
         "change_address_or_remove": "Змініть адресу доставки або %{remove_action}.",
         "remove_items_action": {
           "one": "видалити недоступний товар",
-          "other": "видалити недоступні елементи"
+          "other": "видалити недоступні товари"
         },
         "empty_cart_action": "спорожніть кошик та поверніть його до магазину",
         "unavailable_line_item": "%{назва_продукту} / %{лабеля_варіанту}"
@@ -2438,7 +2439,7 @@
         "presets_description": "Виберіть відсоток чайових",
         "custom_label": "Спеціальні чайові",
         "add_tip": "Додати чайові",
-        "update_tip": "Порада щодо оновлення",
+        "update_tip": "Оновити чайові",
         "message": "Дякуємо, ми це цінуємо.",
         "no_tip_label": "Жоден"
       },
@@ -3728,8 +3729,8 @@
       "unit_price": "{{price}} /шт.",
       "pagination": {
         "load_more": "Завантажити більше",
-        "load_more_accessibility_label": "Завантажити більше елементів",
-        "loading_accessibility_label": "Завантаження елементів"
+        "load_more_accessibility_label": "Завантажити більше товарів",
+        "loading_accessibility_label": "Завантаження товарів"
       },
       "login_to_view_all_order_details": "Увійдіть, щоб переглянути всі деталі замовлення.",
       "log_in": "Увійти",
@@ -3831,7 +3832,7 @@
         "address_map_marker": "Адреса доставки",
         "method": "Спосіб доставки",
         "summary": "Доставка",
-        "free": "Безкоштовно",
+        "free": "Оплата за доставку у відділенні",
         "free_shipping_discount": "Безкоштовна доставка",
         "one_time": "Одноразова доставка",
         "subscription": "Доставка за передплатою"
@@ -3901,21 +3902,21 @@
         "list": "Список"
       },
       "grouped_view_components": {
-        "expand_line_items": "Показати {{count}} елементів",
-        "collapse_line_items": "Приховати {{count}} елементів",
-        "line_item_summary_list_accessibility_label": "Елементи в комплекті {{productTitle}}"
+        "expand_line_items": "Показати {{count}} товарів",
+        "collapse_line_items": "Приховати {{count}} товарів",
+        "line_item_summary_list_accessibility_label": "Товари в комплекті {{productTitle}}"
       },
       "discount": "Знижка",
-      "hide_items": "Приховати елементи",
+      "hide_items": "Приховати товари",
       "loading": "Завантаження деталей замовлення",
       "loading_finished_accessibility_message": "Деталі замовлення завантажено",
       "location": "Розташування",
       "image_gallery": {
-        "next": "Показати наступні елементи",
-        "previous": "Показати попередні елементи",
+        "next": "Показати наступні товари",
+        "previous": "Показати попередні товари",
         "load_more_items": {
-          "one": "Завантажити ще {{count}} елементів",
-          "other": "Завантажити ще {{count}} елементів"
+          "one": "Завантажити ще {{count}} товар",
+          "other": "Завантажити ще {{count}} товарів"
         }
       },
       "due_on_date": "Термін виконання: {{date}}",
@@ -4268,16 +4269,16 @@
     "shipping_discount_error": "Знижки на доставку відображаються під час оформлення замовлення після додавання адреси",
     "discount_code_error": "Код знижки не можна застосувати до вашого кошика",
     "discounts": "Знижки",
-    "duties_and_taxes_included": "Включаючи мита та податки.",
-    "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Мито та податки включено. Знижки та <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">вартість доставки</a> розраховуються під час оформлення замовлення.",
-    "duties_and_taxes_included_shipping_at_checkout_with_policy_without_discounts_html": "Мито та податки включено. Вартість доставки розраховується під час оформлення замовлення.",
-    "duties_and_taxes_included_shipping_at_checkout_without_policy": "Мито та податки включено. Знижки та вартість доставки розраховуються під час оформлення замовлення.",
-    "duties_and_taxes_included_shipping_at_checkout_without_policy_without_discounts": "Мито та податки включено. Вартість доставки розраховується під час оформлення замовлення.",
+    "duties_and_taxes_included": "Включаючи податки.",
+    "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Податки включено. Знижки та <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">вартість доставки</a> розраховуються під час оформлення замовлення.",
+    "duties_and_taxes_included_shipping_at_checkout_with_policy_without_discounts_html": "Податки включено. Вартість доставки розраховується під час оформлення замовлення.",
+    "duties_and_taxes_included_shipping_at_checkout_without_policy": "Податки включено. Знижки та вартість доставки розраховуються під час оформлення замовлення.",
+    "duties_and_taxes_included_shipping_at_checkout_without_policy_without_discounts": "Податки включено. Вартість доставки розраховується під час оформлення замовлення.",
     "duties_included": "Обов'язки включені.",
-    "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Мито включено. Податки, знижки та <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">вартість доставки</a> розраховуються під час оформлення замовлення.",
-    "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_without_discounts_html": "Мито включено. Вартість доставки розраховується при оформленні замовлення.",
-    "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Мито включено. Податки, знижки та вартість доставки розраховуються під час оформлення замовлення.",
-    "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy_without_discounts": "Мито включено. Вартість доставки розраховується при оформленні замовлення.",
+    "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Податки, знижки та <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">вартість доставки</a> розраховуються під час оформлення замовлення.",
+    "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_without_discounts_html": "Вартість доставки розраховується при оформленні замовлення.",
+    "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Податки, знижки та вартість доставки розраховуються під час оформлення замовлення.",
+    "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy_without_discounts": "Вартість доставки розраховується при оформленні замовлення.",
     "featured_products": "Рекомендовані товари",
     "filters": "Фільтри",
     "grid_view": {
