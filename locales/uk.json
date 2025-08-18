@@ -2262,8 +2262,8 @@
         "discount_discovery": {
           "add_code": "Додати знижку",
           "merchandise_quantity_label": {
-            "one": "%{count} елемент",
-            "other": "%{count} елементів"
+            "one": "%{count} товар",
+            "other": "%{count} товарів"
           }
         },
         "alternative_payment_currency_total": "Стягнуто як %{amount_due}"
