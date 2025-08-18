@@ -3902,12 +3902,12 @@
         "list": "Список"
       },
       "grouped_view_components": {
-        "expand_line_items": "Показати {{count}} елементів",
-        "collapse_line_items": "Приховати {{count}} елементів",
-        "line_item_summary_list_accessibility_label": "Елементи в комплекті {{productTitle}}"
+        "expand_line_items": "Показати {{count}} товарів",
+        "collapse_line_items": "Приховати {{count}} товарів",
+        "line_item_summary_list_accessibility_label": "Товари в комплекті {{productTitle}}"
       },
       "discount": "Знижка",
-      "hide_items": "Приховати елементи",
+      "hide_items": "Приховати товари",
       "loading": "Завантаження деталей замовлення",
       "loading_finished_accessibility_message": "Деталі замовлення завантажено",
       "location": "Розташування",
