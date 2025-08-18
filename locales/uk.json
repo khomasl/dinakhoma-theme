@@ -2080,7 +2080,7 @@
         "total_due_later_label": "Загальна сума до сплати пізніше",
         "partial_total_label": "Всього",
         "free_total_label": "Безкоштовно",
-        "free_shipping_total_label": "Оплата за доставку у відділенні-1",
+        "free_shipping_total_label": "Безкоштовно",
         "paid_label": "Платно",
         "payment_due_label": "Платіж заборгований",
         "vat_label_html": "Включаючи податки у розмірі %{amount}",
