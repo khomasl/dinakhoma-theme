@@ -163,7 +163,13 @@
           "painting",
           "petrikivka-painting",
           "souvenirs",
-          "birds"
+          "birds",
+          "dogs",
+          "dumplings",
+          "foxes",
+          "kittens",
+          "rabbits",
+          "sheep"
         ],
         "layout_type": "grid",
         "carousel_on_mobile": false,
