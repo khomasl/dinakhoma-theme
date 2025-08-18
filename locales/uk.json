@@ -1944,7 +1944,7 @@
         "connect_shipping_methods": "{{method1}} і {{method2}}"
       },
       "delivery_options": {
-        "free_total_label": "Оплата за доставку у відділенні-2",
+        "free_total_label": "Оплата за доставку у відділенні",
         "ship": "Корабель",
         "ship_to_address": "Доставка на адресу",
         "shipping_address": "Адреса доставки",
