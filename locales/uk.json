@@ -557,7 +557,7 @@
         "split_shipping_option_custom": "Користувацька",
         "shipping_method_title": "Спосіб доставки",
         "title": "Доставка",
-        "delivery_title": "Дані для доставки (Відділення НП, Укпрошти або Ваша адреса)",
+        "delivery_title": "Дані для доставки (Відділення Нової пошти або Укпрошти)",
         "free_rate_label": "Безкоштовно",
         "shipping_method_one_time_purchase_group_title": "Одноразова покупка",
         "shipping_method_first_shipment_group_title": {
