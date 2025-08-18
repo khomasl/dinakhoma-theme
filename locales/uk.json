@@ -550,7 +550,7 @@
         "split_shipping_more_shipping_options": "Більше варіантів доставки",
         "split_shipping_shipment_number": "Відвантаження %{number}",
         "split_shipping_merchandise_quantity_label_inline_primary": "Кількість: %{quantity}",
-        "split_shipping_option_free": "Оплата у відділенні",
+        "split_shipping_option_free": "Оплата за доставку у відділенні",
         "split_shipping_option_lowest_price": "Найнижча ціна",
         "split_shipping_option_fastest": "Найшвидший",
         "split_shipping_option_recommended": "Рекомендовано",
