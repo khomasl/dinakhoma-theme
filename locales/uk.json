@@ -558,7 +558,7 @@
         "shipping_method_title": "Спосіб доставки",
         "title": "Доставка",
         "delivery_title": "Дані для доставки (вкажіть відділення Нової пошти або Укпрошти)",
-        "free_rate_label": "Оплата за доставку у відділенні-3",
+        "free_rate_label": "Оплата за доставку у відділенні",
         "shipping_method_one_time_purchase_group_title": "Одноразова покупка",
         "shipping_method_first_shipment_group_title": {
           "one": "Перша відправка",
@@ -1945,7 +1945,7 @@
       },
       "delivery_options": {
         "free_total_label": "Оплата за доставку у відділенні",
-        "ship": "Корабель",
+        "ship": "Доставка",
         "ship_to_address": "Доставка на адресу",
         "shipping_address": "Адреса доставки",
         "pick_up": "Забрати",
