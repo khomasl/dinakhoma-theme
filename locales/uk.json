@@ -2234,7 +2234,7 @@
         "subtotal_label": "Проміжний підсумок",
         "subtotal_label_with_quantity": {
           "one": "Проміжний підсумок · %{count} товар",
-          "other": "Проміжний підсумок · %{count} елементів"
+          "other": "Проміжний підсумок · %{count} товарів"
         },
         "shipping_label": "Доставка",
         "pickup_label": "Самовивіз у магазині",
