@@ -558,7 +558,7 @@
         "shipping_method_title": "Спосіб доставки",
         "title": "Доставка",
         "delivery_title": "Дані для доставки (вкажіть відділення Нової пошти або Укпрошти)",
-        "free_rate_label": "Безкоштовно",
+        "free_rate_label": "Оплата у відділенні",
         "shipping_method_one_time_purchase_group_title": "Одноразова покупка",
         "shipping_method_first_shipment_group_title": {
           "one": "Перша відправка",
