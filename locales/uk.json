@@ -2215,7 +2215,7 @@
         "remove_discount_label": "Видалити знижку",
         "return_restocking_fee_label": "Плата за поповнення запасів",
         "return_shipping_fee_label": "Зворотна доставка",
-        "free_shipping_discount_label": "Оплата у відділенні",
+        "free_shipping_discount_label": "Оплата за доставку у відділенні",
         "applied_free_shipping_discount_label": "Застосовано",
         "apply_discount_button_label": "Застосувати",
         "applied_discount_message": "%{amount} знижки від загальної вартості замовлення",
