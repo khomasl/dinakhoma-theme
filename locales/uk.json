@@ -3729,8 +3729,8 @@
       "unit_price": "{{price}} /шт.",
       "pagination": {
         "load_more": "Завантажити більше",
-        "load_more_accessibility_label": "Завантажити більше елементів",
-        "loading_accessibility_label": "Завантаження елементів"
+        "load_more_accessibility_label": "Завантажити більше товарів",
+        "loading_accessibility_label": "Завантаження товарів"
       },
       "login_to_view_all_order_details": "Увійдіть, щоб переглянути всі деталі замовлення.",
       "log_in": "Увійти",
