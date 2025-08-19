@@ -351,7 +351,7 @@
         "company_attention_label": "Компанія/Увага",
         "optional_company_attention_label": "Компанія/Увага (необов'язково)",
         "optional_company_label": "Компанія (необов'язково)",
-        "address1_label": "Адреса",
+        "address1_label": "Адреса або відділення Нової пошти або відділення Укрпошти",
         "address2_label": "Квартира, люкс тощо.",
         "optional_address2_label": "Апартаменти, люкси тощо (необов'язково)",
         "city_label": "Місто",
