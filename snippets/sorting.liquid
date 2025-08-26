@@ -10,7 +10,7 @@
 {% enddoc %}
 
 <sorting-filter-component
-  class="sorting-filter {% if filter_style == 'horizontal' %} sorting-filter__horizontal {% endif %}"
+  class="sorting-filter w-[400px] justify-between {% if filter_style == 'horizontal' %} sorting-filter__horizontal {% endif %}"
   on:change="/updateFilterAndSorting"
   data-sort-position="{{ suffix }}"
   data-should-use-select-on-mobile="{{ should_use_select_on_mobile }}"
@@ -27,12 +27,12 @@
   <div class="sorting-filter__container flex flex-col {% if should_use_select_on_mobile %} desktop:hidden {% else %} hidden {% endif %}">
     <label
       for="sort-select-{{ section_id }}"
-      class="facets__label"
+      class="facets__label self-start"
     >
       {{- 'actions.sort' | t -}}
     </label>
 
-    <div class="sorting-filter__select-wrapper desktop:hidden">
+    <div class="sorting-filter__select-wrapper self-start desktop:hidden">
       <select
         id="sort-select-{{ section_id }}"
         name="sort_by"
@@ -98,7 +98,7 @@
       >
         {% for option in results.sort_options %}
           <label
-            class="sorting-filter__option text-left"
+            class="sorting-filter__option"
             id="{{ option.value }}"
           >
             <input
