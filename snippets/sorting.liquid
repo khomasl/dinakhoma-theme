@@ -24,14 +24,15 @@
     endfor
   %}
 
-  <div class="sorting-filter__container {% if should_use_select_on_mobile %} desktop:hidden {% else %} hidden {% endif %}">
+  <div class="sorting-filter__container flex flex-col {% if should_use_select_on_mobile %} desktop:hidden {% else %} hidden {% endif %}">
     <label
       for="sort-select-{{ section_id }}"
       class="facets__label"
     >
       {{- 'actions.sort' | t -}}
     </label>
-    <div class="sorting-filter__select-wrapper">
+
+    <div class="sorting-filter__select-wrapper desktop:hidden">
       <select
         id="sort-select-{{ section_id }}"
         name="sort_by"
@@ -81,22 +82,23 @@
       open-by-default-on-mobile
     >
       <summary class="facets__summary">
-        <span class="facets__label">{{ 'actions.sort' | t }}</span>
-        <span
-          class="facets__status h6 desktop:hidden"
-        >
+        {% comment %} <span class="facets__label">{{ 'actions.sort' | t }}123</span> {% endcomment %}
+        <span class="facets__label">{{ status }}</span>
+        <span class="facets__status h6 desktop:hidden">
           {{- status -}}
         </span>
+
         <span class="svg-wrapper icon-caret icon-animated">
           {{- 'icon-caret.svg' | inline_asset_content -}}
         </span>
       </summary>
+
       <floating-panel-component
         class="sorting-filter__options color-{{ settings.popover_color_scheme }}"
       >
         {% for option in results.sort_options %}
           <label
-            class="sorting-filter__option"
+            class="sorting-filter__option text-left"
             id="{{ option.value }}"
           >
             <input
