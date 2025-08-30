@@ -96,7 +96,7 @@
                   "type": "text",
                   "name": "Heading",
                   "settings": {
-                    "text": "<h1><a href=\"/\" title=\"/\"><strong>Dina Khoma Jewelry</strong></a></h1>",
+                    "text": "<h3><a href=\"/\" title=\"/\"><strong>Dina Khoma Jewelry</strong></a></h3>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -122,7 +122,7 @@
                   "type": "text",
                   "name": "Text",
                   "settings": {
-                    "text": "<h2>Відкрийте для себе світ елегантності та стилю з моїми унікальними прикрасами ручної роботи. Доведена до досконалості, кожна прикраса є свідченням майстерності та індивідуальності.</h2>",
+                    "text": "<p>Відкрийте для себе світ елегантності та стилю з моїми унікальними прикрасами ручної роботи. Доведена до досконалості, кожна прикраса є свідченням майстерності та індивідуальності.</p>",
                     "width": "fit-content",
                     "max_width": "narrow",
                     "alignment": "left",
@@ -324,7 +324,7 @@
                       "type": "text",
                       "name": "t:names.heading",
                       "settings": {
-                        "text": "<h1><strong>Деталі для контакту</strong></h1>",
+                        "text": "<h3><strong>Деталі для контакту</strong></h3>",
                         "width": "fit-content",
                         "max_width": "none",
                         "alignment": "left",
@@ -909,7 +909,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h1><strong>Мої соціальні мережі</strong></h1>",
+                    "text": "<h3><strong>Мої соціальні мережі</strong></h3>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1062,7 +1062,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h1>Отримайте знижку 15%</h1>",
+                    "text": "<h3>Отримайте знижку 15%</h3>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1088,7 +1088,7 @@
                   "type": "text",
                   "name": "Description",
                   "settings": {
-                    "text": "<h2>Використайте промокод під час замовлення тут або відправте промокод в один із месенджерів, і отримайте знижку на своє перше замовлення</h2>",
+                    "text": "<p>Використайте промокод під час замовлення тут або відправте промокод в один із месенджерів, і отримайте знижку на своє перше замовлення</p>",
                     "width": "fit-content",
                     "max_width": "none",
                     "alignment": "left",
