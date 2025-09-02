@@ -3919,7 +3919,8 @@
         "load_more_items": {
           "one": "Завантажити ще {{count}} товар",
           "other": "Завантажити ще {{count}} товарів"
-        }
+        },
+        "product_name_and_quantity": "{{productName}} кількість {{quantity}}"
       },
       "due_on_date": "Термін виконання: {{date}}",
       "due_on_fulfillment": "Підлягає виконанню",
