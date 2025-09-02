@@ -4006,7 +4006,9 @@
         "save": "Зберегти",
         "save_accessibility_label": "Зберегти профіль",
         "title": "Профіль",
-        "email": "Електронна пошта"
+        "email": "Електронна пошта",
+        "email_cant_be_blank": "Поле електронної пошти не може бути порожнім",
+        "invalid_email_format": "Введіть коректну адресу електронної пошти"
       },
       "profile_update_confirmation_message": "Профіль оновлено",
       "title": "Профіль",
