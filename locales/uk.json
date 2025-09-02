@@ -3905,7 +3905,8 @@
       "grouped_view_components": {
         "expand_line_items": "Показати {{count}} товарів",
         "collapse_line_items": "Приховати {{count}} товарів",
-        "line_item_summary_list_accessibility_label": "Товари в комплекті {{productTitle}}"
+        "line_item_summary_list_accessibility_label": "Товари в комплекті {{productTitle}}",
+        "line_item_summary_accessibility_label": "{{productTitle}}, Кількість: {{refundableQuantity}}"
       },
       "discount": "Знижка",
       "hide_items": "Приховати товари",
