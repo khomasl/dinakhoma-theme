@@ -2945,7 +2945,8 @@
       "company_location": "Розташування компанії",
       "orders_link_label": "Замовлення",
       "search": "Пошук",
-      "skip_to_content": "Перейти до змісту"
+      "skip_to_content": "Перейти до змісту",
+      "loading_policy_content_accessibility_label": "Завантаження вмісту політики"
     },
     "B2B": {
       "draft_order_details": {
