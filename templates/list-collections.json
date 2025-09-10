@@ -169,7 +169,8 @@
           "foxes",
           "kittens",
           "rabbits",
-          "sheep"
+          "sheep",
+          "gift-cards"
         ],
         "layout_type": "grid",
         "carousel_on_mobile": false,
