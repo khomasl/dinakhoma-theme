@@ -28,19 +28,20 @@
             "case": "none",
             "wrap": "pretty",
             "color": "",
-            "background": false,
+            "background": true,
             "background_color": "#00000026",
-            "corner_radius": 0,
+            "corner_radius": 8,
             "padding-block-start": 0,
             "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
+            "padding-inline-start": 8,
+            "padding-inline-end": 7
           },
           "blocks": {}
         },
         "text_twGGkJ": {
           "type": "text",
           "name": "t:names.text",
+          "disabled": true,
           "settings": {
             "text": "{{ closest.collection.description }}",
             "width": "fit-content",
