@@ -170,7 +170,8 @@
           "kittens",
           "rabbits",
           "sheep",
-          "gift-cards"
+          "gift-cards",
+          "sets"
         ],
         "layout_type": "grid",
         "carousel_on_mobile": false,
