@@ -171,7 +171,8 @@
           "rabbits",
           "sheep",
           "gift-cards",
-          "sets"
+          "sets",
+          "earrings"
         ],
         "layout_type": "grid",
         "carousel_on_mobile": false,
