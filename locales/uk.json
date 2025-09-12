@@ -4342,7 +4342,7 @@
       "other": "{{ count }} товарів"
     },
     "search_results_resource_queries": "Пошукові пропозиції",
-    "seller_note": "Спеціальні інструкції",
+    "seller_note": "Коментар до замовлення",
     "shipping_policy": "Вартість доставки розраховується при оформленні замовлення.",
     "shipping_policy_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">Вартість доставки</a> розраховується при оформленні замовлення.",
     "store_owner_link_html": "Ви власник магазину? <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">Увійдіть тут</a>",
