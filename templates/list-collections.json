@@ -159,6 +159,7 @@
           "all",
           "sets",
           "earrings",
+          "brooches",
           "necklaces",
           "pendants",
           "dumplings",
@@ -173,8 +174,7 @@
           "rabbits",
           "sheep",
           "souvenirs",
-          "gift-cards",
-          "brooches"
+          "gift-cards"
         ],
         "layout_type": "grid",
         "carousel_on_mobile": false,
