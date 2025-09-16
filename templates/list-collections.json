@@ -173,7 +173,9 @@
           "rabbits",
           "sheep",
           "souvenirs",
-          "gift-cards"
+          "gift-cards",
+          "brooches",
+          "chokers"
         ],
         "layout_type": "grid",
         "carousel_on_mobile": false,
