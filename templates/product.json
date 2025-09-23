@@ -317,7 +317,7 @@
                       "type": "text",
                       "name": "t:names.text",
                       "settings": {
-                        "text": "<p>Надійна доставка</p>",
+                        "text": "<p>To order in other countries, go to <a href=\"https://www.etsy.com/shop/dinastudioart\" title=\"https://www.etsy.com/shop/dinastudioart\">my Etsy shop</a>.</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
