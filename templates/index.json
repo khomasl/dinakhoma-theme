@@ -1248,14 +1248,14 @@
         "client_AqpDiQ": {
           "type": "client",
           "settings": {
-            "title": "800+",
+            "title": "2000+",
             "description": "КЛІЄНТІВ"
           }
         },
         "item_aqzEHD": {
           "type": "item",
           "settings": {
-            "title": "1500+",
+            "title": "3000+",
             "description": "ВИРОБІВ"
           }
         }
@@ -1280,7 +1280,7 @@
       "settings": {
         "header": "ОСОБЛИВОСТІ",
         "title": "Досвід та якісні матеріали",
-        "description": "Більше 10 років досвіду. Використовую тільки якісні матеріали.",
+        "description": "Більше 14 років досвіду. Використовую тільки якісні матеріали.",
         "image": "shopify://shop_images/features.jpg",
         "button_link": "shopify://pages/досвід-та-матеріали",
         "button_text": "Дізнатись більше"
