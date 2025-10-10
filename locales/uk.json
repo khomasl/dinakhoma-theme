@@ -3764,7 +3764,7 @@
         "payment_type": {
           "gift_card": "Подарункова карта",
           "store_credit": "Кредит магазину",
-          "money_order": "Грошовий переказ",
+          "money_order": "Оплата на IBAN (Грошовий переказ)",
           "cash_on_delivery": "Оплата при отриманні (COD)",
           "bank_deposit": "Банківський депозит",
           "manual": "Ручний"
