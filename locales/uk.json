@@ -1365,8 +1365,8 @@
       "payment_gateway": {
         "credit_card_label": "Кредитна картка",
         "bank_deposit_label": "Банківський депозит",
-        "cash_on_delivery_label": "Готівка при отриманні (Plate on Delivery)",
-        "money_order_label": "Грошовий переказ",
+        "cash_on_delivery_label": "Оплата при отриманні (+2% у відділенні НП)",
+        "money_order_label": "Оплата на IBAN (Грошовий переказ)",
         "debit_card_label": "Дебетова картка",
         "deferred_payment_label": "Оберіть спосіб оплати пізніше",
         "fixed_payment_label": "Ваш платіж буде здійснено {{dueDate}} .",
