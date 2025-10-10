@@ -3777,8 +3777,8 @@
           "view_schedule": "Переглянути розклад"
         },
         "manual_payment_methods": {
-          "money_order": "Грошовий переказ - {{formattedTransactionAmount}}",
-          "cash_on_delivery": "Готівка при отриманні (COD) - {{formattedTransactionAmount}}",
+          "money_order": "Оплата на IBAN (Грошовий переказ) - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Оплата при отриманні (COD) - {{formattedTransactionAmount}}",
           "bank_deposit": "Банківський депозит – {{formattedTransactionAmount}}",
           "manual": "Вручну – {{formattedTransactionAmount}}"
         },
