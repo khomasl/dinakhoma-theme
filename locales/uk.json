@@ -612,7 +612,8 @@
         "local_delivery": "Місцева доставка",
         "prime_not_available": {
           "default": "Доставка Prime недоступна для вашого замовлення. Варіанти доставки оновлено."
-        }
+        },
+        "shipping_method_rollup_accessibility_label": "Варіанти способів доставки"
       },
       "localized_fields": {
         "additional_information": {
