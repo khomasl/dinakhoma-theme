@@ -613,7 +613,8 @@
         "prime_not_available": {
           "default": "Доставка Prime недоступна для вашого замовлення. Варіанти доставки оновлено."
         },
-        "shipping_method_rollup_accessibility_label": "Варіанти способів доставки"
+        "shipping_method_rollup_accessibility_label": "Варіанти способів доставки",
+        "shipping_address_rollup_accessibility_label": "Варіанти доставки на адресу"
       },
       "localized_fields": {
         "additional_information": {
