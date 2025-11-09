@@ -1062,7 +1062,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h3>Отримайте знижку 15%</h3>",
+                    "text": "<h3>Отримайте знижку 10%</h3>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1114,7 +1114,7 @@
                   "type": "text",
                   "name": "Code",
                   "settings": {
-                    "text": "<p>prm-dina-15</p>",
+                    "text": "<p><strong>dina-10</strong></p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
