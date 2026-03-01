@@ -158,9 +158,10 @@
         "collection_list": [
           "all",
           "sets",
+          "canning",
           "horses",
           "cats",
-          "winter",
+          "spring",
           "earrings",
           "brooches",
           "bracelets",
@@ -183,9 +184,13 @@
           "sheep",
           "painting",
           "petrikivka-painting",
+          "summer",
           "autumn",
+          "winter",
           "souvenirs",
-          "gift-cards"
+          "gift-cards",
+          "chokers",
+          "vegetables"
         ],
         "layout_type": "grid",
         "carousel_on_mobile": false,
