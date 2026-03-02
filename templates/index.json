@@ -1270,7 +1270,7 @@
         "description": "Кожен виріб виготовлено вручну, поєднуючи традиції та сучасність. Відчуйте розкіш моїх ексклюзивних колекцій.",
         "image": "shopify://shop_images/about.jpg",
         "button_link": "shopify://collections",
-        "button_text": "Дивитись колекцію"
+        "button_text": "Дивитись колекції"
       }
     },
     "features_kAF3BP": {
@@ -1547,7 +1547,7 @@
         "collection": "all",
         "layout_type": "grid",
         "carousel_on_mobile": true,
-        "max_products": 8,
+        "max_products": 12,
         "columns": 4,
         "mobile_columns": "2",
         "columns_gap": 12,
