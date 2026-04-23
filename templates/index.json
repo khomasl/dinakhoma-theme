@@ -15,9 +15,9 @@
         "text_iXYWz6": {
           "type": "text",
           "settings": {
-            "text": "<h1>Доповніть свій стиль унікальними прикрасами ручної роботи</h1>",
-            "width": "fit-content",
-            "max_width": "normal",
+            "text": "<h1><strong>Доповніть свій стиль унікальними прикрасами ручної роботи</strong></h1>",
+            "width": "100%",
+            "max_width": "narrow",
             "alignment": "left",
             "type_preset": "custom",
             "font": "var(--font-body--family)",
@@ -25,7 +25,7 @@
             "line_height": "normal",
             "letter_spacing": "normal",
             "case": "none",
-            "wrap": "balance",
+            "wrap": "pretty",
             "color": "var(--color-foreground)",
             "background": false,
             "background_color": "#00000026",
@@ -36,10 +36,26 @@
             "padding-inline-end": 0
           },
           "blocks": {}
+        },
+        "button_tEHYjr": {
+          "type": "button",
+          "name": "t:names.button",
+          "settings": {
+            "label": "Купити",
+            "link": "shopify://collections/all",
+            "open_in_new_tab": false,
+            "style_class": "button",
+            "width": "fit-content",
+            "custom_width": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
         }
       },
       "block_order": [
-        "text_iXYWz6"
+        "text_iXYWz6",
+        "button_tEHYjr"
       ],
       "settings": {
         "link": "",
@@ -63,14 +79,15 @@
         "overlay_color": "#74538e64",
         "overlay_style": "gradient",
         "gradient_direction": "to top",
-        "blurred_reflection": true,
+        "blurred_reflection": false,
         "reflection_opacity": 0,
-        "padding-block-start": 100,
-        "padding-block-end": 48
+        "padding-block-start": 60,
+        "padding-block-end": 0
       }
     },
     "hero_slider_Nk3pMQ": {
       "type": "hero-slider",
+      "disabled": true,
       "settings": {
         "src": "shopify://shop_images/hero.jpg",
         "title": "Доповніть свій стиль унікальними прикрасами ручної роботи",
