@@ -92,7 +92,7 @@
         "announcement_9U7fLG": {
           "type": "_announcement",
           "settings": {
-            "text": "Вибирайте найновіші вироби!",
+            "text": "Вибирайте найостанніші вироби!",
             "link": "shopify://collections/latest",
             "font": "var(--font-heading--family)",
             "font_size": "1rem",
@@ -118,7 +118,7 @@
     }
   },
   "order": [
-    "header_section",
-    "header_announcements_LCbdij"
+    "header_announcements_LCbdij",
+    "header_section"
   ]
 }
