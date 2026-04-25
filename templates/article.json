@@ -6,7 +6,8 @@
  * or related systems. Please exercise caution as any changes
  * made to this file may be overwritten.
  * ------------------------------------------------------------
- */{
+ */
+{
   "sections": {
     "section": {
       "type": "main-blog-post",
@@ -16,20 +17,21 @@
           "name": "Title",
           "static": true,
           "settings": {
-            "text": "<h1>{{ article.title }}</h1>",
+            "text": "<h1><strong>{{ article.title }}</strong></h1>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "center",
             "type_preset": "h2",
             "font": "var(--font-primary--family)",
             "font_size": "",
-            "color": "",
             "line_height": "normal",
             "letter_spacing": "normal",
             "case": "none",
             "wrap": "pretty",
-            "width": "100%",
-            "max_width": "normal",
-            "alignment": "center",
+            "color": "var(--color-foreground)",
             "background": false,
             "background_color": "#00000026",
+            "corner_radius": 0,
             "padding-block-start": 0,
             "padding-block-end": 0,
             "padding-inline-start": 0,
@@ -55,8 +57,10 @@
         "blog-post-image": {
           "type": "image",
           "name": "Featured image",
+          "disabled": true,
           "static": true,
           "settings": {
+            "link": "",
             "image_ratio": "adapt",
             "width": "fill",
             "custom_width": 100,
