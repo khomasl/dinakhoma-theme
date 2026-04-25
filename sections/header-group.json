@@ -11,6 +11,36 @@
   "type": "header",
   "name": "Header",
   "sections": {
+    "header_announcements_LCbdij": {
+      "type": "header-announcements",
+      "blocks": {
+        "announcement_9U7fLG": {
+          "type": "_announcement",
+          "settings": {
+            "text": "Вибирайте найостанніші вироби!",
+            "link": "shopify://collections/latest",
+            "font": "var(--font-heading--family)",
+            "font_size": "1rem",
+            "weight": "",
+            "letter_spacing": "loose",
+            "case": "none"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "announcement_9U7fLG"
+      ],
+      "name": "t:names.announcement_bar",
+      "settings": {
+        "speed": 5,
+        "section_width": "full-width",
+        "color_scheme": "scheme-5",
+        "divider_width": 0,
+        "padding-block-start": 15,
+        "padding-block-end": 15
+      }
+    },
     "header_section": {
       "type": "header",
       "blocks": {
@@ -64,7 +94,7 @@
         "show_search": true,
         "search_position": "right",
         "search_row": "top",
-        "show_country": false,
+        "show_country": true,
         "country_selector_style": true,
         "show_language": true,
         "localization_position": "right",
@@ -84,36 +114,6 @@
         "product_color_scheme": "default",
         "enable_transparent_header_collection": false,
         "collection_color_scheme": "default"
-      }
-    },
-    "header_announcements_LCbdij": {
-      "type": "header-announcements",
-      "blocks": {
-        "announcement_9U7fLG": {
-          "type": "_announcement",
-          "settings": {
-            "text": "Вибирайте найостанніші вироби!",
-            "link": "shopify://collections/latest",
-            "font": "var(--font-heading--family)",
-            "font_size": "1rem",
-            "weight": "",
-            "letter_spacing": "loose",
-            "case": "none"
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "announcement_9U7fLG"
-      ],
-      "name": "t:names.announcement_bar",
-      "settings": {
-        "speed": 5,
-        "section_width": "full-width",
-        "color_scheme": "scheme-5",
-        "divider_width": 0,
-        "padding-block-start": 15,
-        "padding-block-end": 15
       }
     }
   },
