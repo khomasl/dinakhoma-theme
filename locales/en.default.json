@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin language editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "accessibility": {
     "account": "Open account dropdown",
@@ -58,7 +58,6 @@
     "clear": "Clear",
     "clear_all": "Clear all",
     "close": "Close",
-    // Continue shopping link on the cart page which takes the user back to a collection page
     "continue_shopping": "Continue shopping",
     "enter_password": "Enter password",
     "log_in_html": "Have an account? <a href=\"{{ link }}\">Log in</a> to check out faster.",
@@ -311,6 +310,136 @@
       "add_to_cart_error": "Error adding to cart",
       "sold_out": "Sold out",
       "unavailable": "Unavailable"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "general": {
+        "errors": {
+          "payment": {
+            "installments_amount_invalid": "Invalid amount for installment transaction.",
+            "installments_test_mode_not_allowed": "Test mode is disabled.",
+            "installments_gift_card_not_allowed": "Installment plans do not allow the use of gift cards.",
+            "installments_unsupported_currency": "Installment plan does not support this currency.",
+            "installments_unsupported_shipping": "Installment plan does not support delivery to this address.",
+            "installments_unsupported_billing": "Installment plan does not support this billing address.",
+            "installments_unsupported_subscriptions": "Installment plan does not support subscriptions.",
+            "installments_ineligible_line_item": "Installment payment for one of the products in this purchase has been disabled.",
+            "shop_cash_not_found": "The store's cash has not been found.",
+            "shop_cash_not_allowed": "Cash payment in store is not permitted without using Shop Pay.",
+            "shop_cash_unsupported_checkout_source": "Shop Cash does not support this payment.",
+            "shop_cash_gift_card_not_allowed": "Shop Cash cannot be used to purchase gift cards.",
+            "shop_cash_not_enabled": "Cash payment is not activated for this store.",
+            "shop_cash_not_available": "Cash is not supported at this register.",
+            "shop_cash_unsupported_subscriptions": "Shop Cash does not support subscriptions.",
+            "shop_cash_unsupported_shipping": "Shop Cash does not support items without shipping.",
+            "shop_cash_unsupported_currency": "Shop Cash does not support this currency.",
+            "market_manager_blocks_wallet_payments": "The payment method is not supported by the market manager."
+          }
+        }
+      },
+      "shipping": {
+        "please_enter_your_shipping_information_notice": "Please enter your shipping information."
+      },
+      "address_management": {
+        "confirm_address_deletion": "Are you sure you want to delete address {{address}}?"
+      },
+      "local_pickup": {
+        "location_information_next": {
+          "one": "There are %{count} stores near you with the item in stock",
+          "other": "There are %{count} locations near you with items in stock"
+        }
+      },
+      "order_summary": {
+        "expand_order_summary": "Show order summary",
+        "collapse_order_summary": "Hide order summary"
+      },
+      "redeemable_errors": {
+        "shop_cash": {
+          "currency_mismatch": "The currency has changed. Please review your in-store cash and offer."
+        }
+      },
+      "order_review_requirement": {
+        "checkout_to_draft": "The company's branch is set up to send all orders for review in draft form.",
+        "missing_address": "Delivery address unavailable: the company location address is missing, and one-time use of the address is disabled."
+      }
+    },
+    "errors": {
+      "email_domain_invalid": "supplier not supported"
+    }
+  },
+  "customer_accounts": {
+    "navigation_and_structure": {
+      "account_menu": {
+        "label": "Account"
+      },
+      "go_to_store_link": "Go to store",
+      "subscriptions_link_label": "Subscriptions",
+      "orders_link_label": "Order"
+    },
+    "orders": {
+      "order_list": {
+        "payment_status": {
+          "new_list_view": {
+            "due_today": "Payment due today",
+            "paid": "Paid",
+            "due_without_date": "Term",
+            "due_on_fulfillment": "Enforceable",
+            "pay_to_confirm": "Pay to confirm",
+            "payment_not_due": "Not due yet",
+            "overdue": "Overdue",
+            "due": "Completion date: {{date}}"
+          },
+          "table_view": {
+            "overdue": "Overdue",
+            "due": "Due date: {{date}}",
+            "due_today": "Payment due today",
+            "paid": "Paid",
+            "due_without_date": "Term",
+            "due_on_fulfillment": "Enforceable",
+            "pay_to_confirm": "Pay to confirm",
+            "payment_not_due": "It's not due yet"
+          }
+        },
+        "table_view": "Show as table",
+        "column_headers": {
+          "items": "Goods"
+        },
+        "list_view": "Show list"
+      },
+      "order_status": {
+        "attempted_delivery_description": "Delivery attempt was unsuccessful.",
+        "confirmed_description": "We have received your order.",
+        "on_its_way_description": "This batch is already on its way.",
+        "out_for_delivery_description": "This shipment has been dispatched.",
+        "preparing_for_shipping_description": "These goods are being prepared for shipment.",
+        "picked_up_description": "These items have been taken.",
+        "canceled_description": "Your order was canceled on {{date}}.",
+        "delivered_description": "This cargo has been delivered.",
+        "delivered_title": "Your delivery has been delivered",
+        "delivered_description_digital": {
+          "one": "This delivery is complete.",
+          "other": "These deliveries are complete."
+        },
+        "in_review_description": "We will let you know if we require any further information or once your order has been confirmed.",
+        "on_its_way_title": "Your shipment is on its way",
+        "out_for_delivery_title": "Your shipment has been dispatched for delivery"
+      }
+    },
+    "account_information": {
+      "profile_card": {
+        "email_cant_be_blank": "The email field cannot be empty",
+        "invalid_email_format": "Enter a valid email address"
+      }
+    },
+    "shop_policies": {
+      "legal_notice": "Legal notice",
+      "privacy_policy": "Privacy Policy",
+      "refund_policy": "Refund Policy",
+      "shipping_policy": "Shipping policy",
+      "subscription_policy": "Cancellation policy",
+      "terms_of_sale": "Terms of sale",
+      "terms_of_service": "Terms of Service"
     }
   }
 }
