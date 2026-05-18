@@ -14,6 +14,20 @@
     "header_announcements_LCbdij": {
       "type": "header-announcements",
       "blocks": {
+        "announcement_BpJDM8": {
+          "type": "_announcement",
+          "name": "t:names.announcement",
+          "settings": {
+            "text": "<strong>На одній хвилі з літом!</strong>",
+            "link": "shopify://products/namysto-malyny",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "weight": "",
+            "letter_spacing": "normal",
+            "case": "none"
+          },
+          "blocks": {}
+        },
         "announcement_9U7fLG": {
           "type": "_announcement",
           "settings": {
@@ -29,6 +43,7 @@
         }
       },
       "block_order": [
+        "announcement_BpJDM8",
         "announcement_9U7fLG"
       ],
       "name": "t:names.announcement_bar",
