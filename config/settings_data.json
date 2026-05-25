@@ -72,7 +72,7 @@
     "currency_code_enabled_product_cards": true,
     "currency_code_enabled_cart_items": true,
     "quick_add": true,
-    "mobile_quick_add": false,
+    "mobile_quick_add": true,
     "product_corner_radius": 0,
     "card_corner_radius": 4,
     "show_variant_image": false,
