@@ -742,6 +742,7 @@
         "text_faBiaQ",
         "judge_me_reviews_review_widget_gdxkLM"
       ],
+      "name": "Feedback Section",
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
