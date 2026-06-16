@@ -1302,6 +1302,7 @@
         "text_Prd7Vk",
         "judge_me_reviews_review_widget_homepage_RwdjPp"
       ],
+      "name": "Feedback section",
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
