@@ -1292,6 +1292,7 @@
         "text_UYLAgV": {
           "type": "text",
           "name": "t:names.text",
+          "disabled": true,
           "settings": {
             "text": "<p>Що кажуть клієнти</p>",
             "width": "fit-content",
@@ -1315,8 +1316,15 @@
           },
           "blocks": {}
         },
+        "judge_me_reviews_featured_carousel_gFK6je": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        },
         "judge_me_reviews_review_widget_homepage_RwdjPp": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget_homepage/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
           "settings": {
             "product": "namysto-lymonad",
             "review_data": "real_data",
@@ -1327,6 +1335,7 @@
       "block_order": [
         "text_Prd7Vk",
         "text_UYLAgV",
+        "judge_me_reviews_featured_carousel_gFK6je",
         "judge_me_reviews_review_widget_homepage_RwdjPp"
       ],
       "name": "Feedback section",
@@ -1355,6 +1364,48 @@
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "padding-block-start": 32,
+        "padding-block-end": 0
+      }
+    },
+    "1785678013cfb7283e": {
+      "type": "_blocks",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_J4hncX": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_J4hncX"
+      ],
+      "disabled": true,
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 0,
         "padding-block-end": 0
       }
     },
@@ -1687,6 +1738,7 @@
     "product_list_qU3bEB",
     "feedback_bqmWeG",
     "17815980394148d980",
+    "1785678013cfb7283e",
     "about_czQpYN",
     "features_kAF3BP",
     "product_list_hYpNGd"
