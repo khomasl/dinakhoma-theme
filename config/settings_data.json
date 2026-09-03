@@ -90,8 +90,6 @@
         "settings": {
           "greeting_message": "Вітаємо!\nБудь ласка звертайтесь.\nЗ радістю допоможемо з вибором.",
           "button_color": "#74538e",
-          "secondary_color": "#ffffff",
-          "ternary_color": "#6a6a6a",
           "button_icon": "chat_bubble",
           "button_text": "chat_with_us",
           "button_horizontal_position": "bottom_right",
@@ -112,6 +110,14 @@
         "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
         "settings": {}
+      },
+      "316487575649303945": {
+        "type": "shopify://apps/easify-options/blocks/app-embed-block/d2288b18-c1ba-42f5-b3b3-26c75c8820bf",
+        "disabled": false,
+        "settings": {
+          "path_loading_mode": "include",
+          "page_paths": ""
+        }
       }
     },
     "color_schemes": {
