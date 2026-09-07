@@ -1258,9 +1258,7 @@
         "feedback_RLDdpE",
         "feedback_Ka8BLJ"
       ],
-      "custom_css": [
-        "section {display: none;}"
-      ],
+      "custom_css": [],
       "settings": {
         "header": "ВІДГУКИ",
         "title": "Що кажуть клієнти"
