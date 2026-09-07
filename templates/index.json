@@ -1259,7 +1259,7 @@
         "feedback_Ka8BLJ"
       ],
       "custom_css": [
-        "section {height: 1px;}"
+        "section {max-height: 0px; padding: 0;}"
       ],
       "settings": {
         "header": "ВІДГУКИ",
