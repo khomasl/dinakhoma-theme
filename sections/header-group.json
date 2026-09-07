@@ -14,12 +14,26 @@
     "header_announcements_LCbdij": {
       "type": "header-announcements",
       "blocks": {
+        "announcement_hdG8qa": {
+          "type": "_announcement",
+          "name": "t:names.announcement",
+          "settings": {
+            "text": "Листочки",
+            "link": "shopify://collections/leaves",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "weight": "",
+            "letter_spacing": "normal",
+            "case": "none"
+          },
+          "blocks": {}
+        },
         "announcement_BpJDM8": {
           "type": "_announcement",
           "name": "t:names.announcement",
           "settings": {
-            "text": "<strong>На одній хвилі з літом!</strong>",
-            "link": "shopify://products/namysto-malyny",
+            "text": "<strong>Барви золотистої осені!</strong>",
+            "link": "shopify://collections/autumn",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
             "weight": "",
@@ -43,6 +57,7 @@
         }
       },
       "block_order": [
+        "announcement_hdG8qa",
         "announcement_BpJDM8",
         "announcement_9U7fLG"
       ],
