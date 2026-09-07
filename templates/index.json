@@ -1209,6 +1209,7 @@
       "blocks": {
         "feedback_cx9FcB": {
           "type": "feedback",
+          "disabled": true,
           "settings": {
             "src": "shopify://shop_images/1.jpg",
             "name": "Лія",
@@ -1217,6 +1218,7 @@
         },
         "feedback_gqj8wA": {
           "type": "feedback",
+          "disabled": true,
           "settings": {
             "src": "shopify://shop_images/2.jpg",
             "name": "Зоряна",
@@ -1225,6 +1227,7 @@
         },
         "feedback_bbR4Mg": {
           "type": "feedback",
+          "disabled": true,
           "settings": {
             "src": "shopify://shop_images/3.jpg",
             "name": "Марія",
@@ -1233,6 +1236,7 @@
         },
         "feedback_RLDdpE": {
           "type": "feedback",
+          "disabled": true,
           "settings": {
             "name": "Оксана",
             "quote": "Дуже подобаються пташки з петриківським розписом"
@@ -1240,6 +1244,7 @@
         },
         "feedback_Ka8BLJ": {
           "type": "feedback",
+          "disabled": true,
           "settings": {
             "name": "Мілка",
             "quote": "Якісні матеріали. Гарне пакування. І ще до замовлення... надзвичайна листівка"
@@ -1253,8 +1258,9 @@
         "feedback_RLDdpE",
         "feedback_Ka8BLJ"
       ],
-      "disabled": true,
-      "custom_css": [],
+      "custom_css": [
+        "section {display: none;}"
+      ],
       "settings": {
         "header": "ВІДГУКИ",
         "title": "Що кажуть клієнти"
@@ -1360,7 +1366,7 @@
         "border_opacity": 100,
         "border_radius": 0,
         "toggle_overlay": true,
-        "overlay_color": "#74538E5E",
+        "overlay_color": "#74538e5e",
         "overlay_style": "solid",
         "gradient_direction": "to bottom",
         "padding-block-start": 32,
