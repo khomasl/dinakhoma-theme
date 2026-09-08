@@ -32,7 +32,7 @@
           "type": "_announcement",
           "name": "t:names.announcement",
           "settings": {
-            "text": "<strong>Барви золотистої осені!</strong>",
+            "text": "<strong>Барви золотої осені!</strong>",
             "link": "shopify://collections/autumn",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
