@@ -89,8 +89,8 @@
           "settings": {
             "collection": "{{ closest.collection }}",
             "placement": "on_image",
-            "horizontal_alignment": "center",
-            "vertical_alignment": "center",
+            "horizontal_alignment": "flex-end",
+            "vertical_alignment": "flex-end",
             "collection_card_gap": 0,
             "inherit_color_scheme": false,
             "color_scheme": "scheme-cddd2d34-e344-4269-90e9-d884e7967ecc",
