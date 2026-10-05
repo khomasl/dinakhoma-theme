@@ -362,6 +362,9 @@
       "order_review_requirement": {
         "checkout_to_draft": "The company's branch is set up to send all orders for review in draft form.",
         "missing_address": "Delivery address unavailable: the company location address is missing, and one-time use of the address is disabled."
+      },
+      "payment": {
+        "offsite_gateway_redirect_hint_no_button_label": "You'll be redirected to %{gateway_label} to complete your purchase. All orders are processed in Ukrainian hryvnia (UAH). At checkout, you will see the amount in UAH, but your card will be charged the equivalent amount in your card's currency at your bank's exchange rate, without additional fees."
       }
     },
     "errors": {
