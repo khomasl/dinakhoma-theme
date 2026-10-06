@@ -380,6 +380,10 @@
       "order_review_requirement": {
         "checkout_to_draft": "Oddział firmy jest skonfigurowany tak, aby wysyłać wszystkie zamówienia do weryfikacji w formie roboczej.",
         "missing_address": "Adres dostawy niedostępny: brakuje adresu siedziby firmy, a jednorazowe użycie adresu jest wyłączone."
+      },
+      "payment": {
+        "offsite_gateway_redirect_hint": "Nastąpi przekierowanie do serwisu %{gateway_label} w celu sfinalizowania zakupu. All orders are processed in Ukrainian hryvnia (UAH). At checkout, you will see the amount in UAH, but your card will be charged the equivalent amount in your card's currency at your bank's exchange rate, without additional fees.",
+        "offsite_gateway_redirect_hint_no_button_label": "Nastąpi przekierowanie do serwisu %{gateway_label} w celu sfinalizowania zakupu. All orders are processed in Ukrainian hryvnia (UAH). At checkout, you will see the amount in UAH, but your card will be charged the equivalent amount in your card's currency at your bank's exchange rate, without additional fees."
       }
     },
     "errors": {
